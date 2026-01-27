@@ -7,7 +7,7 @@ Note to lab members: this document is a work in progress and may change.
 It is your responsibility to be familiar with the content, so you should review these policies regularly.
 :::
 
-Welcome to the GROUP_NAME.
+Welcome to the lab.
 In this lab, we study ...
 
 ::: callout-important
