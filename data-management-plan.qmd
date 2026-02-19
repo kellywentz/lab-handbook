@@ -1,0 +1,1382 @@
+# Data Management Plan for ROAR {#sec-data-management-plan}
+
+## Overview of DMPs {#sec-dmp-overview}
+
+Data Management Plans (DMPs) outline how research data will be collected, stored, documented, secured, shared, and preserved throughout a project's lifecycle.
+Most federal funders (IES, NSF, NIH) require DMPs as part of grant proposals, and strong data management practices benefit all research projects regardless of funding requirements.
+
+**Why DMPs matter:**
+
+-   Improve data quality and reproducibility
+
+-   Increase research transparency
+
+-   Reduce institutional and legal risk
+
+-   Support future data reuse within and beyond the lab
+
+-   Demonstrate responsible stewardship to funders and the research community
+
+-   Align with federal open-data mandates (e.g., OSTP 2022)
+
+## When DMPs are required {#sec-dmp-requirement}
+
+DMPs are typically required for:
+
+-   Federal grant proposals (IES, NSF, NIH, and other agencies)
+
+-   Some foundation and private funder grants
+
+-   Large-scale data collection projects
+
+-   Projects involving sensitive education data subject to FERPA
+
+-   Multi-site or collaborative research projects
+
+## Description of data to be shared {#sec-dmp-description-of-data}
+
+### Source of data
+
+ROAR data originate from multiple sources:
+
+**Primary ROAR assessment data:**
+
+-   Student responses to ROAR assessments (foundational reading, comprehension, mathematics, executive function, and Spanish assessments) collected through the ROAR Dashboard web application
+
+-   Data are generated when students complete assessments administered by educators in K-12 schools, districts, and tutoring/after-school centers across the United States
+
+-   ROAR platform automatically captures response data, timing information, and performance metrics
+
+**Administrative and demographic data:**
+
+-   School and district information obtained through Data Use Agreements with participating educational partners
+
+-   Student demographic data (grade level, English Learner status, special education status, etc.) provided by schools/districts
+
+-   Roster data imported via CLEVER/ClassLink integration or CSV upload
+
+**Validation study data:**
+
+-   Standardized assessment data (Woodcock-Johnson, TOWRE, CTOPP, Read-Aloud assessments) collected by trained research personnel in-person in schools or in the lab
+
+-   Survey data from educators and administrators
+
+-   Qualitative data from professional development sessions and user experience research
+
+**School and district context data:**
+
+-   Publicly available data from NCES (Common Core of Data, EdFacts)
+
+-   State assessment and accountability data where publicly available
+
+-   Geographic and demographic context variables
+
+### Data cleaning and curation
+
+**Quality control procedures:**
+
+All ROAR assessment data undergo systematic quality control:
+
+-   Validation of response formats and timing data upon collection
+
+-   Flagging of implausible response patterns (e.g., extremely rapid responding, random patterns)
+
+-   Removal of test administrations conducted for demonstration or training purposes
+
+-   Detection and removal of duplicate records
+
+**Data processing pipeline:**
+
+Raw data processing follows a documented, version-controlled workflow:
+
+1.  Extraction: Raw trial-level data extracted from BigQuery database
+
+2.  Validation: Checks for data completeness, format consistency, and logical integrity
+
+3.  Cleaning: Implementation of exclusion criteria for invalid administrations and assessment scores
+
+4.  Aggregation: Merging of run-level, student-level summary, and trial-level data where necessary
+
+5.  Documentation: Generation of data dictionaries, processing logs, and quality reports
+
+6.  Versioning: All processing code maintained in GitHub
+
+All cleaning and processing is implemented through reproducible R and Python code pipelines documented in GitHub repositories.
+The roarutility R package standardizes common data processing tasks.
+
+**Curation workflow:**
+
+Data curation responsibilities:
+
+-   *Research Data Scientist* maintains data processing pipelines, generates cleaned datasets, creates documentation
+
+-   *Partnerships Team* validates school/district roster data, manages DUAs, coordinates data transfers
+
+-   *Development Team* ensures data quality at point of collection, implements validation rules in ROAR platform
+
+### Level of aggregation
+
+ROAR data can be shared at multiple levels of aggregation depending on sensitivity, consent, and Data Use Agreement restrictions:
+
+**For public sharing (when permitted by DUAs and IRB):**
+
+-   Deidentified assessment-level aggregates and models (mean scores, median completion rates, demographic distributions)
+
+**For controlled-access sharing (requires data use agreement):**
+
+-   Deidentified student-level data (student ID replaced with participant ID, direct identifiers removed)
+
+**Not shareable:**
+
+-   Raw data containing PII (names, birthdates, email addresses, student IDs from districts)
+
+-   Data from partners whose DUAs prohibit any external sharing
+
+-   Small-cell data where re-identification risk cannot be adequately mitigated
+
+**Typical sharing approach:**
+
+For most research projects using ROAR data:
+
+-   Deidentified student-level analytic files for districts/schools with DUA permission
+
+-   School-level summary files for broader geographic samples
+
+-   Synthetic datasets that maintain statistical properties when real data cannot be shared
+
+-   Complete documentation, codebooks, and analysis code regardless of data sharing constraints
+
+### Raw vs. clean data
+
+**Raw data (not shareable):**
+
+Raw ROAR data stored in BigQuery contains:
+
+-   Trial-level and run-level response data with timestamps
+
+-   Student identifiers from source systems (district student IDs)
+
+-   IP addresses and session information
+
+Raw data are retained on secure Stanford systems (BigQuery) for the duration required by DUAs and IRB protocols.
+
+**Clean, shareable data:**
+
+De-identified analytic datasets prepared for sharing include:
+
+-   Trial-level or run-level assessment response data with participant IDs replacing all direct identifiers
+
+-   Derived performance metrics (accuracy, reaction time, theta scores, assessment scores)
+
+-   De-identified or generalized demographic variables (grade level, EL status, IEP status)
+
+-   Generalized geographic information (specific school/district names replaced with organization-level IDs)
+
+All shareable data files are accompanied by:
+
+-   Comprehensive data dictionaries
+
+-   Codebooks describing variable derivation and coding
+
+-   Processing scripts showing transformation from raw to analytic data
+
+-   README files with dataset overview and usage notes
+
+### Number of files and expected rows
+
+**Current ROAR data scale (as of 2026):**
+
+ROAR has been administered to over 130,000 students across 37+ states.
+The database contains:
+
+-   Approximately 5-10 million trial-level response records annually
+
+-   130,000-170,000 student-year records
+
+-   \~2,500-3,000 school-year records
+
+-   Multiple assessment types per student (Letter, Word, Sentence, etc.)
+
+**Typical research project data structure:**
+
+A research project using ROAR data might produce:
+
+-   1 trial-level dataset per assessment type (5 ROAR assessments = 5 trial datasets)
+
+-   1 run-level summary dataset combining assessments
+
+-   1 school-level aggregate dataset
+
+-   1 demographic/roster dataset
+
+-   Multiple validation study datasets (external assessments, surveys)
+
+**Longitudinal studies:**
+
+Multi-year studies generate data files for each assessment administration and school year:
+
+-   3 administrations × 4 assessment types × 2 school years = 24 trial-level files (can condense this to just 1 large dataset)
+
+-   Plus corresponding run-level, demographics, and aggregated files
+
+### Format of data to be shared
+
+**Primary format: Non-proprietary CSV**
+
+All shareable ROAR data will be provided as CSV (comma-separated values) files to ensure:
+
+-   Machine-readability across all statistical platforms
+
+-   Long-term accessibility without proprietary software
+
+-   Ease of use for diverse research teams
+
+**Code sharing:**
+
+All analysis code will be shared via GitHub repositories:
+
+-   R scripts and R Markdown documents
+
+-   Python scripts and Jupyter notebooks
+
+## Documentation to be shared {#sec-dmp-documentation}
+
+### Project management document {#sec-dmp-project-management-doc}
+
+Each project and major analysis should have a project management document that organizes each stage of the project.
+The project management document should including the following sections:
+
+**Project purpose and organization:**
+
+-   Title
+
+-   Objectives
+
+-   Strategic alignment with ROAR
+
+-   Dependencies
+
+-   Scope
+
+-   Roles and responsibilities
+
+-   Communication plan
+
+-   Project milestones and tracking
+
+**Discover**
+
+-   Problem statement
+
+-   Documentation of user feedback/data
+
+-   Rationale
+
+**Define**
+
+-   User stories
+
+-   Industry comparison
+
+-   Functional requirements
+
+-   Non-functional requirements
+
+-   External interface requirements
+
+-   Metrics for determining success
+
+-   D-Team confirmation
+
+**Design**
+
+-   Relevant constraints
+
+-   User flows
+
+-   Components
+
+-   Accessibility
+
+-   Edge cases and error handling
+
+-   Wireframes
+
+-   Functionality
+
+-   Visual design
+
+-   Success metric monitoring plan
+
+**Build and validate**
+
+-   Staging and QA
+
+**Additional information**
+
+-   Task list
+
+-   Role descriptions
+
+-   Communication norms
+
+-   Running notes
+
+See the [ROAR Project Management Template](https://docs.google.com/document/d/1nJVjAG0xi4buYYTeYh5zrIqBkKc-Saev7pgs2XZ5FYE/edit?tab=t.0) for more information on each stage of documentation.
+
+### Dataset-level documentation
+
+**File inventory and descriptions:**
+
+For each dataset in the collection:
+
+-   File name and format
+
+-   Brief description of contents
+
+-   Number of observations (rows) and variables (columns)
+
+-   Relationship to other files in the collection
+
+-   Version number and date created
+
+-   File size
+
+**Unit of analysis:**
+
+-   Primary unit (e.g., run, trial, school-year)
+
+-   Time period covered
+
+-   Geographic scope
+
+-   Grade levels included
+
+**Data structure:**
+
+-   Wide vs. long format
+
+-   Nested or hierarchical structure
+
+-   Repeated measures structure for longitudinal data
+
+**Linkage information:**
+
+For datasets designed to be linked:
+
+-   Linkage variables (e.g., assessment_pid, study_school_id, assessment_date)
+
+-   Linking instructions (which variables to merge on, merge type)
+
+-   Expected match rates and handling of non-matches
+
+**Processing notes and provenance:**
+
+-   Transformations applied (aggregation, recoding, derivation)
+
+-   Exclusions applied and reasons (e.g., "Removed 127 test administrations flagged as practice")
+
+-   Data quality issues discovered and resolution
+
+-   Version history (if dataset has been updated)
+
+**Missing data documentation:**
+
+-   Patterns of missingness
+
+-   Reasons for missing data (skipped items, partial completion, demographic data not available from district)
+
+-   Missing data codes used (-999, NA, blank, etc.)
+
+-   Implications for analysis
+
+### Variable-level documentation (data dictionary)
+
+**Required Information for Each Variable:**
+
+| **Element** | **Description** | **Example** |
+|------------------------|------------------------|------------------------|
+| **Variable Name** | Exact name as it appears in dataset | **`user_grade_at_run`** |
+| **Variable Label** | Brief descriptive label | "Student's grade level at time of ROAR assessment" |
+| **Description** | Detailed explanation of what the variable represents | "Grade level reported by school at time of assessment administration." |
+| **Data Type** | Numeric, character, date, factor/categorical | Categorical (string) |
+| **Valid Range** | Allowable values | Kindergarten, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 |
+| **Units** | Measurement unit if applicable | Grade (Kindergarten=Kindergarten, 1=Grade 1, etc.) |
+| **Coding/Values** | For categorical variables, all codes and meanings | 1=Grade 1, ... 12=Grade 12 |
+| **Missing Codes** | Codes used to represent missing data | -999 = Not reported |
+| **Derivation** | How the variable was created | "Reported by school district" |
+| **Source** | Original source of the data | School district roster data |
+| **Notes** | Special considerations or warnings | "Grade level may not reflect student's instructional level for students receiving special education services" |
+
+## Data standards {#sec-dmp-data-standards}
+
+### Metadata standards
+
+ROAR data and documentation will conform to recognized metadata standards to ensure discoverability, interoperability, and long-term usability.
+
+**ROAR-specific metadata:**
+
+All ROAR datasets will include structured metadata describing:
+
+-   Assessment type(s) included (Letter, Word, Sentence, Phoneme, etc.)
+
+-   Grade levels covered (K-12)
+
+-   Time period (academic years, specific dates)
+
+-   Sample characteristics (number of students, schools, districts)
+
+### Content and encoding standards
+
+**Date and time formats:**
+
+All dates and times will follow **ISO 8601** standard:
+
+-   Dates: **`YYYY-MM-DD`** (e.g., **`2024-03-15`**)
+
+-   Date-times: **`YYYY-MM-DD HH:MM:SS`** in UTC or with timezone offset
+
+-   Academic years: **`YYYY-YY`** format (e.g., **`2023-24`**)
+
+**Missing data codes:**
+
+Standardized missing data representation:
+
+-   **`NA`** for missing in R-formatted files
+
+-   **`-999`** only when software requires numeric codes for missing
+
+-   Explicit documentation of all missing codes used
+
+Standardized file naming following best practices:
+
+-   Format: **`project_description_version_YYYY-MM-DD.ext`**
+
+-   Example: **`roar_word_student_level_v1_2022-03-12.csv`**
+
+-   No spaces (use underscores)
+
+-   Lowercase preferred
+
+-   Version numbers for datasets that may be updated
+
+### Data structure standards
+
+Tiny data principles:
+
+ROAR datasets follow tidy data principles (Wickham, 2014):
+
+1.  Each variable forms a column
+
+2.  Each observation forms a row
+
+3.  Each type of observational unit forms a table
+
+**Hierarchical data structure:**
+
+ROAR data have natural hierarchy documented in README files:
+
+Datasets are provided at appropriate levels:
+
+-   Trial-level: One row per item response
+
+-   Run-level: One row per assessment administration
+
+-   Student-level: One row per student (aggregating across administrations)
+
+-   School-level: One row per school (aggregating across students)
+
+-   District-level: One row per district (aggregating across schools)
+
+**Longitudinal data structure:**
+
+For longitudinal datasets, we provide both:
+
+-   Long format: One row per student-administration observation
+
+-   Wide format: One row per student with administration-varying variables in separate columns
+
+Documentation specifies structure and provides code for converting between formats.
+
+### Code and software standards
+
+**Version control:**
+
+All analysis code is maintained in GitHub with:
+
+-   Semantic versioning (e.g., v1.0.0)
+
+-   Tagged releases corresponding to publications
+
+-   Comprehensive README files
+
+**Computational reproducibility:**
+
+R code follows:
+
+-   tidyverse style guide for consistency
+
+Python code follows:
+
+-   PEP 8 style guide
+
+All code includes:
+
+-   Clear comments explaining logic
+
+-   Function documentation
+
+-   Example usage
+
+-   Expected inputs/outputs
+
+-   Software and package version requirements
+
+**ROAR-Specific Tools:**
+
+The roarutility R package provides standardized functions for:
+
+-   Loading ROAR data from various sources
+
+-   Applying exclusion criteria (run-level and student-level exclusion criteria)
+
+-   Removing extra characters and cleaning character strings
+
+-   Standardizing grade values
+
+Package is:
+
+-   Hosted on GitHub with documentation
+
+-   Version controlled
+
+-   Includes vignettes demonstrating usage
+
+-   Cited in publications using ROAR data
+
+## Data preservation, access, and reuse limitations {#sec-dmp-preservation-access-reuse}
+
+### For high-sensitivity data requiring controlled access:
+
+**BigQuery (Stanford Google Cloud)**
+
+-   Why selected:
+
+    -   Secure database for High Risk data
+
+    -   Granular access controls
+
+    -   Supports very large datasets efficiently
+
+    -   Integration with existing ROAR infrastructure
+
+-   When used: For identifiable data or data that cannot be sufficiently de-identified
+
+-   Access method: Only authorized Stanford researchers via secure authentication
+
+-   Preservation commitment: Duration of project + retention period required by DUAs/IRB
+
+### For code and documentation:
+
+**GitHub**
+
+-   Why selected:
+
+    -   Version control for code development
+
+    -   Collaboration platform
+
+    -   Widely used in research community
+
+    -   Supports open-source licensing
+
+-   What stored: Analysis code, data processing scripts, documentation, roarutility R package
+
+-   Access method: Public (open source) or private (during development)
+
+-   Preservation: Long-term
+
+### Access, distribution, and reuse considerations
+
+ROAR data sharing is constrained by legal, ethical, and contractual obligations that must be carefully balanced with open science principles.
+
+**Legal and regulatory considerations:**
+
+FERPA (Family Educational Rights and Privacy Act):
+
+-   ROAR data often include education records protected under FERPA
+
+-   FERPA strictly limits redisclosure of identifiable student data
+
+-   Even de-identified data may be restricted when re-identification risk is substantial
+
+-   Schools/districts are "educational agencies" under FERPA and control disclosure decisions
+
+Implications for ROAR data sharing:
+
+-   Cannot share identifiable student data publicly without explicit consent
+
+-   Deidentification must meet FERPA standard: "reasonable determination that a student's identity is not personally identifiable"
+
+-   Must consider other reasonably available information that could enable re-identification
+
+-   Small schools, rare characteristics, or rich longitudinal detail increase re-identification risk
+
+State and local privacy laws:
+
+-   Many states have student data privacy laws stricter than FERPA
+
+-   Some states prohibit disclosure of any student-level data, even deidentified
+
+-   District policies may impose additional restrictions beyond federal/state law
+
+Implications:
+
+-   Must review applicable state laws for each participating state
+
+-   Cannot share data in ways that violate most restrictive applicable law
+
+-   May require state-by-state or district-by-district sharing decisions
+
+**Data Use Agreements (DUAs):**
+
+Most ROAR partnerships operate under DUAs that specify:
+
+-   Purpose limitation (data used only for agreed research purposes)
+
+-   Redisclosure restrictions (often prohibiting any external sharing)
+
+-   Security requirements
+
+-   Data destruction timelines
+
+-   Required approvals for publications
+
+Implications:
+
+-   Many ROAR datasets cannot be publicly shared due to DUA terms
+
+-   When permitted, only aggregated or heavily de-identified data can be shared
+
+-   Each DUA must be reviewed individually to determine sharing permissions
+
+-   Partnerships team tracks sharing permissions in Monday.com
+
+Solutions when DUA prohibits sharing:
+
+-   Negotiate sharing provisions during DUA development when possible
+
+-   Share synthetic data that maintains statistical properties
+
+-   Share aggregated school/district-level summaries
+
+-   Share metadata and documentation (even if data cannot be shared)
+
+-   Share analysis code with simulated example data
+
+-   Provide controlled access to qualified researchers with new DUA
+
+**Ethical and IRB considerations:**
+
+IRB requirements:
+
+-   All data sharing must align with IRB-approved protocol
+
+-   Changes to sharing plans may require IRB amendment
+
+-   IRB approval required before depositing data in repositories
+
+-   Some IRBs require review of actual deposit before release
+
+Privacy risk assessment:
+
+-   Even de-identified ROAR data may carry residual re-identification risk
+
+-   Small samples (e.g., single school, specialized program) increase risk
+
+-   Longitudinal data and rare characteristics increase risk
+
+-   Geographic specificity enables linkage to public data
+
+Mitigation strategies:
+
+-   Aggregation to school or district level when student-level too risky
+
+-   Suppression of small cells (n \< 10)
+
+-   Generalization of geographic information (state-level only)
+
+-   Synthetic data generation when real data too sensitive
+
+Vulnerable populations:
+
+-   Students with disabilities
+
+-   English Learners
+
+-   Students from low-income families
+
+-   Racial/ethnic minorities
+
+## Protection of privacy and confidentiality {#sec-dmp-privacy-confidentiality}
+
+### IRB review and approval
+
+**IRB requirement:**
+
+All ROAR research involving identifiable student, teacher, or family data undergoes Stanford Institutional Review Board (IRB) review before data collection begins.
+
+**IRB compliance procedures:**
+
+-   All research personnel complete CITI Human Subjects Research training before accessing data
+
+-   Personnel are added to IRB protocols before data access
+
+-   Continuing review conducted per IRB-specified schedule
+
+-   Protocol modifications submitted for any changes to procedures, measures, or data use
+
+-   Adverse events or unanticipated problems reported within required timeframes
+
+-   Protocol closure submitted when studies are complete
+
+### Informed consent and assent
+
+ROAR uses an opt-out paired with child assent approach:
+
+-   Passive consent (opt-out): Parents notified of research; participation assumed unless parent declines
+
+    -   When students take ROAR on the online dashboard
+
+    -   Used for minimal-risk educational assessment research
+
+    -   Requires IRB approval of passive consent procedure
+
+    -   Provides QR code and Qualtrics link for easy opt-out
+
+-   Child assent: For students aged 7 and older, we obtain assent on the ROAR dashboard prior to the student taking ROAR assessments in addition to parental permission.
+    Assent is documented in research records.
+
+### Deidentification procedures
+
+**Deidentification standard:**
+
+ROAR follows FERPA de-identification standards for education records:
+
+Data are considered de-identified when:
+
+1.  All personally identifiable information (PII) has been removed, AND
+
+2.  A reasonable determination has been made that a student's identity is not personally identifiable, whether through single or multiple releases, and taking into account other reasonably available information
+
+**Direct identifiers removed:**
+
+The following direct identifiers are **always removed** before any data sharing:
+
+Student identifiers:
+
+-   Name (first, last, middle)
+
+-   Student ID numbers from districts
+
+-   Email address
+
+-   Date of birth (replaced with age or grade level)
+
+School personnel identifiers:
+
+-   Teacher names
+
+-   Administrator names
+
+-   Staff email addresses
+
+Technical identifiers:
+
+-   IP addresses
+
+-   Device MAC addresses
+
+-   User account usernames
+
+Geographic information:
+
+-   School name → Removed or replaced with study school ID
+
+-   District name → Removed or replaced with study district ID
+
+-   Street address → Removed entirely
+
+-   City/town → Generalized to county or metro area (if needed for analysis)
+
+-   ZIP code → Generalized to state or broader region
+
+-   Precise latitude/longitude → Removed (may provide generalized urbanicity category)
+
+## Data security {#sec-dmp-data-security}
+
+### Data risk classification
+
+All ROAR data are classified using *Stanford's Risk Classification System* to determine appropriate security controls:
+
+**High risk data:**
+
+Includes:
+
+-   Raw ROAR data containing direct identifiers (names, student IDs, email addresses, birthdates)
+
+-   District/school roster data with PII
+
+-   Linked datasets containing identifiable information
+
+-   Data subject to DUAs prohibiting external sharing
+
+-   IP addresses and session information
+
+Security requirements:
+
+-   Encryption at rest and in transit
+
+-   Multi-factor authentication (MFA)
+
+-   Role-based access controls with principle of least privilege
+
+-   Comprehensive activity logging
+
+-   Regular security audits
+
+-   No storage on personal devices
+
+-   No use of non-Stanford cloud services
+
+-   IRB-approved data security plan
+
+Approved storage: BigQuery
+
+**Moderate risk data:**
+
+Includes:
+
+-   De-identified ROAR data with some residual re-identification risk
+
+-   School-level aggregates from small schools
+
+-   Demographic data with multiple variables
+
+-   Data from small samples or specialized populations
+
+Security requirements:
+
+-   Stanford authentication (SUNet ID)
+
+-   Strong access controls
+
+-   Encrypted data transmission (HTTPS/SSL)
+
+-   Activity logging
+
+-   Regular access review
+
+-   Limited sharing via secure methods
+
+Approved storage: Google Drive (Stanford Workspace) with restricted sharing
+
+**Low risk data:**
+
+Includes:
+
+-   Fully de-identified data with minimal re-identification risk
+
+-   School/district aggregates from large samples
+
+-   State or national summary statistics
+
+-   Published results
+
+-   Documentation without sensitive information
+
+Security requirements:
+
+-   Stanford authentication
+
+-   Standard password protection
+
+-   Basic access controls
+
+Approved storage: Google Drive, GitHub (for code and non-sensitive documentation)
+
+### Secure storage solutions
+
+**For high risk data:**
+
+BigQuery (Stanford Google Cloud):
+
+-   Secure relational database for large-scale ROAR data
+
+-   Encryption at rest (AES-256) and in transit (TLS)
+
+-   Fine-grained access controls (dataset, table, column level)
+
+-   Audit logging of all queries and access
+
+-   Stanford-managed with dedicated security team
+
+-   Scalable for millions of records
+
+-   Integration with ROAR Dashboard
+
+Access procedure:
+
+-   Request access through Adam Richie-Halford
+
+-   Added to IRB protocol before access granted
+
+-   Complete required training
+
+-   Access limited to specific datasets/tables based on role
+
+-   VPN required for off-campus access
+
+-   Multi-factor authentication required
+
+**For moderate risk data:**
+
+Google Drive (Stanford Workspace):
+
+-   Primary storage for working documents and moderate-risk data
+
+-   Encryption in transit (TLS) and at rest
+
+-   Granular sharing controls
+
+-   Version history
+
+-   Real-time collaboration
+
+-   Integration with Google Docs, Sheets, Slides
+
+Security practices:
+
+-   Use "Restricted" sharing (not "Anyone with link")
+
+-   Share only with specific individuals who need access
+
+-   Review sharing permissions regularly
+
+-   Remove access when team members leave
+
+-   Organize in folders with appropriate access levels
+
+**For low risk data and code:**
+
+GitHub:
+
+-   Version control for analysis code and documentation
+
+-   Public repositories for open-source code (roarutility package, analysis scripts)
+
+-   Private repositories during development
+
+-   No sensitive data in repositories (data stored separately)
+
+Security practices:
+
+-   Never commit sensitive data
+
+-   Use .gitignore to exclude data files
+
+-   Review commits before pushing
+
+-   Public repositories only for non-sensitive content
+
+-   API keys and credentials stored securely (not in code)
+
+### Access controls
+
+**Role-based access:**
+
+ROAR data access is granted based on role and need.
+
+**Access approval process:**
+
+Before granting data access:
+
+1.  Complete CITI training
+
+2.  Added to IRB protocol (for identifiable data)
+
+3.  Receive role-specific training on data handling
+
+4.  Request access from data manager or team lead
+
+5.  Access granted with minimum necessary permissions
+
+**Access review:**
+
+-   Quarterly review of all access permissions
+
+-   Remove access immediately when personnel leave
+
+-   Adjust permissions when roles change
+
+-   Document all access changes
+
+**Authentication:**
+
+-   Stanford SUNet ID and password required for all systems
+
+-   Multi-factor authentication (MFA) required for:
+
+    -   BigQuery access
+
+    -   VPN access
+
+    -   Google Workspace (for High Risk data)
+
+-   Strong password requirements enforced
+
+-   No shared accounts or passwords
+
+### Special security consideration for AI tools
+
+**AI Risk Assessment:**
+
+Use of AI tools with research data requires completion of *Stanford's AI Assessment* to evaluate:
+
+-   What data will be input into AI systems
+
+-   How AI vendors store and use data
+
+-   Re-identification risks from AI outputs
+
+-   Compliance with IRB and DUA requirements
+
+**Approved AI Tools by Risk Level:**
+
+For low risk data only:
+
+-   ChatGPT (Free/Plus versions)
+
+-   Claude
+
+-   Consumer versions of Gemini, Copilot
+
+-   Open-source models on non-secure infrastructure
+
+For moderate risk data (with proper configuration):
+
+-   ChatGPT Enterprise (Stanford instance)
+
+-   Microsoft Copilot (Stanford Microsoft 365)
+
+-   Google Gemini (Stanford Workspace with DLP)
+
+-   Tools with enterprise agreements ensuring data privacy
+
+For high risk data:
+
+-   Most AI tools are *NOT approved* for High Risk ROAR data
+
+-   Requires special approval and on-premise deployment
+
+-   Consult Stanford IT and complete AI Assessment before any use
+
+**Prohibited AI practices:**
+
+Never:
+
+-   Upload identifiable student data to AI chat interfaces
+
+-   Use AI to code qualitative data containing PII
+
+-   Share assessment items or proprietary content with AI tools
+
+-   Use free/consumer AI tools with any ROAR data containing PII
+
+Acceptable AI use (with de-identified data):
+
+-   AI assistance for statistical code development (using variable names only, no data values)
+
+-   Literature review support
+
+-   Writing assistance for papers (no data in prompts)
+
+-   Generating synthetic example data for code testing
+
+**Best practices:**
+
+-   Complete AI Assessment before using any AI tool with research data
+
+-   Assume AI tools are NOT approved for identifiable data unless explicitly verified
+
+-   Deidentify data before any AI interaction
+
+-   Document all AI use in research protocols
+
+### Incident response and breach reporting
+
+**What constitutes a security incident:**
+
+Report immediately if any of these occur:
+
+-   Unauthorized access to data
+
+-   Lost or stolen device containing data
+
+-   Accidental sharing with unauthorized individuals
+
+-   Data sent to wrong recipient
+
+-   Malware or ransomware on systems storing data
+
+-   Suspected data breach or unauthorized disclosure
+
+-   USB drive or portable media lost
+
+-   Phishing attack targeting team member
+
+-   Suspicious access patterns in logs
+
+**Immediate Response Steps:**
+
+Step 1: Contain (within minutes)
+
+-   Disable compromised access immediately
+
+-   Secure affected systems
+
+-   Stop unauthorized sharing
+
+-   Disconnect compromised devices from network
+
+Step 2: Notify (within hours) Report to:
+
+-   Stanford IT Security: [security\@stanford.edu](mailto:security@stanford.edu) (24 hours)
+
+-   PI (Jason Yeatman): immediately
+
+-   IRB: Within 5 business days for unanticipated problems involving human subjects
+
+-   Data providers: Per DUA requirements (typically 24-72 hours)
+
+-   Funding sponsors: Per grant/contract terms
+
+Step 3: Document (within 24 hours) Record:
+
+-   What happened and when discovered
+
+-   What data were involved (type, volume, sensitivity)
+
+-   Who was affected (number of individuals, schools)
+
+-   What systems/devices were involved
+
+-   Who has been notified
+
+-   What containment actions were taken
+
+Step 4: Investigate (ongoing)
+
+-   Cooperate fully with IT Security and other investigators
+
+-   Preserve evidence (logs, communications, affected systems)
+
+-   Determine root cause
+
+-   Assess scope of impact
+
+Step 5: Remediate (days-weeks)
+
+-   Implement corrective measures to prevent recurrence
+
+-   Address vulnerabilities
+
+-   Provide additional training if needed
+
+-   Update security procedures
+
+Step 6: Report outcomes (after investigation)
+
+-   Final incident report to IRB, funders, data providers as required
+
+-   Notification to affected individuals if legally required (e.g., California breach notification law)
+
+-   Lessons learned documented and shared with team
+
+**Prevention Through Documentation:**
+
+To facilitate both prevention and response, we maintain:
+
+-   Data inventory: What data exist, where stored, who has access
+
+-   Security configurations**:** Encryption methods, authentication requirements
+
+-   Incident response plan: Step-by-step procedures
+
+-   Training records: Documentation of who completed security training
+
+-   DUA register: List of all data use agreements and their security requirements
+
+## Roles and responsibilities
+
+See @sec-roles-responsibilities.
+
+## Data management plan maintenance and updates {#sec-dmp-maintenance}
+
+### DMP as a living document
+
+This Data Management Plan is a living document that will be updated as:
+
+-   ROAR projects evolve and new data sources are added
+
+-   Funder requirements change
+
+-   Repository policies are updated
+
+-   New technologies or security threats emerge
+
+-   Lessons are learned from implementation experience
+
+-   Team members or institutional policies change
+
+### Review and update schedule
+
+**Annual review:**
+
+-   Conducted each year at project anniversary or academic year start
+
+-   PI and data manager review DMP for accuracy and completeness
+
+-   Update to reflect current practices and any changes
+
+-   Document review date and changes made
+
+**Triggered reviews:**
+
+DMP will be reviewed and updated when:
+
+-   New data sources are added to a project
+
+-   Major changes to data collection or sharing plans
+
+-   Funder issues new data management requirements
+
+-   IRB protocol is significantly amended
+
+-   Major personnel changes (PI, data manager departure)
+
+-   Security incident reveals need for updated procedures
+
+-   Repository changes policies or ceases operation
+
+-   New regulations or laws affect data handling (e.g., new state privacy law)
+
+### Responsibility for DMP maintenance
+
+**Primary responsibility:** PI (Jason Yeatman) and Data Manager (Kelly Wentzlof)
+
+**Process:**
+
+1.  Data manager proposes updates based on operational needs
+
+2.  PI reviews and approves
+
+3.  Relevant team leads consulted (Carrie, Adam) if changes affect their areas
+
+4.  Updated DMP distributed to team
+
+5.  Notifications sent to external stakeholders as needed
+
+### Integration with project management
+
+DMP maintenance integrated with:
+
+-   Lab meetings: Data management topics discussed regularly
+
+-   Sprint planning: Data tasks tracked in Monday.com (partnerships) and GitHub (development)
+
+-   Project milestones: DMP checkpoints at major project phases (data collection start, analysis, sharing)
+
+-   Annual reporting: DMP implementation progress reported to funders
+
+-   Onboarding: New team members oriented to current DMP
+
+## Compliance and accountability {#sec-dmp-compliance}
+
+### Monitoring DMP implementation
+
+**Ongoing Monitoring:**
+
+The PI, data manager, and/or team leads will monitor DMP implementation through:
+
+-   Quarterly access reviews: Verify all data access is appropriate and necessary
+
+-   Data quality audits: Random sampling of data to verify quality control procedures
+
+-   Security log reviews: Review access logs for unusual patterns
+
+-   Documentation checks: Verify documentation is being maintained
+
+-   Training compliance: Track completion and renewal of required training
+
+-   DUA compliance: Review adherence to Data Use Agreement terms
+
+### Accountability and consequences
+
+**For Team Members:**
+
+Failure to follow DMP procedures may result in:
+
+-   Retraining requirements
+
+-   Temporary suspension of data access
+
+-   Permanent removal of data access for serious violations
+
+## Summary {#sec-dmp-summary}
+
+### ROAR data management approach
+
+This Data Management Plan establishes comprehensive procedures for managing ROAR (Rapid Online Assessment of Reading) data throughout its lifecycle—from collection through long-term preservation and sharing.
+
+**Key commitments:**
+
+Data quality and documentation:
+
+-   Rigorous quality control procedures at every stage
+
+-   Comprehensive three-level documentation (project, dataset, variable)
+
+-   Reproducible code pipelines for all data processing
+
+Privacy and security:
+
+-   Full IRB review
+
+-   Strict FERPA compliance
+
+-   Risk-based deidentification procedures
+
+-   Security controls matched to data sensitivity
+
+-   Continuous monitoring and incident response procedures
+
+Accessibility and sharing:
+
+-   Data shared upon publication or end of award period
+
+-   Controlled access when public sharing not feasible
+
+-   Analysis code made publicly available to support reproducibility
+
+Ethical practice:
+
+-   Respect for participants, partners, and communities
+
+-   Transparency about data uses and limitations
+
+-   Commitment to equitable access
+
+-   Prevention of stigmatization
+
+-   Data sovereignty principles honored

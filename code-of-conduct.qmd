@@ -1,70 +1,49 @@
-# GROUP_NAME Code of Conduct
+# Culture and Conduct {#sec-culture-and-conduct}
 
-::: callout-important
-## Group Edit
+## Lab culture {#sec-lab-culture}
 
-As a lab group, read, discuss, and edit the example code of conduct below.
-This example is modified from the Bahlai Lab at Kent State.
-Be sure to credit any sources you are inspired by!
-:::
+We are committed to a lab culture that is collaborative, supportive, inclusive, open, and free from discrimination and harassment.
 
-Science is hard, and the work of making sure science isn't harder than it needs to be is on all of us.
-We create our culture, and in the GROUP_NAME, our culture is inclusive.
+Our interdisciplinary approach—spanning neuroscience, education, psychology, pediatrics, and engineering—thrives on diverse perspectives and expertise.
+We encourage team members of all experience levels and backgrounds to respectfully share their honest opinions and ideas on any topic.
+Over the years, our group has grown stronger through such respectful, honest input from all team members.
 
-We value the participation of every member of our community and want to ensure an that every lab member and collaborator has a positive, educational experience unhindered by unnecessary challenges caused by non-inclusive behavior.
-Accordingly, everyone who participates in any GROUP_NAME project is expected to show respect and courtesy to other community members at all times.
+We believe that the best science emerges when researchers work closely with educators, clinicians, and communities.
+This research-practice partnership model extends to our internal lab culture, where we value both rigorous scientific inquiry and the practical application of our work to support children, families, and educators.
+We are committed to mentorship at all levels and to creating an environment where everyone can learn, grow, and contribute meaningfully to our mission of understanding and supporting the diverse ways children learn to read.
 
-PI_NAME as head of the GROUP_NAME, and all lab members, are dedicated to a ***harassment and discrimination-free experience for everyone.*** Discrimination or harassment based on racial or ethnic background, citizenship status, religion (or lack thereof), political affiliation, gender identity/expression, sexual orientation, dis/ability status, appearance or body size will not be tolerated.
-**We do not tolerate harassment or discrimination by and/or of members of our community in any form**.
+We recognize that our work has real-world impact on children's lives and educational experiences.
+This responsibility motivates us to maintain the highest standards of scientific integrity, ethical research practices, and respectful collaboration with the schools, families, and communities we serve.
 
-We are particularly motivated to support new and/or anxious collaborators, people who are looking to learn and develop their skills, and anyone who has experienced discrimination in the past.
+## Diversity, equity, and inclusion {#sec-dei-policy}
 
-To make clear what is expected, we ask all members of the community to conform to the following Code of Conduct.
+The Brain Development & Education Lab recognizes the importance of and is committed to cultivating a culture of diversity, equity, and inclusion.
+This means being a safe, supportive, and anti-racist environment in which students and staff from diverse backgrounds are equally and inclusively supported in their education, training, and professional development.
+Diversity takes many forms and includes, but is not limited to, differences in race, ethnicity, gender, sexuality, socioeconomic status, religion, disability, neurodiversity, and political affiliation.
 
--   All communication—online and in person—should be appropriate for a professional audience including people of many different backgrounds.
-    Sexual or discriminatory language and imagery is not appropriate at any time.
+Our research on reading development and dyslexia has shown us that there is no single path to learning—children's brains and learning profiles are beautifully diverse.
+This understanding deeply informs how we approach our work with each other in the lab.
+We believe that diverse teams produce better science and are essential to developing educational tools and interventions that serve all learners equitably.
 
--   Be kind to others.
-    Criticism is essential in science, but it must be constructive if we're going to move it forward in a supportive, inclusive way.
+We are committed to ensuring that our research benefits all children, particularly those from historically marginalized and underserved communities who have too often been excluded from educational research and interventions.
+This commitment extends to our recruitment practices, our collaborations with schools and communities, and our efforts to make tools like ROAR accessible and equitable across diverse populations and contexts.
 
--   Behave professionally.
-    Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate, but even more generally, treat others with respect.
-    Give colleagues your attention and courtesy.
+## Protecting human subjects {#sec-protect-human-subjects}
 
--   Please make an effort to make an inclusive environment for everyone.
-    Give everyone a chance to talk and an opportunity to contribute.
-    Don't dominate, talk over, or try to compete with your colleagues.
-    Lift up and make space.
+All lab members must complete [CITI Group 7: IRB BioMed/GCP Research (All Medical Investigators and Staff)](https://irb.stanford.edu/education-compliance/training/citi) Stanford University training and share their certificate with a research coordinator or partnerships coordinator prior to beginning any research activities.
+Team members will be added to relevant Institutional Review Board (IRB) protocols before their start date to ensure they have permission to work with identifiable datasets.
 
--   ***Be aware that your actions can be hurtful to others or contribute to a negative environment even if you had no intent of harm.*** We all make missteps.
-    That's ok!
-    Listen.
-    Offer a genuine apology.
-    Commit to learning and doing better.
+One of the most relevant aspects of protecting human subjects in our work is maintaining confidentiality.
+This is especially critical given that we work with children and collect sensitive neuroimaging, educational, and behavioral data.
+In practice, this means:
 
--   A SPECIAL NOTE: Your work in this lab will be publicly available and recorded permanently on github.
-    Please conduct yourself accordingly.
+-   Be sure to understand and comply with project-specific policies about where data can be saved, particularly if the data include personal identifiers.
+    Neuroimaging data, educational records, and assessment results all require special handling.
 
-Unacceptable behavior includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of discussions, inappropriate physical contact, and unwelcome sexual attention.
+-   Do not share data with anyone without permission, including other members of the group who might not be on the same IRB protocol as you.
+    Always check with a research/partnerships coordinator first.
 
-***Participants asked to stop any harassing or discriminatory behavior are expected to comply immediately.***
+Remember, data that looks like it does not contain identifiers to you might still be classified as data that requires special protection by our IRB.
+Always proceed with caution and ask for help if you have any concerns about how to maintain study participant confidentiality.
 
-Members of the community who violate these rules—no matter how much they have contributed to the GROUP_NAME, or how specialized their skill set—will be approached by PI_NAME.
-If inappropriate behavior persists after a discussion with PI_NAME, the issue will be escalated according to procedures laid out by the relevant entities in University of Arizona's [Office of Institutional Equity](https://equity.arizona.edu/)
-
-**To report an issue** please contact [PI_NAME](mailto:PI_EMAIL).
-All communication will be treated as confidential.
-If you feel you cannot contact PI_NAME, contact the [Office of Institutional Equity](https://equity.arizona.edu/reporting)
-
-## University of Arizona Policies
-
-Additionally, The University of Arizona has specific policies related to conduct.
-See the [UA Nondiscrimination and anti-harassment policy](https://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy).
-
-All employees students, and designated campus colleagues are required to take the [Preventing Harassment and Discrimination training](https://equity.arizona.edu/training/online-training) and follow review, understand, and follow:
-
--   The University of Arizona ethics and conduct guidelines: [policy.arizona.edu/ethics-and-conduct](https://policy.arizona.edu/ethics-and-conduct)
-
--   The University of Arizona Nondiscrimination and anti-harassment policy: [equity.arizona.edu/title-ix](https://equity.arizona.edu/title-ix)
-
-> The material in this code of conduct is derived from "[Bahlai Lab Code of Conduct](https://github.com/BahlaiLab/Policies/blob/master/Code_of_conduct.md)" by Dr. Christie Bahlai, used under CC BY 4.0.
+When working with schools and families, remember that protecting privacy extends beyond data security—be mindful in how you discuss participants and research findings, even in general terms.

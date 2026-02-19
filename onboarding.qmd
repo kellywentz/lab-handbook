@@ -1,42 +1,476 @@
-# Onboarding
+# Onboarding {#sec-onboarding}
 
-::: callout-important
-## Group Edit
+Welcome to the Brain Development & Education Lab!
+We're excited to have you join our team.
+The following sections outline what to expect before and during your first few weeks.
 
-This is most easily edited by someone actively going through the onboarding process (or someone who recently joined the lab group).
-That being said, here are some discussion questions to get you started:
+We broke out the onboarding into general information and team-specific information.
 
--   How long is "onboarding"?
-    When can you say it is over and someone has completed it?
+## General onboarding {#sec-general-onboarding}
 
--   What do you feel was most difficult when you first joined the lab?
-    What tips would you want to pass along to someone on their first day, first week, etc.
+### Day 0:
 
--   Who are the people to talk to in your department/college who hold the knowledge a newcomer might need to get settled in?
-    E.g. who does payroll, who can get you a spare monitor and keyboard, who can get you key card access, etc.
+**Complete Stanford onboarding requirements**
 
--   What are good ways to get to know people (personally and professionally) in your lab group/department/school/college?
-:::
+Approximately one week before your start date, you will receive a welcome email from Stanford's Welcome Center with instructions to complete the following steps:
 
-::: callout-note
-We expect this checklist to be constantly evolving and encourage you to edit it as *part of onboarding*.
-See [Editing This Book](contributing.qmd).
-:::
+1.  **Create your SUNet ID and password** and enable Two-Step Authentication
 
-## First day
+    -   You will need your University Employee ID number (provided in the email)
 
-1.  Find your desk
-2.  Meet your PI
-3.  etc...
+    -   Your SUNet is required to set up your work computer, so please complete this without delay
 
-## First week
+    -   Test that your SUNet ID works by logging into the Axess portal
 
-1.  Set up regular meetings
-2.  Stake out lab space
-3.  etc...
+    -   Reply to the Welcome Center email to confirm your SUNet ID is functional
 
-## First semester
+2.  **Download the Stanford Mobile application** to get your virtual ID card
 
-1.  Have a plan
-2.  Present at group meeting
-3.  etc...
+    -   The app includes mobile Stanford identification (for building access), campus map, phone directory, and more
+
+3.  **Upload your photo** for your Stanford Staff ID card
+
+4.  **Complete the GSE New Employee Form** (Qualtrics link will be provided in the email)
+
+    -   Create a short bio with background information to share with GSE staff
+
+    -   Photo submission is optional
+
+5.  **Plan your commute**
+
+    -   Stanford offers free transit passes for Caltrain, VTA, AC Transit, and SamTrans
+
+    -   If you need your pass for your first day, place an expedited request using the link in your Welcome Center email
+
+    -   For parking permits, complete the Parking Registration Form for temporary access, then purchase through the Online Ordering Portal once you're in the system
+
+**I-9 verification**
+
+You will receive an email from the GSE Administrative Services Manager with instructions for I-9 verification, which must take place within 3 business days of your start date:
+
+1.  Complete page 1 of the I-9 form (attached to email) before your first day and return via email
+
+2.  Schedule a meeting to verify your ID documents (see attached list for accepted documents in the email)
+
+**Lab setup confirmation**
+
+The team-lead for your respective team (Carrie Townley-Flores or Adam Richie-Halford) will confirm the following before your first day:
+
+-   Start time and location
+
+-   Deskspace assignment (if in-person)
+
+-   Equipment setup: monitor, laptop stand, keyboard, laptop
+
+-   Staff onboarding training schedule
+
+### Day 1 (Monday):
+
+-   9:00AM:
+
+    -   Meet team lead on Zoom (if first day is Monday or Friday) or in person on Stanford's campus (if first day is Tuesday-Thursday).
+
+-   10:30AM-12:00PM:
+
+    -   Staff Onboarding Meeting on Zoom which provides context about Stanford's culture, specific next steps, and introduces you to other new hires.
+
+-   Afternoon:
+
+    -   CITI Training Group 7: IRB BioMed/GCP Research (All Medical Investigators and Staff)
+
+    -   Begin online Axess trainings
+
+    -   Review Brain Development and Education Lab Manual
+
+### Day 2 (Tuesday):
+
+-   9:30AM-10:30AM:
+
+    -   Meet the team
+
+    -   Lab space tour (if in-person)
+
+    -   Campus tour with your team and other lab members (if in-person)
+
+    -   Pick up physical Stanford ID card from the Tressidder Student Union (if in-person)
+
+-   10:30AM-11:00AM:
+
+    -   Continue online Axess trainings
+
+    -   Continue Lab Manual review
+
+-   11:00AM-12:00PM:
+
+    -   Benefits Training Webinar on Zoom
+
+    -   **Important:** You must enroll in benefits within 31 days of your start date
+
+-   12:00PM:
+
+    -   Lunch with the team (lunch is provided if in-person)
+
+-   Afternoon:
+
+    -   Complete benefits paperwork
+
+    -   Continue reviewing Lab Manual
+
+    -   Begin reviewing team documentation (provided by team members or team lead)
+
+    -   Meet with relevant team members based on provided onboarding schedule to discuss general or team-specific onboarding topics (see onboarding topics below)
+
+### Day 3 (Wednesday):
+
+-   Morning:
+
+    -   Check in with team lead, Carrie Townley-Flores or Adam Richie-Halford
+
+    -   Continue reviewing relevant team documentation/onboarding topics
+
+-   12:00PM-1:00PM:
+
+    -   ROAR All-Hands Meeting (lunch provided if in-person)
+
+        -   Please inform the research/partnerships coordinators of any food allergies/preferences.
+
+        -   All members are expected to help with cleanup following the conclusion of the meeting.
+
+-   Afternoon:
+
+    -   Continue finalizing onboarding materials and review of team documentation/onboarding topics
+
+    -   Meet with team members based on onboarding schedule
+
+### Day 4 (Thursday):
+
+-   Morning:
+
+    -   Check in with team lead, Carrie Townley-Flores or Adam Richie-Halford
+
+-   12:00PM-1:00PM:
+
+    -   Lab meeting (lunch provided if in-person)
+
+-   Afternoon:
+
+    -   Meet with team members based on onboarding schedule
+
+### Day 5 (Friday):
+
+-   All-day:
+
+    -   Final day of first week
+
+    -   Meet with team members based on onboarding schedule
+
+    -   Wrap up any outstanding onboarding tasks and review remaining onboarding topics
+
+### Important deadlines
+
+-   Benefits enrollment: 31 days from start date
+
+-   I-9 verification: 3 business days from start date
+
+-   CITI training: Must be completed before working with data
+
+## General onboarding topics {#sec-general-onboarding-topics}
+
+The following topics will be discussed with new lab members throughout the first few weeks of onboarding.
+The new lab member will meet with existing lab members to gain a better understanding of the following topics.
+
+### Foundations
+
+-   Introductions to lab members (developers, researchers, partnerships, contractors, postdoctoral scholars, graduate students, team leads)
+
+    -   Who people are?
+
+    -   Which teams do they work on/with?
+
+    -   What do they do/study?
+
+-   Communications and coordination (e.g., calendars, meetings, slack)
+
+-   Work culture and code of conduct
+
+    -   Hours and expectations
+    -   Time off for vacation and sick days
+    -   Remote work
+    -   Working out of the country
+    -   DEI
+    -   Recurring meetings
+
+-   Websites
+
+    -   [ROAR website](https://roar.stanford.edu/)
+
+    -   [ROAD](https://roar.education/signin)
+
+    -   [Brain Development and Education website](https://edneuro.stanford.edu/)
+
+    -   [Stanford Reading and Dyslexia Research Program website](https://dyslexia.stanford.edu/)
+
+### Systems and access
+
+-   Slack (only appropriate channels)
+
+-   Google Drive (only necessary drives)
+
+-   GitHub (if necessary)
+
+    -   Repositories
+
+    -   Teams
+
+-   IRB
+
+-   BigQuery (researchers, developers, graduate students only)
+
+-   ROAD super admin
+
+-   Google Calendars
+
+### ROAR platform deep dive
+
+-   ROAR history and mission
+
+-   [ROAD](https://roar.education/signin)
+
+    -   Super Admin Dashboard overview (e.g., administrations, users, organizations)
+
+    -   Educator Dashboard
+
+    -   Student Dashboard
+
+    -   How does the dashboard get developed?
+
+-   ROAR assessment overview
+
+    -   What are they?
+        (e.g., Core, Math, Comprehension, Executive Function, Visual Attention, Under Development)
+
+    -   What do they measure?
+
+    -   Why are they important?
+
+    -   How are they developed?
+
+-   Score reports
+
+    -   Introduction and walk through
+
+    -   What do the scores mean?
+
+    -   What are all of the tables?
+
+### Research and development
+
+-   Developer team
+
+    -   How do they differ from partnerships?
+
+    -   What is the relationship between the two?
+
+    -   How do we contact them?
+
+-   Research overview
+
+    -   [ROAR Technical Manual](https://roar.stanford.edu/technical/)
+
+    -   Current projects in the lab and who is working on them
+
+    -   [Previous projects and publications](https://roar.stanford.edu/blog/roar-in-the-media/) in the lab and why they are important
+
+-   How research works
+
+    -   Introduction to academia
+
+    -   Research Best Practices chapter (go in-depth for onboarding researchers)
+
+    -   Project management documentation
+
+    -   Data Management Plan chapter (go in-depth for onboarding researchers)
+
+-   User experience (UX) research
+
+    -   Current projects and results
+    -   Process of UX research
+
+-   Validation studies
+
+    -   WJ, TOWRE, CTOPP, Read-Aloud
+
+## ROAR partnerships onboarding topics {#sec-partnerships-onboarding-topics}
+
+The following topics, *in addition to the general onboarding topics*, will be discussed with new lab members throughout the first few weeks of onboarding.
+The new lab member will meet with existing **partnerships** **coordinators** and team lead, Carrie Townley-Flores, to gain a better understanding of the following topics.
+
+### Systems and access
+
+-   IRB overview
+
+    -   What is an IRB?
+
+    -   Who updates the IRB?
+
+    -   What protocol do we follow?
+
+    -   Which IRBs are relevant to the new team member?
+
+-   LOA and DUA processes
+
+    -   Points of contact and steps
+
+-   Google Drive tour
+
+-   Websites and web updates
+
+-   Monday.com
+
+-   Canva
+
+-   ROAR partnerships emails
+
+### Partners
+
+-   Partners overview
+
+    -   Specific groups/types of partners
+
+    -   Location
+
+    -   Number of partners
+
+-   Rostering Partnerships 101 documents
+
+    -   CSV partnerships
+
+    -   CLEVER partnerships
+
+-   Outreach documents, communication, and recruitment
+
+-   Professional development
+
+    -   Presentations and documentation
+
+    -   Current process and partners
+
+-   Monday.com tour
+
+    -   Partnerships and administrations
+
+    -   IRB and DUA
+
+    -   Sprint planning and retro
+
+-   Clever tour and walkthrough
+
+    -   How to impersonate a student/teacher
+
+    -   Syncing
+
+### Hands-on learning: Shadowing
+
+-   ROAR introduction presentation
+
+-   Pre-administration planning zoom with a real partner
+
+-   Post-administration/scores review with a real partner
+
+-   In-person ROAR administration and support
+
+-   In-person validation
+
+## ROAR developer onboarding topics {#sec-developer-onboarding-topics}
+
+The following topics, *in addition to the general onboarding topics*, will be discussed with new lab members throughout the first few weeks of onboarding.
+The new lab member will meet with existing **developers** and team lead, Adam Richie-Halford, to gain a better understanding of the following topics.
+
+Please see the [ROAR Developer Documentation page](https://yeatmanlab.github.io/roar-docs/developer/) for specific topics such as:
+
+-   GitHub workflows and repositories
+
+-   Development environment setup
+
+-   Code review processes
+
+-   ROAR Dashboard architecture
+
+-   Testing protocols
+
+-   Deployment procedures
+
+## ROAR researcher onboarding topics {#sec-researcher-onboarding-topics}
+
+The following topics, *in addition to the general onboarding topics*, will be discussed with new lab members throughout the first few weeks of onboarding.
+The new lab member will meet with existing **researchers** and data scientist, Kelly Wentzlof, to gain a better understanding of the following topics.
+
+### ROAR data overview
+
+-   Runs, trials, user data
+
+-   Data and dashboard history
+
+-   Common data practices
+
+-   Data Management Plan chapter
+
+-   Reseach Best Practices chapter
+
+### GitHub
+
+-   How does the lab use it?
+
+-   Important policies
+
+-   [GitHub documentation and how to](https://yeatmanlab.github.io/roar-docs/researcher/data-tools/#github)
+
+### BigQuery
+
+-   What is it?
+
+-   How do I get access to use it?
+
+-   [How do I use it to pull data?](https://yeatmanlab.github.io/roar-docs/researcher/data-tools/#bigquery)
+
+-   [BigQuery documentation](https://yeatmanlab.github.io/roar-docs/developer/bigquery/)
+
+### Schema and data dictionaries
+
+### ROAR Data Dashboard
+
+### Data organization
+
+-   Assessment data
+
+-   Demographics data
+
+-   School-level data
+
+-   External assessment data
+
+-   [ROAR data organization documentation](https://yeatmanlab.github.io/roar-docs/researcher/data-organization/)
+
+### Data cleaning
+
+-   [roarutility R package](https://github.com/yeatmanlab/roarutility?tab=readme-ov-file#roarutility) created by Kelly Wentzlof
+
+-   General guidelines
+
+-   Trial- vs. run-level
+
+-   Demographics
+
+-   Data security and sharing
+
+## Key contacts
+
+-   Principal investigator: Jason Yeatman; jyeatman\@stanford.edu
+
+-   Director of Research and Partnerships: Carrie Townley-Flores; ctflores\@stanford.edu
+
+-   Director of Technology and Innovation: Adam Richie-Halford; adamrh\@stanford.edu
+
+-   Research Data Scientist: Kelly Wentzlof; kelwentz\@stanford.edu
+
+-   Project/Product Manager: Maya Brunton; brunton\@stanford.edu

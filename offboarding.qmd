@@ -1,37 +1,320 @@
-# Offboarding
+# Offboarding {#sec-offboarding}
 
-::: callout-important
-## Group Edit
+When a team member leaves the Brain Development & Education Lab, we want to ensure a smooth transition that protects lab resources, preserves institutional knowledge, and maintains positive relationships.
+The following sections outline the off-boarding process for departing team members and their supervisors.
 
-This may be difficult to finalize until someone goes through the offboarding process and takes thorough notes (ideally by [editing](contributing.qmd) this page).
-Here are some discussion topics to get you started though:
+## Leave notification {#sec-leave-notification}
 
--   What are the group expectations for what to do with unpublished data collected during your time in the lab when you leave?
+-   Provide at least 2 weeks notice to your team lead (Carrie Townley-Flores or Adam Richie-Halford) and Jason Yeatman
 
--   What about code used to analyze data?
-    Where should it be stored and what are the expectations around reproducibility/usability of such code?
+-   Submit formal resignation to Jason Yeatman and Human Resources
 
--   What kinds of keys (physical or otherwise) or passwords might someone need to pass on?
+-   Work with your team lead and Jason Yeatman to establish your last day of work
 
--   What kinds of shared drives does the lab group use?
-    Do you need to explicitly transfer ownership of documents on any of them?
+## Offboarding timeline {#sec-offboarding-timeline}
 
--   Are there official university or department offboarding steps to take?
-    E.g. something mandated by HR or the graduate school like an exit interview?
+### 2-4 weeks before last day
 
--   What is the timeline for all of this?
-    Don't wait until the last week of work to complete all these tasks!
+**General knowledge transfer and documentation:**
 
--   Why is offboarding important to this group?
-    To get feedback on mentoring?
-    To make sure there is continuity of projects?
-:::
+-   Document ongoing projects and responsibilities
 
-Offboarding is important to our group because ...
+    -   Create detailed status reports for all active projects
 
-Steps to take:
+    -   Document any pending tasks, deadlines, or commitments
 
-1.  Make sure all of your code is in repositories in the group's GitHub organization
-2.  Make sure each project has a README file explaining what it is, how to reproduce results, and includes metadata for any data collected (e.g. what do column names mean and what units are they in?)
-3.  Schedule an exit interview
-4.  More steps...
+    -   Update project management documentation (Monday.com, GitHub issues, etc.)
+
+    -   List all partnerships/collaborators and their current status
+
+-   Organize and archive files
+
+    -   Ensure all work is saved to appropriate shared Google Drives (not personal drives)
+
+    -   Organize files with clear naming conventions and folder structures
+
+    -   Delete any duplicate or unnecessary files
+
+    -   Document location of important files and resources
+
+-   Transfer specialized knowledge
+
+    -   Schedule meetings with team members taking over your responsibilities
+
+    -   Create how-to guides or documentation for specialized tasks
+
+    -   Share passwords for any shared accounts with appropriate team members (through secure methods)
+
+    -   Document any informal processes
+
+    -   Transfer ownership of any Google Drives
+
+-   Update access documentation
+
+    -   Create a list of all systems, accounts, and access you currently have
+
+    -   Share this list with your team lead
+
+**Partnership-specific:**
+
+-   Transfer active partnerships to other team members
+
+    -   Create partnership handoff documents including partner contact info, history, preferences, and upcoming commitments
+
+    -   Introduce new ROAR contact to partners via email
+
+    -   Schedule transition calls if needed
+
+-   Update Monday.com
+
+    -   Ensure all partnership records are current
+
+    -   Document any pending DUAs or IRB updates
+
+    -   Transfer ownership of relevant boards/items
+
+-   Documentation updates
+
+    -   Update Partnerships 101 documents if you've learned new best practices
+
+    -   Document any partner-specific processes or preferences
+
+    -   Update outreach and recruitment templates if needed
+
+**Developer-specific:**
+
+-   GitHub:
+
+    -   Ensure all code is committed and pushed to appropriate repositories
+
+    -   Complete any pending pull requests or document their status
+
+    -   Document any work-in-progress features or bugs
+
+    -   Update README files and technical documentation
+
+    -   Transfer ownership of any repositories you created
+
+    -   Complete any pending code reviews
+
+-   Development environment:
+
+    -   Document any unique development environment setup
+
+    -   Share any local configurations that might be needed
+
+    -   Document any dependencies or tools specific to your work
+
+-   ROAR dashboard:
+
+    -   Document current status of any dashboard features in development
+
+    -   Transfer any open issues or tickets
+
+    -   Update ROAR Technical Manual if needed
+
+    -   Document any known bugs or technical debt
+
+**Researcher-specific:**
+
+-   Data and analysis:
+
+    -   Ensure all data is properly stored in appropriate Google Drive locations
+
+    -   Document data cleaning procedures and decisions
+
+    -   Transfer analysis code with clear documentation
+
+    -   Update data dictionaries if needed
+
+    -   Document research methodology and analysis plans in detailed READMEs
+
+-   Publications and presentations:
+
+    -   Complete or transfer any pending publications
+
+    -   Document status of manuscripts in progress
+
+    -   Transfer presentation materials
+
+    -   Update PI on any conference commitments
+
+-   Data security:
+
+    -   Confirm all participant data is removed from personal devices
+
+    -   Delete any local copies of sensitive data
+
+    -   Ensure compliance with data security and sharing policies
+
+    -   Return or securely delete any external assessment data
+
+### 1 week before last day
+
+**Account Access Review:**
+
+Work with your team lead to review and plan for removal of access to:
+
+-   Communication platforms
+
+    -   Slack (note: you will be removed from workspace)
+
+    -   Stanford email (will be deactivated)
+
+    -   ROAR partnerships email (if applicable)
+
+-   Data and storage
+
+    -   Google Drive (specific folders)
+
+    -   BigQuery
+
+    -   Any other databases
+
+-   Development and project management
+
+    -   GitHub (repositories and teams)
+
+    -   Monday.com
+
+    -   Canva
+
+-   ROAR systems
+
+    -   ROAD super admin access
+
+    -   Any other ROAR-specific systems
+
+-   Stanford systems
+
+    -   Building access
+
+    -   Axess
+
+    -   Other university systems
+
+### Last day
+
+-   Meet with team lead for final check-in
+
+-   Participate in exit interview (if scheduled)
+
+-   Receive information about:
+
+    -   Final paycheck and benefits
+
+    -   Stanford email forwarding (if applicable)
+
+    -   References and recommendations
+
+    -   Alumni network opportunities
+
+**Equipment return**
+
+-   Return all Stanford and lab property to your team lead or designated person:
+
+    -   Laptop
+
+    -   Monitor
+
+    -   Keyboard
+
+    -   Laptop stand
+
+    -   Mouse or other peripherals
+
+    -   Stanford ID card (physical)
+
+    -   Building access cards/keys
+
+    -   Any other lab equipment or testing materials
+
+**Final access removal confirmation**
+
+-   Your team lead will coordinate with appropriate personnel to remove access to:
+
+    -   Slack workspace
+
+    -   Google Drive folders
+
+    -   GitHub repositories
+
+    -   Monday.com
+
+    -   BigQuery
+
+    -   ROAD super admin
+
+    -   IRB protocols (if listed as study personnel)
+
+    -   Building access
+
+    -   Stanford email
+
+**Final documentation**
+
+-   Submit any final timesheets or administrative paperwork
+
+-   Complete benefits off-boarding with Stanford HR
+
+-   Update personal contact information for future communication
+
+## Team lead offboarding checklist {#sec-team-lead-offboard-checklist}
+
+### Immediately upon notice
+
+-   Notify Jason Yeatman and relevant stakeholders
+
+-   Create off-boarding timeline
+
+-   Assign interim coverage for critical responsibilities
+
+-   Schedule knowledge transfer meetings
+
+### 2-4 weeks before departure of team member
+
+-   Review all active projects and partnerships
+
+-   Identify permanent reassignments
+
+-   Ensure documentation is being completed
+
+-   Plan for any gaps in coverage
+
+-   Review access list with departing team member
+
+### 1 week before departure of team member
+
+-   Confirm all knowledge transfer is complete
+
+-   Verify all files are properly organized and accessible
+
+-   Confirm equipment return logistics
+
+-   Prepare access removal requests
+
+### Last day for departing team member
+
+-   Collect all equipment and lab property
+-   Submit access removal requests to:
+    -   Slack admin
+    -   Google Workspace admin
+    -   GitHub admin
+    -   Monday.com admin
+    -   BigQuery admin
+    -   ROAD admin
+    -   IRB admin (if applicable)
+    -   GSE IT for building access
+    -   Stanford IT for university systems
+-   Archive employee files appropriately
+-   Update team organizational charts and contact lists
+
+### Within 1 week after team member departure
+
+-   Verify all access has been removed
+
+-   Update lab website and directories
+
+-   Redistribute responsibilities as planned
+
+-   Follow up on any outstanding issues

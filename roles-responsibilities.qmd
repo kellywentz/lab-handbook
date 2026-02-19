@@ -1,0 +1,550 @@
+# Roles and Responsibilities {#sec-roles-responsibilities}
+
+This section outlines the expectations and responsibilities for different roles in the Brain Development & Education Lab, as well as what team members in each role can expect from their supervisors and the lab.
+
+## Principal Investigator (PI) {#sec-principal-investigator}
+
+The lab is headed by Jason Yeatman, Associate Professor in the Graduate School of Education and Department of Psychology at Stanford University and the Division of Developmental and Behavioral Pediatrics at Stanford University School of Medicine.
+
+### Responsibilities include:
+
+**Scientific leadership:**
+
+-   Set the overall research direction and strategy for the lab
+
+-   Secure funding to support lab operations and personnel
+
+-   Ensure research meets the highest standards of scientific integrity and ethics
+
+-   Mentor and support the career development of all lab members
+
+-   Foster collaborations within Stanford and with external partners
+
+-   Represent the lab in the broader scientific and educational communities
+
+**Mentorship and supervision:**
+
+-   Provide guidance on research projects and career development
+
+-   Meet regularly with team leads, postdoctoral scholars, and graduate students
+
+-   Review and provide feedback on manuscripts, presentations, and grant applications
+
+-   Support professional development opportunities
+
+-   Advocate for lab members' careers and achievements
+
+**Lab management:**
+
+-   Ensure the lab maintains a positive, inclusive, and productive culture
+
+-   Ensure compliance with university, funding agency, and ethical requirements
+
+-   Approve major decisions (publications, partnerships, conference attendance, etc.)
+
+## Director of Research and Partnerships {#sec-director-research-partnerships}
+
+Carrie Townley-Flores is the director and team lead for the ROAR research and partnerships teams.
+Carrie oversees the graduate student researchers, data scientists, contracted researchers, and the partnerships coordinators.
+Carrie also teams with Jason to oversee the postdoctoral scholars.
+
+### Responsibilities include:
+
+**Team leadership:**
+
+-   Supervise and mentor the partnerships and researchers teams
+
+-   Manage team workflows and capacity
+
+-   Bridge partnership, research, and developer activities
+
+-   Meet with researchers and partnerships coordinators regularly
+
+-   Meet with team leads and PI regularly
+
+-   Foster professional and academic development for all staff and students in the lab
+
+-   Communicate partnership and research needs and priorities to PI
+
+**Partnership development and management:**
+
+-   Develop and maintain relationships with schools, districts, and educational organizations
+
+-   Oversee ROAR implementation across diverse contexts
+
+-   Ensure high-quality support and professional development for all partners
+
+-   Coordinate with research team to align partnerships with research questions
+
+-   Host and track sprint progress across the partnerships coordinators
+
+**Research coordination:**
+
+-   Ensure data collection is meeting the needs of researcher goals and standards
+
+-   Apply for dyslexia screening approvals across the country
+
+-   Contribute intellectual knowledge on research projects and grant writing
+
+-   Help track project management progress and updates
+
+-   Coordinate with the developer team to align research goals with assessment/app development
+
+**Administrative:**
+
+-   Conduct onboarding and offboarding for partnerships team and researchers
+
+-   Ensure data collection, storage, and usage follow IRB and DUA protocol
+
+## Director of Technology and Innovation {#sec-director-tech-innovation}
+
+Adam Richie-Halford is the director and team lead for the ROAR developer team.
+Adam overseas the software developers, engineers, and quality assurance testers.
+
+### Responsibilities include:
+
+**Technical leadership:**
+
+-   Oversee ROAR platform development and maintenance
+
+-   Set technical strategy and architecture decisions
+
+-   Ensure platform reliability, security, and scalability
+
+-   Guide innovation in assessment technology
+
+**Team leadership:**
+
+-   Supervise and mentor the development team
+
+-   Coordinate development priorities and timelines
+
+-   Conduct code reviews and ensure code quality
+
+-   Manage developer workflows and capacity
+
+**Research and development:**
+
+-   Bridge development and research activities
+
+-   Contribute to research projects requiring technical expertise
+
+-   Develop new features and assessments based on research findings
+
+-   Ensure technical implementations are scientifically sound
+
+**Administrative:**
+
+-   Conduct onboarding and off-boarding for development team
+
+-   Manage technical infrastructure and resources
+
+-   Coordinate with partnerships team on platform needs
+
+## Research Data Scientist {#sec-data-scientist}
+
+Kelly Wentzlof is the current research data scientist for the Brain Development and Education Lab.
+
+### Responsibilities include:
+
+**Research support:**
+
+-   Conduct statistical analyses for research projects
+
+-   Develop and maintain data analysis pipelines
+
+-   Create visualizations and reports for research and partnerships
+
+-   Support validation studies and psychometric analyses
+
+**Data management:**
+
+-   Maintain data quality and integrity
+
+-   Develop and document data cleaning procedures
+
+-   Create and maintain data dictionaries
+
+-   Support researchers in accessing and using lab data
+
+**Technical contributions:**
+
+-   Develop and maintain the roarutility R package
+
+-   Create and maintain the ROAR Data Dashboard
+
+-   Document analytical methods and code
+
+-   Collaborate with developers on data-related features
+
+-   Keep the technical manual up-to-date with new analyses and data
+
+-   Develop norming procedures across the various ROAR assessments
+
+**Mentorship:**
+
+-   Support graduate students and researchers with statistical and computational questions
+
+-   Provide training on R, data analysis, and reproducible research practices
+
+-   Review analysis code and provide feedback
+
+## Project/Product Manager {#sec-project-product-manager}
+
+Maya Brunton is the current project/product manager for the Brain Development and Education Lab.
+
+### Responsibilities include:
+
+**User experience:**
+
+-   Conduct UX research with educators and administrators
+
+-   Gather and synthesize user feedback
+
+-   Translate user needs into development requirements
+
+-   Ensure ROAR tools meet user needs
+
+**Partnerships leadership:**
+
+-   Lead ROAR introduction meetings with new partners
+
+-   Serve as first point of contact for partnership inquiries
+
+-   Support and guide partnerships coordinators in their work
+
+-   Help manage partnerships coordinator workflows and capacity
+
+-   Provide backup support for partnerships team as needed
+
+-   Bridge communication between partners and development team
+
+**Administrative support:**
+
+-   Assist with partnerships onboarding and training
+
+-   Support documentation of partnership processes
+
+-   Help coordinate professional development sessions
+
+-   Manage partnership-related resources, materials, and presentations
+
+## Partnerships and Research Coordinators {#sec-partnerships-coordinators}
+
+Current coordinators include: Sarahi Muñoz, May Fahrenthold, Aditi Sen
+
+### Responsibilities include:
+
+**Partner support:**
+
+-   Serve as primary contact for assigned school and district partners
+
+-   Provide technical support for ROAR administrations
+
+-   Conduct professional development sessions
+
+-   Build and maintain positive relationships with educators
+
+**Administration coordination:**
+
+-   Schedule and coordinate ROAR administrations
+
+-   Ensure data collection meets quality standards
+
+-   Troubleshoot technical issues during administrations
+
+-   Monitor assessment completion and data quality
+
+**Documentation:**
+
+-   Document partner communications and commitments
+
+-   Maintain partnership records in Monday.com
+
+-   Track IRB and DUA processes
+
+-   Create handoff documentation for partner transitions
+
+**Research support:**
+
+-   Coordinate data collection for research projects
+
+-   Recruit partners for validation studies and pilots
+
+-   Ensure research protocols are followed
+
+-   Communicate research findings to partners appropriately
+
+**Collaboration:**
+
+-   Participate in sprint planning and team meetings
+
+-   Coordinate with developers on platform issues
+
+-   Share insights from partners to inform development
+
+-   Support other partnerships team members
+
+## Software Developers/Engineers {#sec-developers}
+
+Current developers include: Elijah Kelly, Emily Arteaga Garcia, Lucas Song, Kyle Montville, Amy Yeung
+
+### Responsibilities include:
+
+**Development:**
+
+-   Write clean, well-documented, tested code
+
+-   Implement new features and fix bugs
+
+-   Follow established coding standards and practices
+
+-   Participate in code reviews
+
+-   Maintain and improve existing codebase
+
+**Collaboration:**
+
+-   Work with product manager on feature planning
+
+-   Coordinate with partnerships team on user needs
+
+-   Collaborate with researchers on assessment development
+
+-   Participate in sprint planning and retrospectives
+
+-   Communicate progress and blockers clearly
+
+**Technical excellence:**
+
+-   Write comprehensive tests for new code
+
+-   Document code and technical decisions
+
+-   Stay current with relevant technologies
+
+-   Contribute to technical architecture discussions
+
+-   Ensure platform security and performance
+
+**User focus:**
+
+-   Consider user experience in implementation
+
+-   Test features from user perspective
+
+-   Respond to bug reports and user feedback
+
+-   Support partners when technical issues arise
+
+## Postdoctoral Scholars {#sec-postdocs}
+
+Current postdoctoral scholars include: Maha Ramamurthy, Maya Yablonski, Tongtong Zou, Youngsun Moon, Ethan Roy
+
+### Responsibilities include:
+
+**Research:**
+
+-   Design and conduct research projects
+
+-   Analyze data using appropriate methods
+
+-   Write manuscripts and present findings
+
+-   Stay current with relevant literature
+
+-   Ensure research meets ethical and scientific standards
+
+**Collaboration:**
+
+-   Collaborate with other lab members
+
+-   Contribute to lab meetings and discussions
+
+-   Share expertise and support other researchers
+
+-   Coordinate with partnerships team for data collection
+
+-   Work with developers on technical aspects of research
+
+**Mentorship:**
+
+-   Mentor junior researchers and students (as appropriate)
+
+-   Share knowledge and skills with lab members
+
+-   Provide feedback on others' work
+
+-   Contribute to lab intellectual community
+
+**Professional development:**
+
+-   Develop research skills and expertise
+
+-   Build professional network
+
+-   Seek out learning opportunities
+
+-   Plan for career advancement
+
+**Communication:**
+
+-   Present work at lab meetings regularly
+
+-   Share progress and challenges proactively
+
+-   Seek feedback early and often
+
+-   Communicate timeline challenges in advance
+
+## Graduate Students {#sec-grad-students}
+
+Current graduate students include: Jamie Mitchell, Howard Chui, Kruttika Bhat, Tonya Murray, Mia Jimenez
+
+### Responsibilities include:
+
+**Research:**
+
+-   Develop and execute dissertation/thesis research
+
+-   Take ownership of research projects
+
+-   Analyze data and write papers
+
+-   Present work at lab meetings and conferences
+
+**Coursework and requirements:**
+
+-   Complete degree requirements on schedule
+
+-   Maintain good academic standing
+
+-   Balance coursework and research effectively
+
+-   Meet departmental milestones
+
+**Professional development:**
+
+-   Develop skills needed for your career goals
+
+-   Build professional network
+
+-   Seek out opportunities (workshops, conferences, etc.)
+
+**Communication:**
+
+-   Meet regularly with advisor (Jason or co-advisor)
+
+-   Share progress and challenges proactively
+
+-   Seek feedback early and often
+
+-   Communicate about timeline and milestones
+
+## Undergraduate Students and Research Assistants {#sec-undergrads}
+
+### Responsibilities include:
+
+**Research support:**
+
+-   Complete assigned tasks thoroughly and on time
+
+-   Follow protocols and procedures carefully
+
+-   Maintain accurate records
+
+-   Ask questions when unsure
+
+**Learning:**
+
+-   Take initiative in learning new skills
+
+-   Seek out learning opportunities
+
+-   Read relevant literature
+
+-   Attend lab meetings when possible
+
+-   Ask questions and engage with research
+
+**Communication:**
+
+-   Communicate clearly about availability and schedule
+
+-   Report progress regularly
+
+-   Ask for help when needed
+
+-   Respond to messages promptly
+
+-   Notify supervisor if you can't meet a commitment
+
+**Professionalism:**
+
+-   Be reliable and punctual
+
+-   Maintain confidentiality
+
+-   Follow ethical guidelines
+
+-   Represent the lab professionally
+
+## Shared responsibilities (all lab members) {#sec-shared-responsibilities}
+
+Regardless of your specific role, all lab members share these responsibilities:
+
+**Lab citizenship:**
+
+-   Attend ROAR All-Hands (Wednesday 12-1 PM) and Lab Meeting (Thursday 12-1 PM)
+
+-   Help with cleanup after meetings where lunch is provided
+
+-   Contribute to a positive, collaborative lab culture
+
+-   Support other lab members
+
+-   Share knowledge and expertise
+
+**Communication:**
+
+-   Respond to messages within expected timeframes (see Communication and Coordination chapter)
+
+-   Communicate proactively about challenges, delays, or conflicts
+
+-   Be respectful and professional in all communications
+
+**Ethics and integrity:**
+
+-   Maintain confidentiality of participant data
+
+-   Follow IRB protocols
+
+-   Conduct research with integrity
+
+-   Report concerns about ethics or research misconduct to PI
+
+-   Complete required training and stay current
+
+**Respect and inclusion:**
+
+-   Treat all lab members with respect
+
+-   Value diverse perspectives and approaches
+
+-   Contribute to an inclusive environment
+
+-   Speak up if you witness discrimination or harassment
+
+-   Support the lab's DEI commitments
+
+**Professionalism:**
+
+-   Meet commitments and deadlines
+
+-   Ask for help when needed
+
+-   Take ownership of your responsibilities
+
+-   Represent the lab positively
+
+-   Acknowledge others' contributions

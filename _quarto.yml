@@ -7,36 +7,39 @@ execute:
   freeze: auto #only important if your book includes executed code
   
 book:
-  title: "GROUP_NAME Handbook"
+  title: "Brain Development and Education Lab Handbook"
   search: true
-  repo-url: https://github.com/cct-datascience/group-handbook-template
+  repo-url: https://github.com/kellywentz/lab-handbook
   repo-actions: [edit, issue]
   repo-link-target: "_blank" #makes issue and edit links open in a new window/tab 
   page-footer: 
-    left: '© 2024 by PI_NAME <br> This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}}'
+    left: '© 2024 by Kelly Wentzlof <br> This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}}'
     right: 'Made with [Quarto](https://quarto.org/) using the [Lab Group Handbook Template](https://github.com/cct-datascience/group-handbook-template)'
   author: 
-    - name: PI_NAME
-      orcid: 0000-0000-0000-0000
+    - name: Kelly Wentzlof
+      orcid: 0009-0001-7100-7256
     #add all contributors as additional authors
   date: today #updates date published based on last time it was edited
   chapters:
-    - index.qmd #the landing page file *must* be called 'index.qmd'
-    - contributing.qmd
+    - href: index.qmd #the landing page file *must* be called 'index.qmd'
+      text: "Welcome!" 
     - href: code-of-conduct.qmd
       text: "Code of Conduct" # A different title for the TOC than on the page itself
-    - group-expectations.qmd
     - onboarding.qmd
+    - href: communication-coordination.qmd
+      text: "Communication"
+    - roles-responsibilities.qmd
+    - href: research-best-practices.qmd
+      text: "Research Best Practices"
+    - href: data-management-plan.qmd
+      text: "Data Management Plan"
     - offboarding.qmd
-    - research-best-practices.qmd
-    - authorship.qmd
-    - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    number-depth: 1
+    number-depth: 4
     link-external-newwindow: true
     theme: #bootswatch themes.  For other options check out https://bootswatch.com/
       light: flatly

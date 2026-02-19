@@ -1,81 +1,470 @@
----
-title: "Research Best Practices"
-editor: visual
----
+# Research Best Practices {#sec-research-best-practices}
 
-::: callout-important
-## Group Edit
+This chapter outlines the standards and best practices for conducting research in the Brain Development & Education Lab.
+These practices ensure the integrity, reproducibility, and ethical conduct of our research.
 
-This template only includes best practices as they apply to *data and code*.
-You may wish to edit this to add other best practices relevant to your group's lab and/or field work.
-:::
+## Principles of research integrity {#research-integrity}
 
-## Research Compendia
+**Core principles:**
 
-A [research compendium](https://book.the-turing-way.org/reproducible-research/compendia.html) is a collection of all the files (data, metadata, notes, code, manuscripts, etc.) associated with a research project.
-Even before the first data point is collected, some thought should be put into how you'll organize your research compendium.
-This includes things like:
+-   *Honesty:* Report data and findings truthfully
 
--   Directory structure
--   File naming conventions
--   File formats to use
--   Where the research compendium will be stored (shared drive? Box? your laptop?)
+-   *Accuracy:* Strive for accuracy in all aspects of research
 
-### Directory Structure
+-   *Transparency:* Be open about methods, data, and limitations
 
-A minimal research compendium might look like this:
+-   *Reproducibility:* Conduct research in ways that others can verify and build upon
 
-```         
-project_name/
-  ├── README.md
-  ├── data/
-  │   ├── metadata.txt
-  │   └── my_raw_data.csv
-  ├── scripts/
-  │   ├── 01-wrangle_data.R
-  │   ├── 02-fit_models.R
-  │   └── 03-plot_results.R
-  └── output/
-```
+-   *Respect:* Respect participants, collaborators, and the scientific community
 
-The `README.md` file should contain at minimum 1) a brief description of the project, 2) who is involved, and 3) instructions on how to reproduce the analysis (e.g. what software is needed to run it, any manual steps that aren't done by code, etc.).
-Once the project is complete (e.g. a paper is in review) it should also contain links or citation information for any products resulting from the project.
+**Scientific misconduct:**
 
-The `data/` folder should contain the **raw** data for the project.
-**This raw data should not be edited by hand**.
-Files in the `data/` folder should be considered (or actually made) ***read-only!*** This folder might contain separate `data_raw/` and `data_cleaned/` folders if there is a need to save intermediate data to disk, in which case the files in `data_raw/` should be read-only.
-The `data/` folder is also a good place for metadata—information about how to interpret the data and how/when/where it was collected (e.g. what the column names in `my_raw_data.csv` mean and what units the values are measured in).
+The lab has zero tolerance for research misconduct, including:
 
-::: callout-important
-## Group Edit
+-   Fabrication of data or results
 
-You may wish to discuss as a group what constitutes "raw data".
-For example, if you are entering data manually into Excel, at what point should that file be considered "finished" and treated as read-only?
-:::
+-   Falsification or manipulation of data
 
-The `scripts/` folder is a place to put code to run your analysis.
-For R code, this folder is often called `R/` by convention, and for other languages it might be called something like `src/`.
-In this example, I've used numbered file names to indicate the order in which scripts are to be run to reproduce the results.
+-   Plagiarism
 
-The `output/` folder is where any figures or summary data or tables created should be saved.
+-   Misrepresentation of contributions or authorship
 
-Other things a research compendium might contain, especially if it is made public (e.g. published as supplementary)
+If you observe or suspect research misconduct, report it immediately to Jason Yeatman.
 
--   A code of conduct
--   A license file and/or citation file indicating how others can use your work
--   A `docs/` folder for notes or manuscripts
--   A `.bib` file containing reference information for a manuscript
+## Data security and confidentiality {#sec-data-security}
 
-### File naming conventions
+**Protecting participant data:**
 
-As above, numbering scripts that should be run in order is always a good idea—make all the numbers the same number of digits (e.g. 09-, 10-, 11-) so they sort alphabetically in the right order.
+Our work involves sensitive data from children, schools, and families.
+Protecting this data is both an ethical obligation and a legal requirement.
 
-When dates are relevant in file names, put them at the start and use the ISO format (YYYY-MM-DD) so that when sorted alphabetically they are in chronological order.
+**Rules for handling sensitive data:**
 
-Avoid spaces and special characters that may not work on all operating systems.
-Similarly, file names are case sensitive on some systems and case-insensitive on others, so avoid capital letters in file names to keep things simple.
+-   *Never* email files containing personally identifiable information (PII)
 
-### File formats
+-   *Never* store participant data on personal devices
 
-Preference non-proprietary and plain-text formats when possible.
-E.g. use `.csv` rather than `.xlsx` when there isn't a need for multiple sheets or other Excel features.
+-   *Never* share data via public Slack channels (use private channels or DMs), better yet only share secure Google Drive links to the data
+
+-   *Always* use secure, Stanford-approved storage (Google Drive, BigQuery)
+
+-   *Always* check IRB and DUA protocols before sharing data, even within the lab
+
+-   *Always* de-identify data when possible
+
+-   *Always* use minimum necessary data (only access what you need)
+
+**What counts as identifiable information:**
+
+-   Names, addresses, phone numbers, email addresses
+
+-   Student/teacher ID numbers
+
+-   School names (in some cases)
+
+-   Dates of birth
+
+-   Neuroimaging data (can reconstruct facial features)
+
+-   Assessment scores linked to individuals
+
+-   Small-cell data that could identify individuals
+
+**When in doubt, ask.** It's better to check than to inadvertently violate confidentiality.
+
+**Data sharing via Google Drive:**
+
+-   Share links to files/folders rather than downloading and re-uploading
+
+-   Use "restricted" sharing settings (not "anyone with link")
+
+-   Grant access only to people who need it and have IRB and DUA approval
+
+-   Remove access when team members leave the lab and/or no longer need data (see @sec-offboarding for more information)
+
+**Working remotely:**
+
+-   Use [Stanford VPN](https://uit.stanford.edu/service/vpn) when accessing sensitive data remotely
+
+-   Ensure your home wifi is password-protected
+
+-   Don't work with sensitive data in public spaces where screens can be viewed
+
+-   Lock your computer when stepping away
+
+-   If you plan to work outside of the United States, please consult with your team lead and Jason Yeatman to discuss [data security and procedures](https://global.stanford.edu/plan-your-global-activity/hr-and-employment/stanford-personnel-working-abroad)
+
+## External data and Data Use Agreements (DUAs) {#sec-dua}
+
+**Working with school/district data:**
+
+-   Ensure a Data Use Agreement (DUA) is in place *before* receiving data
+
+-   Store data according to DUA specifications
+
+-   Use data only for approved purposes
+
+-   Share data only with approved individuals
+
+-   Delete or return data according to DUA terms
+
+-   Report any data breaches immediately
+
+**DUA tracking:**
+
+-   Partnerships team tracks DUAs in Monday.com
+
+-   Ensure you are listed on DUA before accessing partner and student data
+
+-   Understand restrictions on data use and sharing
+
+**Combining ROAR data with external data:**
+
+-   Ensure IRB and DUA approval for data linkage
+
+-   Maintain appropriate security for combined datasets
+
+-   Document linkage procedures
+
+-   Be especially careful with identifiable linked data
+
+## Data management and organization {#sec-data-management}
+
+*Review @sec-data-management-plan for more detailed information* on data management planning
+
+**General principles:**
+
+-   All research data must be stored on Stanford-approved systems (Google Drive, BigQuery)
+
+-   Data should never be stored solely on personal devices or non-Stanford cloud services
+
+-   Maintain organized, well-documented files that others can understand
+
+-   Use clear, consistent naming conventions
+
+-   Document your work as you go, not retrospectively
+
+**Google Drive organization:**
+
+Google Drive is the primary storage location for:
+
+-   Meeting notes (internal and external)
+
+-   School, district, and student research data
+
+-   In-lab participant data
+
+-   Presentations and feedback notes
+
+-   Project management documentation
+
+-   Testing materials and documentation
+
+-   Validation data
+
+**Best practices:**
+
+-   Save all work to appropriate shared drives (not personal drives)
+
+-   Use descriptive folder structures
+
+-   Include README files in project folders explaining organization
+
+-   Never duplicate large datasets
+
+-   Clean up and delete unnecessary or duplicate files regularly
+
+**Access management:**
+
+-   Data access is provided in line with the principle of least privilege
+
+-   If you need access to specific folders or datasets, contact Carrie Townley-Flores or Jason Yeatman
+
+## File naming conventions {#sec-file-naming}
+
+Consistent file naming makes it easier for everyone to find and understand files.
+
+**General format:**
+
+`projectname_filedescription_version_YYYY-MM-DD.ext`
+
+**Examples:**
+
+`validation_analysis_v1_2025-01-22.Rmd`
+
+`partnermeeting_notes_2026-03-01.docx`
+
+`word_runs_2024-12-10.csv`
+
+**Guidelines:**
+
+-   Use dates in YYYY-MM-DD format to inform when data was pulled/cleaned
+
+-   Use underscores or hyphens instead of spaces
+
+-   Be descriptive but concise
+
+-   Include version numbers for documents that go through multiple drafts
+
+-   Use meaningful abbreviations consistently
+
+-   Avoid special characters (except \_ and -)
+
+## Data cleaning and processing {#sec-data-cleaning-processing}
+
+**General principles:**
+
+-   Never modify raw data files—always create processed versions
+
+-   Document all cleaning steps in code
+
+-   Save intermediate processed datasets with clear labels and dates
+
+-   Use [roarutility R package](https://github.com/yeatmanlab/roarutility) (by Kelly Wentzlof) to help clean and process ROAR data
+
+**Data cleaning workflow:**
+
+1.  *Raw data:* Original, unmodified data
+
+2.  *Cleaning code:* Documented code that processes raw data
+
+3.  *Cleaned data:* Processed data ready for analysis
+
+4.  *Analysis code:* Code that analyzes cleaned data
+
+5.  *Results:* Outputs from analyses
+
+**Documentation:**
+
+For each dataset, maintain:
+
+-   *Data dictionary:* Description of all variables
+
+-   *Codebook:* Information about data querying, processing, cleaning
+
+-   *README:* Overview and instructions for using the data
+
+**Common data cleaning tasks:**
+
+-   Removing duplicates
+
+-   Handling missing data
+
+-   Recoding variables
+
+-   Creating derived variables
+
+-   Filtering to relevant subset
+
+-   Merging datasets
+
+Document decisions about:
+
+-   How missing data is handled
+
+-   Which observations are excluded and why
+
+-   How variables are recoded or computed
+
+-   Any assumptions made in processing
+
+## Data analysis and code {#sec-data-analysis-code}
+
+**Reproducibility:**
+
+All analyses should be reproducible—someone else should be able to run your code and get the same results.
+
+**Requirements:**
+
+-   Fill out a project management document for any new projects/analyses (see @sec-project-management-doc for more information and a project management template)
+
+-   Use code (R, Python, etc.) rather than point-and-click software when possible
+
+-   Write clear, well-commented code (good rule of thumb: a comment for every couple lines of code)
+
+-   Use version control (GitHub) for analysis code (backs up code and allows for easy collaboration)
+
+-   Use relative file paths (not absolute paths specific to your computer)
+
+-   Set random seeds for analyses involving randomization
+
+**Code documentation:**
+
+-   Include a README explaining what each script does within the project repository
+
+-   Comment your code explaining why, not just what
+
+-   Use meaningful variable names
+
+-   Break complex code into smaller, well-named functions and chunks
+
+-   Include information about software/package versions used
+
+**Using R:**
+
+-   Use the [roarutility R package](https://github.com/yeatmanlab/roarutility) (by Kelly Wentzlof) for common ROAR data processing tasks
+
+-   Follow tidyverse style guidelines
+
+-   Use RStudio projects, markdowns, and quarto documents for organization
+
+## Version control with GitHub {#sec-version-control-git}
+
+In this lab, GitHub is used for:
+
+-   Backing up and versioning code
+
+-   Collaborating on analysis code
+
+-   Tracking issues and tasks (for developers)
+
+-   Hosting documentation (ROAR Technical Manual, ROAR docs) and software (ROAR Data Dashboard, [roarutility R package](https://github.com/yeatmanlab/roarutility))
+
+-   Sharing code with collaborators
+
+**Best practices:**
+
+-   Commit early and often
+
+-   Write clear, descriptive commit messages
+
+-   *Don't commit any data*
+
+-   Use .gitignore to exclude data files and outputs
+
+-   Create branches for new features or analyses
+
+-   Always use pull requests for code review prior to merging into main branch
+
+-   Keep repositories organized and well-documented
+
+**For researchers:**
+
+-   See GitHub walk-through in [ROAR Researcher Documentation](https://yeatmanlab.github.io/roar-docs/researcher/data-tools/#github)
+
+-   Create a repository for each major project or paper
+
+-   Include a README with project description and script-level descriptions
+
+-   Make code public upon publication (or earlier if appropriate) after consulting with Jason Yeatman
+
+**For developers:**
+
+-   See [ROAR Developer Documentation](https://yeatmanlab.github.io/roar-docs/developer/) for detailed Git workflows and standards
+
+## Data retention and archival {#sec-data-retention-archival}
+
+**During active research:**
+
+-   Keep all data and code organized and accessible
+
+-   Back up important files and scripts regularly
+
+-   Maintain clear documentation
+
+**After publication:**
+
+-   Archive data and code for published papers
+
+-   Make code publicly available (GitHub)
+
+-   Discuss data sharing plans with Jason Yeatman
+
+**When leaving the lab:**
+
+-   Ensure all data is on shared drives, not personal drives
+
+-   Document where everything is located
+
+-   Transfer ownership of files/folders as appropriate
+
+-   See @sec-offboarding for more details
+
+## Computational resources {#sec-computational-resources}
+
+**Available resources:**
+
+-   Personal computers (laptop, monitor, keyboard, etc.)
+
+-   Stanford Google Workspace (Drive, Docs, Sheets, etc.)
+
+-   BigQuery for large-scale data storage and retrieval
+
+-   GitHub for version control
+
+-   Stanford compute clusters (for intensive analyses)
+
+-   Software licenses through Stanford
+
+**Software:**
+
+Commonly used software in the lab:
+
+-   R and RStudio (statistical analysis)
+
+-   Quarto (technical manual and documentation)
+
+-   Python (development and analysis)
+
+-   Git and GitHub (version control)
+
+-   Slack, Zoom (communication)
+
+-   Microsoft Outlook (meeting tracker, external communication)
+
+-   Canva (graphics and presentations)
+
+-   Monday.com (partnerships tracker)
+
+## Getting help {#sec-research-contacts}
+
+**Data and analysis questions:**
+
+-   Kelly Wentzlof (R, statistics, ROAR data)
+
+-   Jason Yeatman
+
+-   Carrie Townley-Flores (R, statistics, organizational data)
+
+-   Adam Richie-Halford (VS Code, ROAR development, technical infrastructure)
+
+-   Lab meetings (for broader input)
+
+**Data management questions:**
+
+-   Kelly Wentzlof (ROAR data organization)
+
+-   Carrie Townley-Flores (partnerships data, DUAs)
+
+-   Adam Richie-Halford (ROAR BigQuery, development)
+
+-   Kyle Montville (ROAR BigQuery)
+
+**IRB and ethics questions:**
+
+-   Carrie Townley-Flores (partnerships team leads)
+
+-   Jason Yeatman
+
+-   Sarahi Muñoz and May Fahrenthold (IRB coordinators)
+
+-   Stanford IRB office
+
+**Computing resources:**
+
+-   Kelly Wentzlof (data science)
+
+-   Adam Richie-Halford (development)
+
+-   Jason Yeatman (major resource needs, cluster access)
+
+-   Stanford IT
+
+**When in doubt:**
+
+-   Ask!
+    It's better to ask than to make a mistake with data
+
+-   Document your questions and the answers
+
+-   Share solutions with the lab (e.g., in Slack)

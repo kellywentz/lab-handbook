@@ -1,0 +1,143 @@
+# Communication and Coordination {#sec-communication-coordination}
+
+One benefit of the academic environment is its schedule flexibility.
+This means that lab members may choose to work in the early morning, evening, or weekends.
+That said, we do not expect lab members to respond outside of business hours (9:00AM-5:00PM PST).
+
+## In-person meetings {#sec-in-person-meetings}
+
+The majority of the lab works in-person Tuesday-Thursdays.
+On those days, it is common to meet in-person rather than online.
+If you plan to meet in person, please remember to [book a meeting room](https://gserooms.stanford.edu/).
+
+In addition to one-on-one meetings and personal meetings, the lab hosts the following recurring meetings:
+
+-   ROAR All-Hands on Wednesday 12:00-1:00PM PST (if remote, please check meeting invites or slack to find the zoom link).
+
+-   Lab Meeting on Thursday 12:00-1:00PM PST (if remote, please check meeting invites or slack to find the zoom link).
+
+::: callout-note
+For the above meetings, lunch is provided.
+Please reach out to the research/partnership coordinators if you have any food allergies/preferences so they can correctly adjust the lunch orders.
+Please also notify the coordinators, if you plan to miss either meeting at the beginning of the week so they can adjust the order count to reduce food waste.
+
+**All members of the lab are expected to help with clean up following each of these meetings!**
+:::
+
+## Slack {#sec-slack}
+
+Slack is used as the primary form of internal communication.
+
+-   Use Slack to contact all members of the lab.
+
+-   Keep research project-related questions, topics, and updates in respective lab channels to keep the entire team in the loop.
+    This helps to reduce shadow tasks and keeps necessary team members on the same page.
+
+-   Please try to respond to internal messages with team members within 24 hours.
+
+-   If you are unusually busy (e.g., grant writing, publication/conference preparation, midterms, etc.) please notify the respective teams and set your status on slack so the lab has an expectation of slow responses.
+
+-   If you are on vacation or out sick please notify the team leads (Jason Yeatman and/or Carrie Townley-Flores/Adam Richie-Halford) and set your status on slack so people can reduce mentions in direct messages and channels.
+
+-   If a thread is too long or if you have important information for the entire channel to see, please make sure to click "Send to channel".
+
+-   Slack has many helpful integrations with Outlook calendar and other extensions to help automatically set slack statuses based on meetings and other time blocks.
+
+::: callout-important
+If the channel is public, DO NOT share data via slack.
+Private channels and private DMs are encrypted and are safe to share data.
+When possible, share Google Drive links to dataframes rather than CSVs and other data files.
+:::
+
+## Email {#sec-email}
+
+Outlook email is used as the primary form of external communication.
+
+-   Use Stanford email for messages to external ROAR partners (e.g., school representatives) and lab participants.
+
+-   Generally, strive to respond to ROAR partners within 3-5 business days.
+    As noted above, if you are unusually busy or on vacation please alert the team leads and team and write an Out of Office email with an alternative partnerships contact.
+
+## Online meetings {#sec-online-meetings}
+
+### Booking on Outlook
+
+Outlook calendar is used as the primary form of online and in-person meeting booking and tracking.
+
+-   Lab members tend to check availability on Slack and then book a meeting based on response.
+
+-   If you plan to be late, please inform the respective meeting attendees on Slack.
+
+-   If you cannot attend, please notify in the meeting invitation RSVP and on Slack.
+
+### Hosting on Zoom
+
+Zoom is used as the primary form of hosting online meetings.
+Zoom is very user friendly, provides AI integration for note-taking, easily records important meetings, offers easy-to-use screen sharing and other interactive features, and can host a large number of users (internal or external).
+
+### Hosting on Slack Huddle
+
+Slack Huddle is used as the primary form of quick internal meetings.
+Often if lab members need to quickly chat for an off-schedule meeting, they will likely ask to meet on Huddle.
+It acts as a quick "phone call" that does not require a separate meeting ID or link.
+However, it does not offer as many helpful meeting features as Zoom.
+
+## Monday.com {#sec-monday-platform}
+
+Monday.com is used by the ROAR Partnerships team as their primary partnership coordination and management system.
+Monday.com is used in the following ways:
+
+-   Organize partnerships by name, grade, and location.
+
+-   Keep track of current and past ROAR administrations.
+
+-   Document bi-weekly sprint tasks and accomplishments.
+
+-   Map large research projects and the samples needed for each.
+
+-   Track DUA processes for each incoming partner.
+
+-   Track IRB updates and progress.
+
+## GitHub {#sec-github}
+
+GitHub is used by ROAR researchers and developers as their primary research collaboration and issues management system.
+GitHub is used in the following ways:
+
+-   Collaboration on research projects.
+
+-   Backing up and saving code.
+
+-   ROAR Dashboard issue management/ticketing system.
+
+-   ROAR developers task management system.
+
+-   ROAR Technical Manual host.
+
+-   ROAR Data Dashboard host.
+
+-   roarutility R package host.
+
+-   ROAR Dashboard host.
+
+## Google Drive {#sec-google-drive}
+
+Google Drive is used as the sole form of data storage and shared documents for researchers, staff, and students.
+We store the following on Stanford's secure Google Drives:
+
+-   Meeting notes (internal and external)
+
+-   School, district, student data
+
+-   In-lab participant data
+
+-   Presentations and feedback notes
+
+-   Project management documentation
+
+-   Testing materials and documentation
+
+-   Validation data
+
+Data access is provided in line with the principle of least privilege.
+If you need access to a specific folder or document, please contact Carrie Townley-Flores or Jason Yeatman.

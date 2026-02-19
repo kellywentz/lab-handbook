@@ -1,35 +1,15 @@
-<!-- NOTE: do not re-name this file!  It has to be called index.qmd -->
+# Welcome to the Brain Development and Education Lab! {#sec-welcome}
 
-# Welcome! {.unnumbered}
+## About the lab {#sec-about-the-lab}
 
-::: callout-note
-Note to lab members: this document is a work in progress and may change.
-It is your responsibility to be familiar with the content, so you should review these policies regularly.
-:::
+Welcome to the lab of Dr. Jason Yeatman, Associate Professor in the Graduate School of Education and Department of Psychology at Stanford University and the Division of Developmental and Behavioral Pediatrics at Stanford University School of Medicine.
+Our mission is to understand the interplay between brain maturation and cognitive development, with a particular focus on the mechanisms underlying learning to read and how these differ in children with dyslexia.
+The lab is deeply interdisciplinary, drawing on neuroscience, psychology, education, pediatrics, and engineering to answer both basic scientific and applied questions.
+A cornerstone of our work is the Rapid Online Assessment of Reading (ROAR)—an online platform for assessing foundational reading skills that consists of a suite of measures validated K-12.
+Each ROAR measure is delivered through a web browser, is fully automated, and does not require a test administrator, yet rapidly provides precise indices of reading ability with greater precision than many standardized, individually-administered assessments.
+This research-practice partnership model bridges research and practice, enabling large-scale data collection that helps us develop personalized intervention programs tailored to each child's unique pattern of brain maturation while advancing our understanding of how reading instruction shapes brain development and plasticity in children, including those with dyslexia.
 
-Welcome to the lab.
-In this lab, we study ...
+## About this lab manual {#sec-about-lab-manual}
 
-::: callout-important
-## Edit This Section
-
-Many lab group handbooks start with a short description of what the lab works on
-:::
-
-## Lab Philosophy
-
-::: callout-important
-## Edit This Section
-
-This is a good place to put any information about overall lab philosophies.
-For example, thoughts about open science, collaboration, publishing, and the role of science in the world
-:::
-
-## Mentoring Philosophy
-
-::: callout-important
-## Edit This Section
-
-This may also be a good place to outline your mentoring philosophy as a PI.
-If this gets too long, it could instead go in a section along with mentee expectations
-:::
+This lab manual covers our communication strategy, code of conduct, and best practices for reproducibility of computational workflows.
+It is a living document that is updated regularly.
