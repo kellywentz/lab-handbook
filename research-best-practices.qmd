@@ -276,7 +276,7 @@ All analyses should be reproducible—someone else should be able to run your co
 
 **Requirements:**
 
--   Fill out a project management document for any new projects/analyses (see @sec-project-management-doc for more information and a project management template)
+-   Fill out a project management document for any new projects/analyses (see @sec-dmp-project-management-doc for more information and a project management template)
 
 -   Use code (R, Python, etc.) rather than point-and-click software when possible
 
