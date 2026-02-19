@@ -1,0 +1,622 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Brain Development and Education Lab Handbook",
+    "section": "",
+    "text": "1 Welcome to the Brain Development and Education Lab!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome!</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-about-the-lab",
+    "href": "index.html#sec-about-the-lab",
+    "title": "Brain Development and Education Lab Handbook",
+    "section": "1.1 About the lab",
+    "text": "1.1 About the lab\nWelcome to the lab of Dr. Jason Yeatman, Associate Professor in the Graduate School of Education and Department of Psychology at Stanford University and the Division of Developmental and Behavioral Pediatrics at Stanford University School of Medicine. Our mission is to understand the interplay between brain maturation and cognitive development, with a particular focus on the mechanisms underlying learning to read and how these differ in children with dyslexia. The lab is deeply interdisciplinary, drawing on neuroscience, psychology, education, pediatrics, and engineering to answer both basic scientific and applied questions. A cornerstone of our work is the Rapid Online Assessment of Reading (ROAR)—an online platform for assessing foundational reading skills that consists of a suite of measures validated K-12. Each ROAR measure is delivered through a web browser, is fully automated, and does not require a test administrator, yet rapidly provides precise indices of reading ability with greater precision than many standardized, individually-administered assessments. This research-practice partnership model bridges research and practice, enabling large-scale data collection that helps us develop personalized intervention programs tailored to each child’s unique pattern of brain maturation while advancing our understanding of how reading instruction shapes brain development and plasticity in children, including those with dyslexia.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome!</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-about-lab-manual",
+    "href": "index.html#sec-about-lab-manual",
+    "title": "Brain Development and Education Lab Handbook",
+    "section": "1.2 About this lab manual",
+    "text": "1.2 About this lab manual\nThis lab manual covers our communication strategy, code of conduct, and best practices for reproducibility of computational workflows. It is a living document that is updated regularly.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome!</span>"
+    ]
+  },
+  {
+    "objectID": "code-of-conduct.html",
+    "href": "code-of-conduct.html",
+    "title": "2  Culture and Conduct",
+    "section": "",
+    "text": "2.1 Lab culture\nWe are committed to a lab culture that is collaborative, supportive, inclusive, open, and free from discrimination and harassment.\nOur interdisciplinary approach—spanning neuroscience, education, psychology, pediatrics, and engineering—thrives on diverse perspectives and expertise. We encourage team members of all experience levels and backgrounds to respectfully share their honest opinions and ideas on any topic. Over the years, our group has grown stronger through such respectful, honest input from all team members.\nWe believe that the best science emerges when researchers work closely with educators, clinicians, and communities. This research-practice partnership model extends to our internal lab culture, where we value both rigorous scientific inquiry and the practical application of our work to support children, families, and educators. We are committed to mentorship at all levels and to creating an environment where everyone can learn, grow, and contribute meaningfully to our mission of understanding and supporting the diverse ways children learn to read.\nWe recognize that our work has real-world impact on children’s lives and educational experiences. This responsibility motivates us to maintain the highest standards of scientific integrity, ethical research practices, and respectful collaboration with the schools, families, and communities we serve.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Code of Conduct</span>"
+    ]
+  },
+  {
+    "objectID": "code-of-conduct.html#sec-dei-policy",
+    "href": "code-of-conduct.html#sec-dei-policy",
+    "title": "2  Culture and Conduct",
+    "section": "2.2 Diversity, equity, and inclusion",
+    "text": "2.2 Diversity, equity, and inclusion\nThe Brain Development & Education Lab recognizes the importance of and is committed to cultivating a culture of diversity, equity, and inclusion. This means being a safe, supportive, and anti-racist environment in which students and staff from diverse backgrounds are equally and inclusively supported in their education, training, and professional development. Diversity takes many forms and includes, but is not limited to, differences in race, ethnicity, gender, sexuality, socioeconomic status, religion, disability, neurodiversity, and political affiliation.\nOur research on reading development and dyslexia has shown us that there is no single path to learning—children’s brains and learning profiles are beautifully diverse. This understanding deeply informs how we approach our work with each other in the lab. We believe that diverse teams produce better science and are essential to developing educational tools and interventions that serve all learners equitably.\nWe are committed to ensuring that our research benefits all children, particularly those from historically marginalized and underserved communities who have too often been excluded from educational research and interventions. This commitment extends to our recruitment practices, our collaborations with schools and communities, and our efforts to make tools like ROAR accessible and equitable across diverse populations and contexts.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Code of Conduct</span>"
+    ]
+  },
+  {
+    "objectID": "code-of-conduct.html#sec-protect-human-subjects",
+    "href": "code-of-conduct.html#sec-protect-human-subjects",
+    "title": "2  Culture and Conduct",
+    "section": "2.3 Protecting human subjects",
+    "text": "2.3 Protecting human subjects\nAll lab members must complete CITI Group 7: IRB BioMed/GCP Research (All Medical Investigators and Staff) Stanford University training and share their certificate with a research coordinator or partnerships coordinator prior to beginning any research activities. Team members will be added to relevant Institutional Review Board (IRB) protocols before their start date to ensure they have permission to work with identifiable datasets.\nOne of the most relevant aspects of protecting human subjects in our work is maintaining confidentiality. This is especially critical given that we work with children and collect sensitive neuroimaging, educational, and behavioral data. In practice, this means:\n\nBe sure to understand and comply with project-specific policies about where data can be saved, particularly if the data include personal identifiers. Neuroimaging data, educational records, and assessment results all require special handling.\nDo not share data with anyone without permission, including other members of the group who might not be on the same IRB protocol as you. Always check with a research/partnerships coordinator first.\n\nRemember, data that looks like it does not contain identifiers to you might still be classified as data that requires special protection by our IRB. Always proceed with caution and ask for help if you have any concerns about how to maintain study participant confidentiality.\nWhen working with schools and families, remember that protecting privacy extends beyond data security—be mindful in how you discuss participants and research findings, even in general terms.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Code of Conduct</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html",
+    "href": "onboarding.html",
+    "title": "3  Onboarding",
+    "section": "",
+    "text": "3.1 General onboarding",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html#sec-general-onboarding",
+    "href": "onboarding.html#sec-general-onboarding",
+    "title": "3  Onboarding",
+    "section": "",
+    "text": "3.1.1 Day 0:\nComplete Stanford onboarding requirements\nApproximately one week before your start date, you will receive a welcome email from Stanford’s Welcome Center with instructions to complete the following steps:\n\nCreate your SUNet ID and password and enable Two-Step Authentication\n\nYou will need your University Employee ID number (provided in the email)\nYour SUNet is required to set up your work computer, so please complete this without delay\nTest that your SUNet ID works by logging into the Axess portal\nReply to the Welcome Center email to confirm your SUNet ID is functional\n\nDownload the Stanford Mobile application to get your virtual ID card\n\nThe app includes mobile Stanford identification (for building access), campus map, phone directory, and more\n\nUpload your photo for your Stanford Staff ID card\nComplete the GSE New Employee Form (Qualtrics link will be provided in the email)\n\nCreate a short bio with background information to share with GSE staff\nPhoto submission is optional\n\nPlan your commute\n\nStanford offers free transit passes for Caltrain, VTA, AC Transit, and SamTrans\nIf you need your pass for your first day, place an expedited request using the link in your Welcome Center email\nFor parking permits, complete the Parking Registration Form for temporary access, then purchase through the Online Ordering Portal once you’re in the system\n\n\nI-9 verification\nYou will receive an email from the GSE Administrative Services Manager with instructions for I-9 verification, which must take place within 3 business days of your start date:\n\nComplete page 1 of the I-9 form (attached to email) before your first day and return via email\nSchedule a meeting to verify your ID documents (see attached list for accepted documents in the email)\n\nLab setup confirmation\nThe team-lead for your respective team (Carrie Townley-Flores or Adam Richie-Halford) will confirm the following before your first day:\n\nStart time and location\nDeskspace assignment (if in-person)\nEquipment setup: monitor, laptop stand, keyboard, laptop\nStaff onboarding training schedule\n\n\n\n3.1.2 Day 1 (Monday):\n\n9:00AM:\n\nMeet team lead on Zoom (if first day is Monday or Friday) or in person on Stanford’s campus (if first day is Tuesday-Thursday).\n\n10:30AM-12:00PM:\n\nStaff Onboarding Meeting on Zoom which provides context about Stanford’s culture, specific next steps, and introduces you to other new hires.\n\nAfternoon:\n\nCITI Training Group 7: IRB BioMed/GCP Research (All Medical Investigators and Staff)\nBegin online Axess trainings\nReview Brain Development and Education Lab Manual\n\n\n\n\n3.1.3 Day 2 (Tuesday):\n\n9:30AM-10:30AM:\n\nMeet the team\nLab space tour (if in-person)\nCampus tour with your team and other lab members (if in-person)\nPick up physical Stanford ID card from the Tressidder Student Union (if in-person)\n\n10:30AM-11:00AM:\n\nContinue online Axess trainings\nContinue Lab Manual review\n\n11:00AM-12:00PM:\n\nBenefits Training Webinar on Zoom\nImportant: You must enroll in benefits within 31 days of your start date\n\n12:00PM:\n\nLunch with the team (lunch is provided if in-person)\n\nAfternoon:\n\nComplete benefits paperwork\nContinue reviewing Lab Manual\nBegin reviewing team documentation (provided by team members or team lead)\nMeet with relevant team members based on provided onboarding schedule to discuss general or team-specific onboarding topics (see onboarding topics below)\n\n\n\n\n3.1.4 Day 3 (Wednesday):\n\nMorning:\n\nCheck in with team lead, Carrie Townley-Flores or Adam Richie-Halford\nContinue reviewing relevant team documentation/onboarding topics\n\n12:00PM-1:00PM:\n\nROAR All-Hands Meeting (lunch provided if in-person)\n\nPlease inform the research/partnerships coordinators of any food allergies/preferences.\nAll members are expected to help with cleanup following the conclusion of the meeting.\n\n\nAfternoon:\n\nContinue finalizing onboarding materials and review of team documentation/onboarding topics\nMeet with team members based on onboarding schedule\n\n\n\n\n3.1.5 Day 4 (Thursday):\n\nMorning:\n\nCheck in with team lead, Carrie Townley-Flores or Adam Richie-Halford\n\n12:00PM-1:00PM:\n\nLab meeting (lunch provided if in-person)\n\nAfternoon:\n\nMeet with team members based on onboarding schedule\n\n\n\n\n3.1.6 Day 5 (Friday):\n\nAll-day:\n\nFinal day of first week\nMeet with team members based on onboarding schedule\nWrap up any outstanding onboarding tasks and review remaining onboarding topics\n\n\n\n\n3.1.7 Important deadlines\n\nBenefits enrollment: 31 days from start date\nI-9 verification: 3 business days from start date\nCITI training: Must be completed before working with data",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html#sec-general-onboarding-topics",
+    "href": "onboarding.html#sec-general-onboarding-topics",
+    "title": "3  Onboarding",
+    "section": "3.2 General onboarding topics",
+    "text": "3.2 General onboarding topics\nThe following topics will be discussed with new lab members throughout the first few weeks of onboarding. The new lab member will meet with existing lab members to gain a better understanding of the following topics.\n\n3.2.1 Foundations\n\nIntroductions to lab members (developers, researchers, partnerships, contractors, postdoctoral scholars, graduate students, team leads)\n\nWho people are?\nWhich teams do they work on/with?\nWhat do they do/study?\n\nCommunications and coordination (e.g., calendars, meetings, slack)\nWork culture and code of conduct\n\nHours and expectations\nTime off for vacation and sick days\nRemote work\nWorking out of the country\nDEI\nRecurring meetings\n\nWebsites\n\nROAR website\nROAD\nBrain Development and Education website\nStanford Reading and Dyslexia Research Program website\n\n\n\n\n3.2.2 Systems and access\n\nSlack (only appropriate channels)\nGoogle Drive (only necessary drives)\nGitHub (if necessary)\n\nRepositories\nTeams\n\nIRB\nBigQuery (researchers, developers, graduate students only)\nROAD super admin\nGoogle Calendars\n\n\n\n3.2.3 ROAR platform deep dive\n\nROAR history and mission\nROAD\n\nSuper Admin Dashboard overview (e.g., administrations, users, organizations)\nEducator Dashboard\nStudent Dashboard\nHow does the dashboard get developed?\n\nROAR assessment overview\n\nWhat are they? (e.g., Core, Math, Comprehension, Executive Function, Visual Attention, Under Development)\nWhat do they measure?\nWhy are they important?\nHow are they developed?\n\nScore reports\n\nIntroduction and walk through\nWhat do the scores mean?\nWhat are all of the tables?\n\n\n\n\n3.2.4 Research and development\n\nDeveloper team\n\nHow do they differ from partnerships?\nWhat is the relationship between the two?\nHow do we contact them?\n\nResearch overview\n\nROAR Technical Manual\nCurrent projects in the lab and who is working on them\nPrevious projects and publications in the lab and why they are important\n\nHow research works\n\nIntroduction to academia\nResearch Best Practices chapter (go in-depth for onboarding researchers)\nProject management documentation\nData Management Plan chapter (go in-depth for onboarding researchers)\n\nUser experience (UX) research\n\nCurrent projects and results\nProcess of UX research\n\nValidation studies\n\nWJ, TOWRE, CTOPP, Read-Aloud",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html#sec-partnerships-onboarding-topics",
+    "href": "onboarding.html#sec-partnerships-onboarding-topics",
+    "title": "3  Onboarding",
+    "section": "3.3 ROAR partnerships onboarding topics",
+    "text": "3.3 ROAR partnerships onboarding topics\nThe following topics, in addition to the general onboarding topics, will be discussed with new lab members throughout the first few weeks of onboarding. The new lab member will meet with existing partnerships coordinators and team lead, Carrie Townley-Flores, to gain a better understanding of the following topics.\n\n3.3.1 Systems and access\n\nIRB overview\n\nWhat is an IRB?\nWho updates the IRB?\nWhat protocol do we follow?\nWhich IRBs are relevant to the new team member?\n\nLOA and DUA processes\n\nPoints of contact and steps\n\nGoogle Drive tour\nWebsites and web updates\nMonday.com\nCanva\nROAR partnerships emails\n\n\n\n3.3.2 Partners\n\nPartners overview\n\nSpecific groups/types of partners\nLocation\nNumber of partners\n\nRostering Partnerships 101 documents\n\nCSV partnerships\nCLEVER partnerships\n\nOutreach documents, communication, and recruitment\nProfessional development\n\nPresentations and documentation\nCurrent process and partners\n\nMonday.com tour\n\nPartnerships and administrations\nIRB and DUA\nSprint planning and retro\n\nClever tour and walkthrough\n\nHow to impersonate a student/teacher\nSyncing\n\n\n\n\n3.3.3 Hands-on learning: Shadowing\n\nROAR introduction presentation\nPre-administration planning zoom with a real partner\nPost-administration/scores review with a real partner\nIn-person ROAR administration and support\nIn-person validation",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html#sec-developer-onboarding-topics",
+    "href": "onboarding.html#sec-developer-onboarding-topics",
+    "title": "3  Onboarding",
+    "section": "3.4 ROAR developer onboarding topics",
+    "text": "3.4 ROAR developer onboarding topics\nThe following topics, in addition to the general onboarding topics, will be discussed with new lab members throughout the first few weeks of onboarding. The new lab member will meet with existing developers and team lead, Adam Richie-Halford, to gain a better understanding of the following topics.\nPlease see the ROAR Developer Documentation page for specific topics such as:\n\nGitHub workflows and repositories\nDevelopment environment setup\nCode review processes\nROAR Dashboard architecture\nTesting protocols\nDeployment procedures",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html#sec-researcher-onboarding-topics",
+    "href": "onboarding.html#sec-researcher-onboarding-topics",
+    "title": "3  Onboarding",
+    "section": "3.5 ROAR researcher onboarding topics",
+    "text": "3.5 ROAR researcher onboarding topics\nThe following topics, in addition to the general onboarding topics, will be discussed with new lab members throughout the first few weeks of onboarding. The new lab member will meet with existing researchers and data scientist, Kelly Wentzlof, to gain a better understanding of the following topics.\n\n3.5.1 ROAR data overview\n\nRuns, trials, user data\nData and dashboard history\nCommon data practices\nData Management Plan chapter\nReseach Best Practices chapter\n\n\n\n3.5.2 GitHub\n\nHow does the lab use it?\nImportant policies\nGitHub documentation and how to\n\n\n\n3.5.3 BigQuery\n\nWhat is it?\nHow do I get access to use it?\nHow do I use it to pull data?\nBigQuery documentation\n\n\n\n3.5.4 Schema and data dictionaries\n\n\n3.5.5 ROAR Data Dashboard\n\n\n3.5.6 Data organization\n\nAssessment data\nDemographics data\nSchool-level data\nExternal assessment data\nROAR data organization documentation\n\n\n\n3.5.7 Data cleaning\n\nroarutility R package created by Kelly Wentzlof\nGeneral guidelines\nTrial- vs. run-level\nDemographics\nData security and sharing",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html#key-contacts",
+    "href": "onboarding.html#key-contacts",
+    "title": "3  Onboarding",
+    "section": "3.6 Key contacts",
+    "text": "3.6 Key contacts\n\nPrincipal investigator: Jason Yeatman; jyeatman@stanford.edu\nDirector of Research and Partnerships: Carrie Townley-Flores; ctflores@stanford.edu\nDirector of Technology and Innovation: Adam Richie-Halford; adamrh@stanford.edu\nResearch Data Scientist: Kelly Wentzlof; kelwentz@stanford.edu\nProject/Product Manager: Maya Brunton; brunton@stanford.edu",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "communication-coordination.html",
+    "href": "communication-coordination.html",
+    "title": "4  Communication and Coordination",
+    "section": "",
+    "text": "4.1 In-person meetings\nThe majority of the lab works in-person Tuesday-Thursdays. On those days, it is common to meet in-person rather than online. If you plan to meet in person, please remember to book a meeting room.\nIn addition to one-on-one meetings and personal meetings, the lab hosts the following recurring meetings:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Communication</span>"
+    ]
+  },
+  {
+    "objectID": "communication-coordination.html#sec-in-person-meetings",
+    "href": "communication-coordination.html#sec-in-person-meetings",
+    "title": "4  Communication and Coordination",
+    "section": "",
+    "text": "ROAR All-Hands on Wednesday 12:00-1:00PM PST (if remote, please check meeting invites or slack to find the zoom link).\nLab Meeting on Thursday 12:00-1:00PM PST (if remote, please check meeting invites or slack to find the zoom link).\n\n\n\n\n\n\n\nNote\n\n\n\nFor the above meetings, lunch is provided. Please reach out to the research/partnership coordinators if you have any food allergies/preferences so they can correctly adjust the lunch orders. Please also notify the coordinators, if you plan to miss either meeting at the beginning of the week so they can adjust the order count to reduce food waste.\nAll members of the lab are expected to help with clean up following each of these meetings!",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Communication</span>"
+    ]
+  },
+  {
+    "objectID": "communication-coordination.html#sec-slack",
+    "href": "communication-coordination.html#sec-slack",
+    "title": "4  Communication and Coordination",
+    "section": "4.2 Slack",
+    "text": "4.2 Slack\nSlack is used as the primary form of internal communication.\n\nUse Slack to contact all members of the lab.\nKeep research project-related questions, topics, and updates in respective lab channels to keep the entire team in the loop. This helps to reduce shadow tasks and keeps necessary team members on the same page.\nPlease try to respond to internal messages with team members within 24 hours.\nIf you are unusually busy (e.g., grant writing, publication/conference preparation, midterms, etc.) please notify the respective teams and set your status on slack so the lab has an expectation of slow responses.\nIf you are on vacation or out sick please notify the team leads (Jason Yeatman and/or Carrie Townley-Flores/Adam Richie-Halford) and set your status on slack so people can reduce mentions in direct messages and channels.\nIf a thread is too long or if you have important information for the entire channel to see, please make sure to click “Send to channel”.\nSlack has many helpful integrations with Outlook calendar and other extensions to help automatically set slack statuses based on meetings and other time blocks.\n\n\n\n\n\n\n\nImportant\n\n\n\nIf the channel is public, DO NOT share data via slack. Private channels and private DMs are encrypted and are safe to share data. When possible, share Google Drive links to dataframes rather than CSVs and other data files.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Communication</span>"
+    ]
+  },
+  {
+    "objectID": "communication-coordination.html#sec-email",
+    "href": "communication-coordination.html#sec-email",
+    "title": "4  Communication and Coordination",
+    "section": "4.3 Email",
+    "text": "4.3 Email\nOutlook email is used as the primary form of external communication.\n\nUse Stanford email for messages to external ROAR partners (e.g., school representatives) and lab participants.\nGenerally, strive to respond to ROAR partners within 3-5 business days. As noted above, if you are unusually busy or on vacation please alert the team leads and team and write an Out of Office email with an alternative partnerships contact.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Communication</span>"
+    ]
+  },
+  {
+    "objectID": "communication-coordination.html#sec-online-meetings",
+    "href": "communication-coordination.html#sec-online-meetings",
+    "title": "4  Communication and Coordination",
+    "section": "4.4 Online meetings",
+    "text": "4.4 Online meetings\n\n4.4.1 Booking on Outlook\nOutlook calendar is used as the primary form of online and in-person meeting booking and tracking.\n\nLab members tend to check availability on Slack and then book a meeting based on response.\nIf you plan to be late, please inform the respective meeting attendees on Slack.\nIf you cannot attend, please notify in the meeting invitation RSVP and on Slack.\n\n\n\n4.4.2 Hosting on Zoom\nZoom is used as the primary form of hosting online meetings. Zoom is very user friendly, provides AI integration for note-taking, easily records important meetings, offers easy-to-use screen sharing and other interactive features, and can host a large number of users (internal or external).\n\n\n4.4.3 Hosting on Slack Huddle\nSlack Huddle is used as the primary form of quick internal meetings. Often if lab members need to quickly chat for an off-schedule meeting, they will likely ask to meet on Huddle. It acts as a quick “phone call” that does not require a separate meeting ID or link. However, it does not offer as many helpful meeting features as Zoom.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Communication</span>"
+    ]
+  },
+  {
+    "objectID": "communication-coordination.html#sec-monday-platform",
+    "href": "communication-coordination.html#sec-monday-platform",
+    "title": "4  Communication and Coordination",
+    "section": "4.5 Monday.com",
+    "text": "4.5 Monday.com\nMonday.com is used by the ROAR Partnerships team as their primary partnership coordination and management system. Monday.com is used in the following ways:\n\nOrganize partnerships by name, grade, and location.\nKeep track of current and past ROAR administrations.\nDocument bi-weekly sprint tasks and accomplishments.\nMap large research projects and the samples needed for each.\nTrack DUA processes for each incoming partner.\nTrack IRB updates and progress.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Communication</span>"
+    ]
+  },
+  {
+    "objectID": "communication-coordination.html#sec-github",
+    "href": "communication-coordination.html#sec-github",
+    "title": "4  Communication and Coordination",
+    "section": "4.6 GitHub",
+    "text": "4.6 GitHub\nGitHub is used by ROAR researchers and developers as their primary research collaboration and issues management system. GitHub is used in the following ways:\n\nCollaboration on research projects.\nBacking up and saving code.\nROAR Dashboard issue management/ticketing system.\nROAR developers task management system.\nROAR Technical Manual host.\nROAR Data Dashboard host.\nroarutility R package host.\nROAR Dashboard host.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Communication</span>"
+    ]
+  },
+  {
+    "objectID": "communication-coordination.html#sec-google-drive",
+    "href": "communication-coordination.html#sec-google-drive",
+    "title": "4  Communication and Coordination",
+    "section": "4.7 Google Drive",
+    "text": "4.7 Google Drive\nGoogle Drive is used as the sole form of data storage and shared documents for researchers, staff, and students. We store the following on Stanford’s secure Google Drives:\n\nMeeting notes (internal and external)\nSchool, district, student data\nIn-lab participant data\nPresentations and feedback notes\nProject management documentation\nTesting materials and documentation\nValidation data\n\nData access is provided in line with the principle of least privilege. If you need access to a specific folder or document, please contact Carrie Townley-Flores or Jason Yeatman.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Communication</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html",
+    "href": "roles-responsibilities.html",
+    "title": "5  Roles and Responsibilities",
+    "section": "",
+    "text": "5.1 Principal Investigator (PI)\nThe lab is headed by Jason Yeatman, Associate Professor in the Graduate School of Education and Department of Psychology at Stanford University and the Division of Developmental and Behavioral Pediatrics at Stanford University School of Medicine.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-principal-investigator",
+    "href": "roles-responsibilities.html#sec-principal-investigator",
+    "title": "5  Roles and Responsibilities",
+    "section": "",
+    "text": "5.1.1 Responsibilities include:\nScientific leadership:\n\nSet the overall research direction and strategy for the lab\nSecure funding to support lab operations and personnel\nEnsure research meets the highest standards of scientific integrity and ethics\nMentor and support the career development of all lab members\nFoster collaborations within Stanford and with external partners\nRepresent the lab in the broader scientific and educational communities\n\nMentorship and supervision:\n\nProvide guidance on research projects and career development\nMeet regularly with team leads, postdoctoral scholars, and graduate students\nReview and provide feedback on manuscripts, presentations, and grant applications\nSupport professional development opportunities\nAdvocate for lab members’ careers and achievements\n\nLab management:\n\nEnsure the lab maintains a positive, inclusive, and productive culture\nEnsure compliance with university, funding agency, and ethical requirements\nApprove major decisions (publications, partnerships, conference attendance, etc.)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-director-research-partnerships",
+    "href": "roles-responsibilities.html#sec-director-research-partnerships",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.2 Director of Research and Partnerships",
+    "text": "5.2 Director of Research and Partnerships\nCarrie Townley-Flores is the director and team lead for the ROAR research and partnerships teams. Carrie oversees the graduate student researchers, data scientists, contracted researchers, and the partnerships coordinators. Carrie also teams with Jason to oversee the postdoctoral scholars.\n\n5.2.1 Responsibilities include:\nTeam leadership:\n\nSupervise and mentor the partnerships and researchers teams\nManage team workflows and capacity\nBridge partnership, research, and developer activities\nMeet with researchers and partnerships coordinators regularly\nMeet with team leads and PI regularly\nFoster professional and academic development for all staff and students in the lab\nCommunicate partnership and research needs and priorities to PI\n\nPartnership development and management:\n\nDevelop and maintain relationships with schools, districts, and educational organizations\nOversee ROAR implementation across diverse contexts\nEnsure high-quality support and professional development for all partners\nCoordinate with research team to align partnerships with research questions\nHost and track sprint progress across the partnerships coordinators\n\nResearch coordination:\n\nEnsure data collection is meeting the needs of researcher goals and standards\nApply for dyslexia screening approvals across the country\nContribute intellectual knowledge on research projects and grant writing\nHelp track project management progress and updates\nCoordinate with the developer team to align research goals with assessment/app development\n\nAdministrative:\n\nConduct onboarding and offboarding for partnerships team and researchers\nEnsure data collection, storage, and usage follow IRB and DUA protocol",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-director-tech-innovation",
+    "href": "roles-responsibilities.html#sec-director-tech-innovation",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.3 Director of Technology and Innovation",
+    "text": "5.3 Director of Technology and Innovation\nAdam Richie-Halford is the director and team lead for the ROAR developer team. Adam overseas the software developers, engineers, and quality assurance testers.\n\n5.3.1 Responsibilities include:\nTechnical leadership:\n\nOversee ROAR platform development and maintenance\nSet technical strategy and architecture decisions\nEnsure platform reliability, security, and scalability\nGuide innovation in assessment technology\n\nTeam leadership:\n\nSupervise and mentor the development team\nCoordinate development priorities and timelines\nConduct code reviews and ensure code quality\nManage developer workflows and capacity\n\nResearch and development:\n\nBridge development and research activities\nContribute to research projects requiring technical expertise\nDevelop new features and assessments based on research findings\nEnsure technical implementations are scientifically sound\n\nAdministrative:\n\nConduct onboarding and off-boarding for development team\nManage technical infrastructure and resources\nCoordinate with partnerships team on platform needs",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-data-scientist",
+    "href": "roles-responsibilities.html#sec-data-scientist",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.4 Research Data Scientist",
+    "text": "5.4 Research Data Scientist\nKelly Wentzlof is the current research data scientist for the Brain Development and Education Lab.\n\n5.4.1 Responsibilities include:\nResearch support:\n\nConduct statistical analyses for research projects\nDevelop and maintain data analysis pipelines\nCreate visualizations and reports for research and partnerships\nSupport validation studies and psychometric analyses\n\nData management:\n\nMaintain data quality and integrity\nDevelop and document data cleaning procedures\nCreate and maintain data dictionaries\nSupport researchers in accessing and using lab data\n\nTechnical contributions:\n\nDevelop and maintain the roarutility R package\nCreate and maintain the ROAR Data Dashboard\nDocument analytical methods and code\nCollaborate with developers on data-related features\nKeep the technical manual up-to-date with new analyses and data\nDevelop norming procedures across the various ROAR assessments\n\nMentorship:\n\nSupport graduate students and researchers with statistical and computational questions\nProvide training on R, data analysis, and reproducible research practices\nReview analysis code and provide feedback",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-project-product-manager",
+    "href": "roles-responsibilities.html#sec-project-product-manager",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.5 Project/Product Manager",
+    "text": "5.5 Project/Product Manager\nMaya Brunton is the current project/product manager for the Brain Development and Education Lab.\n\n5.5.1 Responsibilities include:\nUser experience:\n\nConduct UX research with educators and administrators\nGather and synthesize user feedback\nTranslate user needs into development requirements\nEnsure ROAR tools meet user needs\n\nPartnerships leadership:\n\nLead ROAR introduction meetings with new partners\nServe as first point of contact for partnership inquiries\nSupport and guide partnerships coordinators in their work\nHelp manage partnerships coordinator workflows and capacity\nProvide backup support for partnerships team as needed\nBridge communication between partners and development team\n\nAdministrative support:\n\nAssist with partnerships onboarding and training\nSupport documentation of partnership processes\nHelp coordinate professional development sessions\nManage partnership-related resources, materials, and presentations",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-partnerships-coordinators",
+    "href": "roles-responsibilities.html#sec-partnerships-coordinators",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.6 Partnerships and Research Coordinators",
+    "text": "5.6 Partnerships and Research Coordinators\nCurrent coordinators include: Sarahi Muñoz, May Fahrenthold, Aditi Sen\n\n5.6.1 Responsibilities include:\nPartner support:\n\nServe as primary contact for assigned school and district partners\nProvide technical support for ROAR administrations\nConduct professional development sessions\nBuild and maintain positive relationships with educators\n\nAdministration coordination:\n\nSchedule and coordinate ROAR administrations\nEnsure data collection meets quality standards\nTroubleshoot technical issues during administrations\nMonitor assessment completion and data quality\n\nDocumentation:\n\nDocument partner communications and commitments\nMaintain partnership records in Monday.com\nTrack IRB and DUA processes\nCreate handoff documentation for partner transitions\n\nResearch support:\n\nCoordinate data collection for research projects\nRecruit partners for validation studies and pilots\nEnsure research protocols are followed\nCommunicate research findings to partners appropriately\n\nCollaboration:\n\nParticipate in sprint planning and team meetings\nCoordinate with developers on platform issues\nShare insights from partners to inform development\nSupport other partnerships team members",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-developers",
+    "href": "roles-responsibilities.html#sec-developers",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.7 Software Developers/Engineers",
+    "text": "5.7 Software Developers/Engineers\nCurrent developers include: Elijah Kelly, Emily Arteaga Garcia, Lucas Song, Kyle Montville, Amy Yeung\n\n5.7.1 Responsibilities include:\nDevelopment:\n\nWrite clean, well-documented, tested code\nImplement new features and fix bugs\nFollow established coding standards and practices\nParticipate in code reviews\nMaintain and improve existing codebase\n\nCollaboration:\n\nWork with product manager on feature planning\nCoordinate with partnerships team on user needs\nCollaborate with researchers on assessment development\nParticipate in sprint planning and retrospectives\nCommunicate progress and blockers clearly\n\nTechnical excellence:\n\nWrite comprehensive tests for new code\nDocument code and technical decisions\nStay current with relevant technologies\nContribute to technical architecture discussions\nEnsure platform security and performance\n\nUser focus:\n\nConsider user experience in implementation\nTest features from user perspective\nRespond to bug reports and user feedback\nSupport partners when technical issues arise",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-postdocs",
+    "href": "roles-responsibilities.html#sec-postdocs",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.8 Postdoctoral Scholars",
+    "text": "5.8 Postdoctoral Scholars\nCurrent postdoctoral scholars include: Maha Ramamurthy, Maya Yablonski, Tongtong Zou, Youngsun Moon, Ethan Roy\n\n5.8.1 Responsibilities include:\nResearch:\n\nDesign and conduct research projects\nAnalyze data using appropriate methods\nWrite manuscripts and present findings\nStay current with relevant literature\nEnsure research meets ethical and scientific standards\n\nCollaboration:\n\nCollaborate with other lab members\nContribute to lab meetings and discussions\nShare expertise and support other researchers\nCoordinate with partnerships team for data collection\nWork with developers on technical aspects of research\n\nMentorship:\n\nMentor junior researchers and students (as appropriate)\nShare knowledge and skills with lab members\nProvide feedback on others’ work\nContribute to lab intellectual community\n\nProfessional development:\n\nDevelop research skills and expertise\nBuild professional network\nSeek out learning opportunities\nPlan for career advancement\n\nCommunication:\n\nPresent work at lab meetings regularly\nShare progress and challenges proactively\nSeek feedback early and often\nCommunicate timeline challenges in advance",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-grad-students",
+    "href": "roles-responsibilities.html#sec-grad-students",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.9 Graduate Students",
+    "text": "5.9 Graduate Students\nCurrent graduate students include: Jamie Mitchell, Howard Chui, Kruttika Bhat, Tonya Murray, Mia Jimenez\n\n5.9.1 Responsibilities include:\nResearch:\n\nDevelop and execute dissertation/thesis research\nTake ownership of research projects\nAnalyze data and write papers\nPresent work at lab meetings and conferences\n\nCoursework and requirements:\n\nComplete degree requirements on schedule\nMaintain good academic standing\nBalance coursework and research effectively\nMeet departmental milestones\n\nProfessional development:\n\nDevelop skills needed for your career goals\nBuild professional network\nSeek out opportunities (workshops, conferences, etc.)\n\nCommunication:\n\nMeet regularly with advisor (Jason or co-advisor)\nShare progress and challenges proactively\nSeek feedback early and often\nCommunicate about timeline and milestones",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-undergrads",
+    "href": "roles-responsibilities.html#sec-undergrads",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.10 Undergraduate Students and Research Assistants",
+    "text": "5.10 Undergraduate Students and Research Assistants\n\n5.10.1 Responsibilities include:\nResearch support:\n\nComplete assigned tasks thoroughly and on time\nFollow protocols and procedures carefully\nMaintain accurate records\nAsk questions when unsure\n\nLearning:\n\nTake initiative in learning new skills\nSeek out learning opportunities\nRead relevant literature\nAttend lab meetings when possible\nAsk questions and engage with research\n\nCommunication:\n\nCommunicate clearly about availability and schedule\nReport progress regularly\nAsk for help when needed\nRespond to messages promptly\nNotify supervisor if you can’t meet a commitment\n\nProfessionalism:\n\nBe reliable and punctual\nMaintain confidentiality\nFollow ethical guidelines\nRepresent the lab professionally",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "roles-responsibilities.html#sec-shared-responsibilities",
+    "href": "roles-responsibilities.html#sec-shared-responsibilities",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.11 Shared responsibilities (all lab members)",
+    "text": "5.11 Shared responsibilities (all lab members)\nRegardless of your specific role, all lab members share these responsibilities:\nLab citizenship:\n\nAttend ROAR All-Hands (Wednesday 12-1 PM) and Lab Meeting (Thursday 12-1 PM)\nHelp with cleanup after meetings where lunch is provided\nContribute to a positive, collaborative lab culture\nSupport other lab members\nShare knowledge and expertise\n\nCommunication:\n\nRespond to messages within expected timeframes (see Communication and Coordination chapter)\nCommunicate proactively about challenges, delays, or conflicts\nBe respectful and professional in all communications\n\nEthics and integrity:\n\nMaintain confidentiality of participant data\nFollow IRB protocols\nConduct research with integrity\nReport concerns about ethics or research misconduct to PI\nComplete required training and stay current\n\nRespect and inclusion:\n\nTreat all lab members with respect\nValue diverse perspectives and approaches\nContribute to an inclusive environment\nSpeak up if you witness discrimination or harassment\nSupport the lab’s DEI commitments\n\nProfessionalism:\n\nMeet commitments and deadlines\nAsk for help when needed\nTake ownership of your responsibilities\nRepresent the lab positively\nAcknowledge others’ contributions",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html",
+    "href": "research-best-practices.html",
+    "title": "6  Research Best Practices",
+    "section": "",
+    "text": "6.1 Principles of research integrity\nCore principles:\nScientific misconduct:\nThe lab has zero tolerance for research misconduct, including:\nIf you observe or suspect research misconduct, report it immediately to Jason Yeatman.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#research-integrity",
+    "href": "research-best-practices.html#research-integrity",
+    "title": "6  Research Best Practices",
+    "section": "",
+    "text": "Honesty: Report data and findings truthfully\nAccuracy: Strive for accuracy in all aspects of research\nTransparency: Be open about methods, data, and limitations\nReproducibility: Conduct research in ways that others can verify and build upon\nRespect: Respect participants, collaborators, and the scientific community\n\n\n\n\nFabrication of data or results\nFalsification or manipulation of data\nPlagiarism\nMisrepresentation of contributions or authorship",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#sec-data-security",
+    "href": "research-best-practices.html#sec-data-security",
+    "title": "6  Research Best Practices",
+    "section": "6.2 Data security and confidentiality",
+    "text": "6.2 Data security and confidentiality\nProtecting participant data:\nOur work involves sensitive data from children, schools, and families. Protecting this data is both an ethical obligation and a legal requirement.\nRules for handling sensitive data:\n\nNever email files containing personally identifiable information (PII)\nNever store participant data on personal devices\nNever share data via public Slack channels (use private channels or DMs), better yet only share secure Google Drive links to the data\nAlways use secure, Stanford-approved storage (Google Drive, BigQuery)\nAlways check IRB and DUA protocols before sharing data, even within the lab\nAlways de-identify data when possible\nAlways use minimum necessary data (only access what you need)\n\nWhat counts as identifiable information:\n\nNames, addresses, phone numbers, email addresses\nStudent/teacher ID numbers\nSchool names (in some cases)\nDates of birth\nNeuroimaging data (can reconstruct facial features)\nAssessment scores linked to individuals\nSmall-cell data that could identify individuals\n\nWhen in doubt, ask. It’s better to check than to inadvertently violate confidentiality.\nData sharing via Google Drive:\n\nShare links to files/folders rather than downloading and re-uploading\nUse “restricted” sharing settings (not “anyone with link”)\nGrant access only to people who need it and have IRB and DUA approval\nRemove access when team members leave the lab and/or no longer need data (see Chapter 8 for more information)\n\nWorking remotely:\n\nUse Stanford VPN when accessing sensitive data remotely\nEnsure your home wifi is password-protected\nDon’t work with sensitive data in public spaces where screens can be viewed\nLock your computer when stepping away\nIf you plan to work outside of the United States, please consult with your team lead and Jason Yeatman to discuss data security and procedures",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#sec-dua",
+    "href": "research-best-practices.html#sec-dua",
+    "title": "6  Research Best Practices",
+    "section": "6.3 External data and Data Use Agreements (DUAs)",
+    "text": "6.3 External data and Data Use Agreements (DUAs)\nWorking with school/district data:\n\nEnsure a Data Use Agreement (DUA) is in place before receiving data\nStore data according to DUA specifications\nUse data only for approved purposes\nShare data only with approved individuals\nDelete or return data according to DUA terms\nReport any data breaches immediately\n\nDUA tracking:\n\nPartnerships team tracks DUAs in Monday.com\nEnsure you are listed on DUA before accessing partner and student data\nUnderstand restrictions on data use and sharing\n\nCombining ROAR data with external data:\n\nEnsure IRB and DUA approval for data linkage\nMaintain appropriate security for combined datasets\nDocument linkage procedures\nBe especially careful with identifiable linked data",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#sec-data-management",
+    "href": "research-best-practices.html#sec-data-management",
+    "title": "6  Research Best Practices",
+    "section": "6.4 Data management and organization",
+    "text": "6.4 Data management and organization\nReview Chapter 7 for more detailed information on data management planning\nGeneral principles:\n\nAll research data must be stored on Stanford-approved systems (Google Drive, BigQuery)\nData should never be stored solely on personal devices or non-Stanford cloud services\nMaintain organized, well-documented files that others can understand\nUse clear, consistent naming conventions\nDocument your work as you go, not retrospectively\n\nGoogle Drive organization:\nGoogle Drive is the primary storage location for:\n\nMeeting notes (internal and external)\nSchool, district, and student research data\nIn-lab participant data\nPresentations and feedback notes\nProject management documentation\nTesting materials and documentation\nValidation data\n\nBest practices:\n\nSave all work to appropriate shared drives (not personal drives)\nUse descriptive folder structures\nInclude README files in project folders explaining organization\nNever duplicate large datasets\nClean up and delete unnecessary or duplicate files regularly\n\nAccess management:\n\nData access is provided in line with the principle of least privilege\nIf you need access to specific folders or datasets, contact Carrie Townley-Flores or Jason Yeatman",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#sec-file-naming",
+    "href": "research-best-practices.html#sec-file-naming",
+    "title": "6  Research Best Practices",
+    "section": "6.5 File naming conventions",
+    "text": "6.5 File naming conventions\nConsistent file naming makes it easier for everyone to find and understand files.\nGeneral format:\nprojectname_filedescription_version_YYYY-MM-DD.ext\nExamples:\nvalidation_analysis_v1_2025-01-22.Rmd\npartnermeeting_notes_2026-03-01.docx\nword_runs_2024-12-10.csv\nGuidelines:\n\nUse dates in YYYY-MM-DD format to inform when data was pulled/cleaned\nUse underscores or hyphens instead of spaces\nBe descriptive but concise\nInclude version numbers for documents that go through multiple drafts\nUse meaningful abbreviations consistently\nAvoid special characters (except _ and -)",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#sec-data-cleaning-processing",
+    "href": "research-best-practices.html#sec-data-cleaning-processing",
+    "title": "6  Research Best Practices",
+    "section": "6.6 Data cleaning and processing",
+    "text": "6.6 Data cleaning and processing\nGeneral principles:\n\nNever modify raw data files—always create processed versions\nDocument all cleaning steps in code\nSave intermediate processed datasets with clear labels and dates\nUse roarutility R package (by Kelly Wentzlof) to help clean and process ROAR data\n\nData cleaning workflow:\n\nRaw data: Original, unmodified data\nCleaning code: Documented code that processes raw data\nCleaned data: Processed data ready for analysis\nAnalysis code: Code that analyzes cleaned data\nResults: Outputs from analyses\n\nDocumentation:\nFor each dataset, maintain:\n\nData dictionary: Description of all variables\nCodebook: Information about data querying, processing, cleaning\nREADME: Overview and instructions for using the data\n\nCommon data cleaning tasks:\n\nRemoving duplicates\nHandling missing data\nRecoding variables\nCreating derived variables\nFiltering to relevant subset\nMerging datasets\n\nDocument decisions about:\n\nHow missing data is handled\nWhich observations are excluded and why\nHow variables are recoded or computed\nAny assumptions made in processing",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#sec-data-analysis-code",
+    "href": "research-best-practices.html#sec-data-analysis-code",
+    "title": "6  Research Best Practices",
+    "section": "6.7 Data analysis and code",
+    "text": "6.7 Data analysis and code\nReproducibility:\nAll analyses should be reproducible—someone else should be able to run your code and get the same results.\nRequirements:\n\nFill out a project management document for any new projects/analyses (see Section 7.4.1 for more information and a project management template)\nUse code (R, Python, etc.) rather than point-and-click software when possible\nWrite clear, well-commented code (good rule of thumb: a comment for every couple lines of code)\nUse version control (GitHub) for analysis code (backs up code and allows for easy collaboration)\nUse relative file paths (not absolute paths specific to your computer)\nSet random seeds for analyses involving randomization\n\nCode documentation:\n\nInclude a README explaining what each script does within the project repository\nComment your code explaining why, not just what\nUse meaningful variable names\nBreak complex code into smaller, well-named functions and chunks\nInclude information about software/package versions used\n\nUsing R:\n\nUse the roarutility R package (by Kelly Wentzlof) for common ROAR data processing tasks\nFollow tidyverse style guidelines\nUse RStudio projects, markdowns, and quarto documents for organization",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#sec-version-control-git",
+    "href": "research-best-practices.html#sec-version-control-git",
+    "title": "6  Research Best Practices",
+    "section": "6.8 Version control with GitHub",
+    "text": "6.8 Version control with GitHub\nIn this lab, GitHub is used for:\n\nBacking up and versioning code\nCollaborating on analysis code\nTracking issues and tasks (for developers)\nHosting documentation (ROAR Technical Manual, ROAR docs) and software (ROAR Data Dashboard, roarutility R package)\nSharing code with collaborators\n\nBest practices:\n\nCommit early and often\nWrite clear, descriptive commit messages\nDon’t commit any data\nUse .gitignore to exclude data files and outputs\nCreate branches for new features or analyses\nAlways use pull requests for code review prior to merging into main branch\nKeep repositories organized and well-documented\n\nFor researchers:\n\nSee GitHub walk-through in ROAR Researcher Documentation\nCreate a repository for each major project or paper\nInclude a README with project description and script-level descriptions\nMake code public upon publication (or earlier if appropriate) after consulting with Jason Yeatman\n\nFor developers:\n\nSee ROAR Developer Documentation for detailed Git workflows and standards",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#sec-data-retention-archival",
+    "href": "research-best-practices.html#sec-data-retention-archival",
+    "title": "6  Research Best Practices",
+    "section": "6.9 Data retention and archival",
+    "text": "6.9 Data retention and archival\nDuring active research:\n\nKeep all data and code organized and accessible\nBack up important files and scripts regularly\nMaintain clear documentation\n\nAfter publication:\n\nArchive data and code for published papers\nMake code publicly available (GitHub)\nDiscuss data sharing plans with Jason Yeatman\n\nWhen leaving the lab:\n\nEnsure all data is on shared drives, not personal drives\nDocument where everything is located\nTransfer ownership of files/folders as appropriate\nSee Chapter 8 for more details",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#sec-computational-resources",
+    "href": "research-best-practices.html#sec-computational-resources",
+    "title": "6  Research Best Practices",
+    "section": "6.10 Computational resources",
+    "text": "6.10 Computational resources\nAvailable resources:\n\nPersonal computers (laptop, monitor, keyboard, etc.)\nStanford Google Workspace (Drive, Docs, Sheets, etc.)\nBigQuery for large-scale data storage and retrieval\nGitHub for version control\nStanford compute clusters (for intensive analyses)\nSoftware licenses through Stanford\n\nSoftware:\nCommonly used software in the lab:\n\nR and RStudio (statistical analysis)\nQuarto (technical manual and documentation)\nPython (development and analysis)\nGit and GitHub (version control)\nSlack, Zoom (communication)\nMicrosoft Outlook (meeting tracker, external communication)\nCanva (graphics and presentations)\nMonday.com (partnerships tracker)",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#sec-research-contacts",
+    "href": "research-best-practices.html#sec-research-contacts",
+    "title": "6  Research Best Practices",
+    "section": "6.11 Getting help",
+    "text": "6.11 Getting help\nData and analysis questions:\n\nKelly Wentzlof (R, statistics, ROAR data)\nJason Yeatman\nCarrie Townley-Flores (R, statistics, organizational data)\nAdam Richie-Halford (VS Code, ROAR development, technical infrastructure)\nLab meetings (for broader input)\n\nData management questions:\n\nKelly Wentzlof (ROAR data organization)\nCarrie Townley-Flores (partnerships data, DUAs)\nAdam Richie-Halford (ROAR BigQuery, development)\nKyle Montville (ROAR BigQuery)\n\nIRB and ethics questions:\n\nCarrie Townley-Flores (partnerships team leads)\nJason Yeatman\nSarahi Muñoz and May Fahrenthold (IRB coordinators)\nStanford IRB office\n\nComputing resources:\n\nKelly Wentzlof (data science)\nAdam Richie-Halford (development)\nJason Yeatman (major resource needs, cluster access)\nStanford IT\n\nWhen in doubt:\n\nAsk! It’s better to ask than to make a mistake with data\nDocument your questions and the answers\nShare solutions with the lab (e.g., in Slack)",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html",
+    "href": "data-management-plan.html",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "",
+    "text": "7.1 Overview of DMPs\nData Management Plans (DMPs) outline how research data will be collected, stored, documented, secured, shared, and preserved throughout a project’s lifecycle. Most federal funders (IES, NSF, NIH) require DMPs as part of grant proposals, and strong data management practices benefit all research projects regardless of funding requirements.\nWhy DMPs matter:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-overview",
+    "href": "data-management-plan.html#sec-dmp-overview",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "",
+    "text": "Improve data quality and reproducibility\nIncrease research transparency\nReduce institutional and legal risk\nSupport future data reuse within and beyond the lab\nDemonstrate responsible stewardship to funders and the research community\nAlign with federal open-data mandates (e.g., OSTP 2022)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-requirement",
+    "href": "data-management-plan.html#sec-dmp-requirement",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.2 When DMPs are required",
+    "text": "7.2 When DMPs are required\nDMPs are typically required for:\n\nFederal grant proposals (IES, NSF, NIH, and other agencies)\nSome foundation and private funder grants\nLarge-scale data collection projects\nProjects involving sensitive education data subject to FERPA\nMulti-site or collaborative research projects",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-description-of-data",
+    "href": "data-management-plan.html#sec-dmp-description-of-data",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.3 Description of data to be shared",
+    "text": "7.3 Description of data to be shared\n\n7.3.1 Source of data\nROAR data originate from multiple sources:\nPrimary ROAR assessment data:\n\nStudent responses to ROAR assessments (foundational reading, comprehension, mathematics, executive function, and Spanish assessments) collected through the ROAR Dashboard web application\nData are generated when students complete assessments administered by educators in K-12 schools, districts, and tutoring/after-school centers across the United States\nROAR platform automatically captures response data, timing information, and performance metrics\n\nAdministrative and demographic data:\n\nSchool and district information obtained through Data Use Agreements with participating educational partners\nStudent demographic data (grade level, English Learner status, special education status, etc.) provided by schools/districts\nRoster data imported via CLEVER/ClassLink integration or CSV upload\n\nValidation study data:\n\nStandardized assessment data (Woodcock-Johnson, TOWRE, CTOPP, Read-Aloud assessments) collected by trained research personnel in-person in schools or in the lab\nSurvey data from educators and administrators\nQualitative data from professional development sessions and user experience research\n\nSchool and district context data:\n\nPublicly available data from NCES (Common Core of Data, EdFacts)\nState assessment and accountability data where publicly available\nGeographic and demographic context variables\n\n\n\n7.3.2 Data cleaning and curation\nQuality control procedures:\nAll ROAR assessment data undergo systematic quality control:\n\nValidation of response formats and timing data upon collection\nFlagging of implausible response patterns (e.g., extremely rapid responding, random patterns)\nRemoval of test administrations conducted for demonstration or training purposes\nDetection and removal of duplicate records\n\nData processing pipeline:\nRaw data processing follows a documented, version-controlled workflow:\n\nExtraction: Raw trial-level data extracted from BigQuery database\nValidation: Checks for data completeness, format consistency, and logical integrity\nCleaning: Implementation of exclusion criteria for invalid administrations and assessment scores\nAggregation: Merging of run-level, student-level summary, and trial-level data where necessary\nDocumentation: Generation of data dictionaries, processing logs, and quality reports\nVersioning: All processing code maintained in GitHub\n\nAll cleaning and processing is implemented through reproducible R and Python code pipelines documented in GitHub repositories. The roarutility R package standardizes common data processing tasks.\nCuration workflow:\nData curation responsibilities:\n\nResearch Data Scientist maintains data processing pipelines, generates cleaned datasets, creates documentation\nPartnerships Team validates school/district roster data, manages DUAs, coordinates data transfers\nDevelopment Team ensures data quality at point of collection, implements validation rules in ROAR platform\n\n\n\n7.3.3 Level of aggregation\nROAR data can be shared at multiple levels of aggregation depending on sensitivity, consent, and Data Use Agreement restrictions:\nFor public sharing (when permitted by DUAs and IRB):\n\nDeidentified assessment-level aggregates and models (mean scores, median completion rates, demographic distributions)\n\nFor controlled-access sharing (requires data use agreement):\n\nDeidentified student-level data (student ID replaced with participant ID, direct identifiers removed)\n\nNot shareable:\n\nRaw data containing PII (names, birthdates, email addresses, student IDs from districts)\nData from partners whose DUAs prohibit any external sharing\nSmall-cell data where re-identification risk cannot be adequately mitigated\n\nTypical sharing approach:\nFor most research projects using ROAR data:\n\nDeidentified student-level analytic files for districts/schools with DUA permission\nSchool-level summary files for broader geographic samples\nSynthetic datasets that maintain statistical properties when real data cannot be shared\nComplete documentation, codebooks, and analysis code regardless of data sharing constraints\n\n\n\n7.3.4 Raw vs. clean data\nRaw data (not shareable):\nRaw ROAR data stored in BigQuery contains:\n\nTrial-level and run-level response data with timestamps\nStudent identifiers from source systems (district student IDs)\nIP addresses and session information\n\nRaw data are retained on secure Stanford systems (BigQuery) for the duration required by DUAs and IRB protocols.\nClean, shareable data:\nDe-identified analytic datasets prepared for sharing include:\n\nTrial-level or run-level assessment response data with participant IDs replacing all direct identifiers\nDerived performance metrics (accuracy, reaction time, theta scores, assessment scores)\nDe-identified or generalized demographic variables (grade level, EL status, IEP status)\nGeneralized geographic information (specific school/district names replaced with organization-level IDs)\n\nAll shareable data files are accompanied by:\n\nComprehensive data dictionaries\nCodebooks describing variable derivation and coding\nProcessing scripts showing transformation from raw to analytic data\nREADME files with dataset overview and usage notes\n\n\n\n7.3.5 Number of files and expected rows\nCurrent ROAR data scale (as of 2026):\nROAR has been administered to over 130,000 students across 37+ states. The database contains:\n\nApproximately 5-10 million trial-level response records annually\n130,000-170,000 student-year records\n~2,500-3,000 school-year records\nMultiple assessment types per student (Letter, Word, Sentence, etc.)\n\nTypical research project data structure:\nA research project using ROAR data might produce:\n\n1 trial-level dataset per assessment type (5 ROAR assessments = 5 trial datasets)\n1 run-level summary dataset combining assessments\n1 school-level aggregate dataset\n1 demographic/roster dataset\nMultiple validation study datasets (external assessments, surveys)\n\nLongitudinal studies:\nMulti-year studies generate data files for each assessment administration and school year:\n\n3 administrations × 4 assessment types × 2 school years = 24 trial-level files (can condense this to just 1 large dataset)\nPlus corresponding run-level, demographics, and aggregated files\n\n\n\n7.3.6 Format of data to be shared\nPrimary format: Non-proprietary CSV\nAll shareable ROAR data will be provided as CSV (comma-separated values) files to ensure:\n\nMachine-readability across all statistical platforms\nLong-term accessibility without proprietary software\nEase of use for diverse research teams\n\nCode sharing:\nAll analysis code will be shared via GitHub repositories:\n\nR scripts and R Markdown documents\nPython scripts and Jupyter notebooks",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-documentation",
+    "href": "data-management-plan.html#sec-dmp-documentation",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.4 Documentation to be shared",
+    "text": "7.4 Documentation to be shared\n\n7.4.1 Project management document\nEach project and major analysis should have a project management document that organizes each stage of the project. The project management document should including the following sections:\nProject purpose and organization:\n\nTitle\nObjectives\nStrategic alignment with ROAR\nDependencies\nScope\nRoles and responsibilities\nCommunication plan\nProject milestones and tracking\n\nDiscover\n\nProblem statement\nDocumentation of user feedback/data\nRationale\n\nDefine\n\nUser stories\nIndustry comparison\nFunctional requirements\nNon-functional requirements\nExternal interface requirements\nMetrics for determining success\nD-Team confirmation\n\nDesign\n\nRelevant constraints\nUser flows\nComponents\nAccessibility\nEdge cases and error handling\nWireframes\nFunctionality\nVisual design\nSuccess metric monitoring plan\n\nBuild and validate\n\nStaging and QA\n\nAdditional information\n\nTask list\nRole descriptions\nCommunication norms\nRunning notes\n\nSee the ROAR Project Management Template for more information on each stage of documentation.\n\n\n7.4.2 Dataset-level documentation\nFile inventory and descriptions:\nFor each dataset in the collection:\n\nFile name and format\nBrief description of contents\nNumber of observations (rows) and variables (columns)\nRelationship to other files in the collection\nVersion number and date created\nFile size\n\nUnit of analysis:\n\nPrimary unit (e.g., run, trial, school-year)\nTime period covered\nGeographic scope\nGrade levels included\n\nData structure:\n\nWide vs. long format\nNested or hierarchical structure\nRepeated measures structure for longitudinal data\n\nLinkage information:\nFor datasets designed to be linked:\n\nLinkage variables (e.g., assessment_pid, study_school_id, assessment_date)\nLinking instructions (which variables to merge on, merge type)\nExpected match rates and handling of non-matches\n\nProcessing notes and provenance:\n\nTransformations applied (aggregation, recoding, derivation)\nExclusions applied and reasons (e.g., “Removed 127 test administrations flagged as practice”)\nData quality issues discovered and resolution\nVersion history (if dataset has been updated)\n\nMissing data documentation:\n\nPatterns of missingness\nReasons for missing data (skipped items, partial completion, demographic data not available from district)\nMissing data codes used (-999, NA, blank, etc.)\nImplications for analysis\n\n\n\n7.4.3 Variable-level documentation (data dictionary)\nRequired Information for Each Variable:\n\n\n\n\n\n\n\n\nElement\nDescription\nExample\n\n\n\n\nVariable Name\nExact name as it appears in dataset\nuser_grade_at_run\n\n\nVariable Label\nBrief descriptive label\n“Student’s grade level at time of ROAR assessment”\n\n\nDescription\nDetailed explanation of what the variable represents\n“Grade level reported by school at time of assessment administration.”\n\n\nData Type\nNumeric, character, date, factor/categorical\nCategorical (string)\n\n\nValid Range\nAllowable values\nKindergarten, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\n\n\nUnits\nMeasurement unit if applicable\nGrade (Kindergarten=Kindergarten, 1=Grade 1, etc.)\n\n\nCoding/Values\nFor categorical variables, all codes and meanings\n1=Grade 1, … 12=Grade 12\n\n\nMissing Codes\nCodes used to represent missing data\n-999 = Not reported\n\n\nDerivation\nHow the variable was created\n“Reported by school district”\n\n\nSource\nOriginal source of the data\nSchool district roster data\n\n\nNotes\nSpecial considerations or warnings\n“Grade level may not reflect student’s instructional level for students receiving special education services”",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-data-standards",
+    "href": "data-management-plan.html#sec-dmp-data-standards",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.5 Data standards",
+    "text": "7.5 Data standards\n\n7.5.1 Metadata standards\nROAR data and documentation will conform to recognized metadata standards to ensure discoverability, interoperability, and long-term usability.\nROAR-specific metadata:\nAll ROAR datasets will include structured metadata describing:\n\nAssessment type(s) included (Letter, Word, Sentence, Phoneme, etc.)\nGrade levels covered (K-12)\nTime period (academic years, specific dates)\nSample characteristics (number of students, schools, districts)\n\n\n\n7.5.2 Content and encoding standards\nDate and time formats:\nAll dates and times will follow ISO 8601 standard:\n\nDates: YYYY-MM-DD (e.g., 2024-03-15)\nDate-times: YYYY-MM-DD HH:MM:SS in UTC or with timezone offset\nAcademic years: YYYY-YY format (e.g., 2023-24)\n\nMissing data codes:\nStandardized missing data representation:\n\nNA for missing in R-formatted files\n-999 only when software requires numeric codes for missing\nExplicit documentation of all missing codes used\n\nStandardized file naming following best practices:\n\nFormat: project_description_version_YYYY-MM-DD.ext\nExample: roar_word_student_level_v1_2022-03-12.csv\nNo spaces (use underscores)\nLowercase preferred\nVersion numbers for datasets that may be updated\n\n\n\n7.5.3 Data structure standards\nTiny data principles:\nROAR datasets follow tidy data principles (Wickham, 2014):\n\nEach variable forms a column\nEach observation forms a row\nEach type of observational unit forms a table\n\nHierarchical data structure:\nROAR data have natural hierarchy documented in README files:\nDatasets are provided at appropriate levels:\n\nTrial-level: One row per item response\nRun-level: One row per assessment administration\nStudent-level: One row per student (aggregating across administrations)\nSchool-level: One row per school (aggregating across students)\nDistrict-level: One row per district (aggregating across schools)\n\nLongitudinal data structure:\nFor longitudinal datasets, we provide both:\n\nLong format: One row per student-administration observation\nWide format: One row per student with administration-varying variables in separate columns\n\nDocumentation specifies structure and provides code for converting between formats.\n\n\n7.5.4 Code and software standards\nVersion control:\nAll analysis code is maintained in GitHub with:\n\nSemantic versioning (e.g., v1.0.0)\nTagged releases corresponding to publications\nComprehensive README files\n\nComputational reproducibility:\nR code follows:\n\ntidyverse style guide for consistency\n\nPython code follows:\n\nPEP 8 style guide\n\nAll code includes:\n\nClear comments explaining logic\nFunction documentation\nExample usage\nExpected inputs/outputs\nSoftware and package version requirements\n\nROAR-Specific Tools:\nThe roarutility R package provides standardized functions for:\n\nLoading ROAR data from various sources\nApplying exclusion criteria (run-level and student-level exclusion criteria)\nRemoving extra characters and cleaning character strings\nStandardizing grade values\n\nPackage is:\n\nHosted on GitHub with documentation\nVersion controlled\nIncludes vignettes demonstrating usage\nCited in publications using ROAR data",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-preservation-access-reuse",
+    "href": "data-management-plan.html#sec-dmp-preservation-access-reuse",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.6 Data preservation, access, and reuse limitations",
+    "text": "7.6 Data preservation, access, and reuse limitations\n\n7.6.1 For high-sensitivity data requiring controlled access:\nBigQuery (Stanford Google Cloud)\n\nWhy selected:\n\nSecure database for High Risk data\nGranular access controls\nSupports very large datasets efficiently\nIntegration with existing ROAR infrastructure\n\nWhen used: For identifiable data or data that cannot be sufficiently de-identified\nAccess method: Only authorized Stanford researchers via secure authentication\nPreservation commitment: Duration of project + retention period required by DUAs/IRB\n\n\n\n7.6.2 For code and documentation:\nGitHub\n\nWhy selected:\n\nVersion control for code development\nCollaboration platform\nWidely used in research community\nSupports open-source licensing\n\nWhat stored: Analysis code, data processing scripts, documentation, roarutility R package\nAccess method: Public (open source) or private (during development)\nPreservation: Long-term\n\n\n\n7.6.3 Access, distribution, and reuse considerations\nROAR data sharing is constrained by legal, ethical, and contractual obligations that must be carefully balanced with open science principles.\nLegal and regulatory considerations:\nFERPA (Family Educational Rights and Privacy Act):\n\nROAR data often include education records protected under FERPA\nFERPA strictly limits redisclosure of identifiable student data\nEven de-identified data may be restricted when re-identification risk is substantial\nSchools/districts are “educational agencies” under FERPA and control disclosure decisions\n\nImplications for ROAR data sharing:\n\nCannot share identifiable student data publicly without explicit consent\nDeidentification must meet FERPA standard: “reasonable determination that a student’s identity is not personally identifiable”\nMust consider other reasonably available information that could enable re-identification\nSmall schools, rare characteristics, or rich longitudinal detail increase re-identification risk\n\nState and local privacy laws:\n\nMany states have student data privacy laws stricter than FERPA\nSome states prohibit disclosure of any student-level data, even deidentified\nDistrict policies may impose additional restrictions beyond federal/state law\n\nImplications:\n\nMust review applicable state laws for each participating state\nCannot share data in ways that violate most restrictive applicable law\nMay require state-by-state or district-by-district sharing decisions\n\nData Use Agreements (DUAs):\nMost ROAR partnerships operate under DUAs that specify:\n\nPurpose limitation (data used only for agreed research purposes)\nRedisclosure restrictions (often prohibiting any external sharing)\nSecurity requirements\nData destruction timelines\nRequired approvals for publications\n\nImplications:\n\nMany ROAR datasets cannot be publicly shared due to DUA terms\nWhen permitted, only aggregated or heavily de-identified data can be shared\nEach DUA must be reviewed individually to determine sharing permissions\nPartnerships team tracks sharing permissions in Monday.com\n\nSolutions when DUA prohibits sharing:\n\nNegotiate sharing provisions during DUA development when possible\nShare synthetic data that maintains statistical properties\nShare aggregated school/district-level summaries\nShare metadata and documentation (even if data cannot be shared)\nShare analysis code with simulated example data\nProvide controlled access to qualified researchers with new DUA\n\nEthical and IRB considerations:\nIRB requirements:\n\nAll data sharing must align with IRB-approved protocol\nChanges to sharing plans may require IRB amendment\nIRB approval required before depositing data in repositories\nSome IRBs require review of actual deposit before release\n\nPrivacy risk assessment:\n\nEven de-identified ROAR data may carry residual re-identification risk\nSmall samples (e.g., single school, specialized program) increase risk\nLongitudinal data and rare characteristics increase risk\nGeographic specificity enables linkage to public data\n\nMitigation strategies:\n\nAggregation to school or district level when student-level too risky\nSuppression of small cells (n &lt; 10)\nGeneralization of geographic information (state-level only)\nSynthetic data generation when real data too sensitive\n\nVulnerable populations:\n\nStudents with disabilities\nEnglish Learners\nStudents from low-income families\nRacial/ethnic minorities",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-privacy-confidentiality",
+    "href": "data-management-plan.html#sec-dmp-privacy-confidentiality",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.7 Protection of privacy and confidentiality",
+    "text": "7.7 Protection of privacy and confidentiality\n\n7.7.1 IRB review and approval\nIRB requirement:\nAll ROAR research involving identifiable student, teacher, or family data undergoes Stanford Institutional Review Board (IRB) review before data collection begins.\nIRB compliance procedures:\n\nAll research personnel complete CITI Human Subjects Research training before accessing data\nPersonnel are added to IRB protocols before data access\nContinuing review conducted per IRB-specified schedule\nProtocol modifications submitted for any changes to procedures, measures, or data use\nAdverse events or unanticipated problems reported within required timeframes\nProtocol closure submitted when studies are complete\n\n\n\n7.7.2 Informed consent and assent\nROAR uses an opt-out paired with child assent approach:\n\nPassive consent (opt-out): Parents notified of research; participation assumed unless parent declines\n\nWhen students take ROAR on the online dashboard\nUsed for minimal-risk educational assessment research\nRequires IRB approval of passive consent procedure\nProvides QR code and Qualtrics link for easy opt-out\n\nChild assent: For students aged 7 and older, we obtain assent on the ROAR dashboard prior to the student taking ROAR assessments in addition to parental permission. Assent is documented in research records.\n\n\n\n7.7.3 Deidentification procedures\nDeidentification standard:\nROAR follows FERPA de-identification standards for education records:\nData are considered de-identified when:\n\nAll personally identifiable information (PII) has been removed, AND\nA reasonable determination has been made that a student’s identity is not personally identifiable, whether through single or multiple releases, and taking into account other reasonably available information\n\nDirect identifiers removed:\nThe following direct identifiers are always removed before any data sharing:\nStudent identifiers:\n\nName (first, last, middle)\nStudent ID numbers from districts\nEmail address\nDate of birth (replaced with age or grade level)\n\nSchool personnel identifiers:\n\nTeacher names\nAdministrator names\nStaff email addresses\n\nTechnical identifiers:\n\nIP addresses\nDevice MAC addresses\nUser account usernames\n\nGeographic information:\n\nSchool name → Removed or replaced with study school ID\nDistrict name → Removed or replaced with study district ID\nStreet address → Removed entirely\nCity/town → Generalized to county or metro area (if needed for analysis)\nZIP code → Generalized to state or broader region\nPrecise latitude/longitude → Removed (may provide generalized urbanicity category)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-data-security",
+    "href": "data-management-plan.html#sec-dmp-data-security",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.8 Data security",
+    "text": "7.8 Data security\n\n7.8.1 Data risk classification\nAll ROAR data are classified using Stanford’s Risk Classification System to determine appropriate security controls:\nHigh risk data:\nIncludes:\n\nRaw ROAR data containing direct identifiers (names, student IDs, email addresses, birthdates)\nDistrict/school roster data with PII\nLinked datasets containing identifiable information\nData subject to DUAs prohibiting external sharing\nIP addresses and session information\n\nSecurity requirements:\n\nEncryption at rest and in transit\nMulti-factor authentication (MFA)\nRole-based access controls with principle of least privilege\nComprehensive activity logging\nRegular security audits\nNo storage on personal devices\nNo use of non-Stanford cloud services\nIRB-approved data security plan\n\nApproved storage: BigQuery\nModerate risk data:\nIncludes:\n\nDe-identified ROAR data with some residual re-identification risk\nSchool-level aggregates from small schools\nDemographic data with multiple variables\nData from small samples or specialized populations\n\nSecurity requirements:\n\nStanford authentication (SUNet ID)\nStrong access controls\nEncrypted data transmission (HTTPS/SSL)\nActivity logging\nRegular access review\nLimited sharing via secure methods\n\nApproved storage: Google Drive (Stanford Workspace) with restricted sharing\nLow risk data:\nIncludes:\n\nFully de-identified data with minimal re-identification risk\nSchool/district aggregates from large samples\nState or national summary statistics\nPublished results\nDocumentation without sensitive information\n\nSecurity requirements:\n\nStanford authentication\nStandard password protection\nBasic access controls\n\nApproved storage: Google Drive, GitHub (for code and non-sensitive documentation)\n\n\n7.8.2 Secure storage solutions\nFor high risk data:\nBigQuery (Stanford Google Cloud):\n\nSecure relational database for large-scale ROAR data\nEncryption at rest (AES-256) and in transit (TLS)\nFine-grained access controls (dataset, table, column level)\nAudit logging of all queries and access\nStanford-managed with dedicated security team\nScalable for millions of records\nIntegration with ROAR Dashboard\n\nAccess procedure:\n\nRequest access through Adam Richie-Halford\nAdded to IRB protocol before access granted\nComplete required training\nAccess limited to specific datasets/tables based on role\nVPN required for off-campus access\nMulti-factor authentication required\n\nFor moderate risk data:\nGoogle Drive (Stanford Workspace):\n\nPrimary storage for working documents and moderate-risk data\nEncryption in transit (TLS) and at rest\nGranular sharing controls\nVersion history\nReal-time collaboration\nIntegration with Google Docs, Sheets, Slides\n\nSecurity practices:\n\nUse “Restricted” sharing (not “Anyone with link”)\nShare only with specific individuals who need access\nReview sharing permissions regularly\nRemove access when team members leave\nOrganize in folders with appropriate access levels\n\nFor low risk data and code:\nGitHub:\n\nVersion control for analysis code and documentation\nPublic repositories for open-source code (roarutility package, analysis scripts)\nPrivate repositories during development\nNo sensitive data in repositories (data stored separately)\n\nSecurity practices:\n\nNever commit sensitive data\nUse .gitignore to exclude data files\nReview commits before pushing\nPublic repositories only for non-sensitive content\nAPI keys and credentials stored securely (not in code)\n\n\n\n7.8.3 Access controls\nRole-based access:\nROAR data access is granted based on role and need.\nAccess approval process:\nBefore granting data access:\n\nComplete CITI training\nAdded to IRB protocol (for identifiable data)\nReceive role-specific training on data handling\nRequest access from data manager or team lead\nAccess granted with minimum necessary permissions\n\nAccess review:\n\nQuarterly review of all access permissions\nRemove access immediately when personnel leave\nAdjust permissions when roles change\nDocument all access changes\n\nAuthentication:\n\nStanford SUNet ID and password required for all systems\nMulti-factor authentication (MFA) required for:\n\nBigQuery access\nVPN access\nGoogle Workspace (for High Risk data)\n\nStrong password requirements enforced\nNo shared accounts or passwords\n\n\n\n7.8.4 Special security consideration for AI tools\nAI Risk Assessment:\nUse of AI tools with research data requires completion of Stanford’s AI Assessment to evaluate:\n\nWhat data will be input into AI systems\nHow AI vendors store and use data\nRe-identification risks from AI outputs\nCompliance with IRB and DUA requirements\n\nApproved AI Tools by Risk Level:\nFor low risk data only:\n\nChatGPT (Free/Plus versions)\nClaude\nConsumer versions of Gemini, Copilot\nOpen-source models on non-secure infrastructure\n\nFor moderate risk data (with proper configuration):\n\nChatGPT Enterprise (Stanford instance)\nMicrosoft Copilot (Stanford Microsoft 365)\nGoogle Gemini (Stanford Workspace with DLP)\nTools with enterprise agreements ensuring data privacy\n\nFor high risk data:\n\nMost AI tools are NOT approved for High Risk ROAR data\nRequires special approval and on-premise deployment\nConsult Stanford IT and complete AI Assessment before any use\n\nProhibited AI practices:\nNever:\n\nUpload identifiable student data to AI chat interfaces\nUse AI to code qualitative data containing PII\nShare assessment items or proprietary content with AI tools\nUse free/consumer AI tools with any ROAR data containing PII\n\nAcceptable AI use (with de-identified data):\n\nAI assistance for statistical code development (using variable names only, no data values)\nLiterature review support\nWriting assistance for papers (no data in prompts)\nGenerating synthetic example data for code testing\n\nBest practices:\n\nComplete AI Assessment before using any AI tool with research data\nAssume AI tools are NOT approved for identifiable data unless explicitly verified\nDeidentify data before any AI interaction\nDocument all AI use in research protocols\n\n\n\n7.8.5 Incident response and breach reporting\nWhat constitutes a security incident:\nReport immediately if any of these occur:\n\nUnauthorized access to data\nLost or stolen device containing data\nAccidental sharing with unauthorized individuals\nData sent to wrong recipient\nMalware or ransomware on systems storing data\nSuspected data breach or unauthorized disclosure\nUSB drive or portable media lost\nPhishing attack targeting team member\nSuspicious access patterns in logs\n\nImmediate Response Steps:\nStep 1: Contain (within minutes)\n\nDisable compromised access immediately\nSecure affected systems\nStop unauthorized sharing\nDisconnect compromised devices from network\n\nStep 2: Notify (within hours) Report to:\n\nStanford IT Security: security@stanford.edu (24 hours)\nPI (Jason Yeatman): immediately\nIRB: Within 5 business days for unanticipated problems involving human subjects\nData providers: Per DUA requirements (typically 24-72 hours)\nFunding sponsors: Per grant/contract terms\n\nStep 3: Document (within 24 hours) Record:\n\nWhat happened and when discovered\nWhat data were involved (type, volume, sensitivity)\nWho was affected (number of individuals, schools)\nWhat systems/devices were involved\nWho has been notified\nWhat containment actions were taken\n\nStep 4: Investigate (ongoing)\n\nCooperate fully with IT Security and other investigators\nPreserve evidence (logs, communications, affected systems)\nDetermine root cause\nAssess scope of impact\n\nStep 5: Remediate (days-weeks)\n\nImplement corrective measures to prevent recurrence\nAddress vulnerabilities\nProvide additional training if needed\nUpdate security procedures\n\nStep 6: Report outcomes (after investigation)\n\nFinal incident report to IRB, funders, data providers as required\nNotification to affected individuals if legally required (e.g., California breach notification law)\nLessons learned documented and shared with team\n\nPrevention Through Documentation:\nTo facilitate both prevention and response, we maintain:\n\nData inventory: What data exist, where stored, who has access\nSecurity configurations: Encryption methods, authentication requirements\nIncident response plan: Step-by-step procedures\nTraining records: Documentation of who completed security training\nDUA register: List of all data use agreements and their security requirements",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#roles-and-responsibilities",
+    "href": "data-management-plan.html#roles-and-responsibilities",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.9 Roles and responsibilities",
+    "text": "7.9 Roles and responsibilities\nSee Chapter 5.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-maintenance",
+    "href": "data-management-plan.html#sec-dmp-maintenance",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.10 Data management plan maintenance and updates",
+    "text": "7.10 Data management plan maintenance and updates\n\n7.10.1 DMP as a living document\nThis Data Management Plan is a living document that will be updated as:\n\nROAR projects evolve and new data sources are added\nFunder requirements change\nRepository policies are updated\nNew technologies or security threats emerge\nLessons are learned from implementation experience\nTeam members or institutional policies change\n\n\n\n7.10.2 Review and update schedule\nAnnual review:\n\nConducted each year at project anniversary or academic year start\nPI and data manager review DMP for accuracy and completeness\nUpdate to reflect current practices and any changes\nDocument review date and changes made\n\nTriggered reviews:\nDMP will be reviewed and updated when:\n\nNew data sources are added to a project\nMajor changes to data collection or sharing plans\nFunder issues new data management requirements\nIRB protocol is significantly amended\nMajor personnel changes (PI, data manager departure)\nSecurity incident reveals need for updated procedures\nRepository changes policies or ceases operation\nNew regulations or laws affect data handling (e.g., new state privacy law)\n\n\n\n7.10.3 Responsibility for DMP maintenance\nPrimary responsibility: PI (Jason Yeatman) and Data Manager (Kelly Wentzlof)\nProcess:\n\nData manager proposes updates based on operational needs\nPI reviews and approves\nRelevant team leads consulted (Carrie, Adam) if changes affect their areas\nUpdated DMP distributed to team\nNotifications sent to external stakeholders as needed\n\n\n\n7.10.4 Integration with project management\nDMP maintenance integrated with:\n\nLab meetings: Data management topics discussed regularly\nSprint planning: Data tasks tracked in Monday.com (partnerships) and GitHub (development)\nProject milestones: DMP checkpoints at major project phases (data collection start, analysis, sharing)\nAnnual reporting: DMP implementation progress reported to funders\nOnboarding: New team members oriented to current DMP",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-compliance",
+    "href": "data-management-plan.html#sec-dmp-compliance",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.11 Compliance and accountability",
+    "text": "7.11 Compliance and accountability\n\n7.11.1 Monitoring DMP implementation\nOngoing Monitoring:\nThe PI, data manager, and/or team leads will monitor DMP implementation through:\n\nQuarterly access reviews: Verify all data access is appropriate and necessary\nData quality audits: Random sampling of data to verify quality control procedures\nSecurity log reviews: Review access logs for unusual patterns\nDocumentation checks: Verify documentation is being maintained\nTraining compliance: Track completion and renewal of required training\nDUA compliance: Review adherence to Data Use Agreement terms\n\n\n\n7.11.2 Accountability and consequences\nFor Team Members:\nFailure to follow DMP procedures may result in:\n\nRetraining requirements\nTemporary suspension of data access\nPermanent removal of data access for serious violations",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "data-management-plan.html#sec-dmp-summary",
+    "href": "data-management-plan.html#sec-dmp-summary",
+    "title": "7  Data Management Plan for ROAR",
+    "section": "7.12 Summary",
+    "text": "7.12 Summary\n\n7.12.1 ROAR data management approach\nThis Data Management Plan establishes comprehensive procedures for managing ROAR (Rapid Online Assessment of Reading) data throughout its lifecycle—from collection through long-term preservation and sharing.\nKey commitments:\nData quality and documentation:\n\nRigorous quality control procedures at every stage\nComprehensive three-level documentation (project, dataset, variable)\nReproducible code pipelines for all data processing\n\nPrivacy and security:\n\nFull IRB review\nStrict FERPA compliance\nRisk-based deidentification procedures\nSecurity controls matched to data sensitivity\nContinuous monitoring and incident response procedures\n\nAccessibility and sharing:\n\nData shared upon publication or end of award period\nControlled access when public sharing not feasible\nAnalysis code made publicly available to support reproducibility\n\nEthical practice:\n\nRespect for participants, partners, and communities\nTransparency about data uses and limitations\nCommitment to equitable access\nPrevention of stigmatization\nData sovereignty principles honored",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html",
+    "href": "offboarding.html",
+    "title": "8  Offboarding",
+    "section": "",
+    "text": "8.1 Leave notification",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#sec-leave-notification",
+    "href": "offboarding.html#sec-leave-notification",
+    "title": "8  Offboarding",
+    "section": "",
+    "text": "Provide at least 2 weeks notice to your team lead (Carrie Townley-Flores or Adam Richie-Halford) and Jason Yeatman\nSubmit formal resignation to Jason Yeatman and Human Resources\nWork with your team lead and Jason Yeatman to establish your last day of work",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#sec-offboarding-timeline",
+    "href": "offboarding.html#sec-offboarding-timeline",
+    "title": "8  Offboarding",
+    "section": "8.2 Offboarding timeline",
+    "text": "8.2 Offboarding timeline\n\n8.2.1 2-4 weeks before last day\nGeneral knowledge transfer and documentation:\n\nDocument ongoing projects and responsibilities\n\nCreate detailed status reports for all active projects\nDocument any pending tasks, deadlines, or commitments\nUpdate project management documentation (Monday.com, GitHub issues, etc.)\nList all partnerships/collaborators and their current status\n\nOrganize and archive files\n\nEnsure all work is saved to appropriate shared Google Drives (not personal drives)\nOrganize files with clear naming conventions and folder structures\nDelete any duplicate or unnecessary files\nDocument location of important files and resources\n\nTransfer specialized knowledge\n\nSchedule meetings with team members taking over your responsibilities\nCreate how-to guides or documentation for specialized tasks\nShare passwords for any shared accounts with appropriate team members (through secure methods)\nDocument any informal processes\nTransfer ownership of any Google Drives\n\nUpdate access documentation\n\nCreate a list of all systems, accounts, and access you currently have\nShare this list with your team lead\n\n\nPartnership-specific:\n\nTransfer active partnerships to other team members\n\nCreate partnership handoff documents including partner contact info, history, preferences, and upcoming commitments\nIntroduce new ROAR contact to partners via email\nSchedule transition calls if needed\n\nUpdate Monday.com\n\nEnsure all partnership records are current\nDocument any pending DUAs or IRB updates\nTransfer ownership of relevant boards/items\n\nDocumentation updates\n\nUpdate Partnerships 101 documents if you’ve learned new best practices\nDocument any partner-specific processes or preferences\nUpdate outreach and recruitment templates if needed\n\n\nDeveloper-specific:\n\nGitHub:\n\nEnsure all code is committed and pushed to appropriate repositories\nComplete any pending pull requests or document their status\nDocument any work-in-progress features or bugs\nUpdate README files and technical documentation\nTransfer ownership of any repositories you created\nComplete any pending code reviews\n\nDevelopment environment:\n\nDocument any unique development environment setup\nShare any local configurations that might be needed\nDocument any dependencies or tools specific to your work\n\nROAR dashboard:\n\nDocument current status of any dashboard features in development\nTransfer any open issues or tickets\nUpdate ROAR Technical Manual if needed\nDocument any known bugs or technical debt\n\n\nResearcher-specific:\n\nData and analysis:\n\nEnsure all data is properly stored in appropriate Google Drive locations\nDocument data cleaning procedures and decisions\nTransfer analysis code with clear documentation\nUpdate data dictionaries if needed\nDocument research methodology and analysis plans in detailed READMEs\n\nPublications and presentations:\n\nComplete or transfer any pending publications\nDocument status of manuscripts in progress\nTransfer presentation materials\nUpdate PI on any conference commitments\n\nData security:\n\nConfirm all participant data is removed from personal devices\nDelete any local copies of sensitive data\nEnsure compliance with data security and sharing policies\nReturn or securely delete any external assessment data\n\n\n\n\n8.2.2 1 week before last day\nAccount Access Review:\nWork with your team lead to review and plan for removal of access to:\n\nCommunication platforms\n\nSlack (note: you will be removed from workspace)\nStanford email (will be deactivated)\nROAR partnerships email (if applicable)\n\nData and storage\n\nGoogle Drive (specific folders)\nBigQuery\nAny other databases\n\nDevelopment and project management\n\nGitHub (repositories and teams)\nMonday.com\nCanva\n\nROAR systems\n\nROAD super admin access\nAny other ROAR-specific systems\n\nStanford systems\n\nBuilding access\nAxess\nOther university systems\n\n\n\n\n8.2.3 Last day\n\nMeet with team lead for final check-in\nParticipate in exit interview (if scheduled)\nReceive information about:\n\nFinal paycheck and benefits\nStanford email forwarding (if applicable)\nReferences and recommendations\nAlumni network opportunities\n\n\nEquipment return\n\nReturn all Stanford and lab property to your team lead or designated person:\n\nLaptop\nMonitor\nKeyboard\nLaptop stand\nMouse or other peripherals\nStanford ID card (physical)\nBuilding access cards/keys\nAny other lab equipment or testing materials\n\n\nFinal access removal confirmation\n\nYour team lead will coordinate with appropriate personnel to remove access to:\n\nSlack workspace\nGoogle Drive folders\nGitHub repositories\nMonday.com\nBigQuery\nROAD super admin\nIRB protocols (if listed as study personnel)\nBuilding access\nStanford email\n\n\nFinal documentation\n\nSubmit any final timesheets or administrative paperwork\nComplete benefits off-boarding with Stanford HR\nUpdate personal contact information for future communication",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#sec-team-lead-offboard-checklist",
+    "href": "offboarding.html#sec-team-lead-offboard-checklist",
+    "title": "8  Offboarding",
+    "section": "8.3 Team lead offboarding checklist",
+    "text": "8.3 Team lead offboarding checklist\n\n8.3.1 Immediately upon notice\n\nNotify Jason Yeatman and relevant stakeholders\nCreate off-boarding timeline\nAssign interim coverage for critical responsibilities\nSchedule knowledge transfer meetings\n\n\n\n8.3.2 2-4 weeks before departure of team member\n\nReview all active projects and partnerships\nIdentify permanent reassignments\nEnsure documentation is being completed\nPlan for any gaps in coverage\nReview access list with departing team member\n\n\n\n8.3.3 1 week before departure of team member\n\nConfirm all knowledge transfer is complete\nVerify all files are properly organized and accessible\nConfirm equipment return logistics\nPrepare access removal requests\n\n\n\n8.3.4 Last day for departing team member\n\nCollect all equipment and lab property\nSubmit access removal requests to:\n\nSlack admin\nGoogle Workspace admin\nGitHub admin\nMonday.com admin\nBigQuery admin\nROAD admin\nIRB admin (if applicable)\nGSE IT for building access\nStanford IT for university systems\n\nArchive employee files appropriately\nUpdate team organizational charts and contact lists\n\n\n\n8.3.5 Within 1 week after team member departure\n\nVerify all access has been removed\nUpdate lab website and directories\nRedistribute responsibilities as planned\nFollow up on any outstanding issues",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  }
+]
