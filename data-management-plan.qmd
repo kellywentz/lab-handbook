@@ -33,7 +33,7 @@ DMPs are typically required for:
 
 -   Multi-site or collaborative research projects
 
-## Description of data  {#sec-dmp-description-of-data}
+## Description of data {#sec-dmp-description-of-data}
 
 ### Source of data
 
@@ -239,7 +239,7 @@ All analysis code will be shared via GitHub repositories:
 
 -   Python scripts and Jupyter notebooks
 
-## Documentation  {#sec-dmp-documentation}
+## Documentation {#sec-dmp-documentation}
 
 ### Project management document {#sec-dmp-project-management-doc}
 
@@ -395,7 +395,7 @@ For datasets designed to be linked:
 **Required Information for Each Variable:**
 
 | **Element** | **Description** | **Example** |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Variable Name** | Exact name as it appears in dataset | **`user_grade_at_run`** |
 | **Variable Label** | Brief descriptive label | "Student's grade level at time of ROAR assessment" |
 | **Description** | Detailed explanation of what the variable represents | "Grade level reported by school at time of assessment administration." |
