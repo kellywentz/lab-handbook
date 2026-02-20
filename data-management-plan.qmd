@@ -33,7 +33,7 @@ DMPs are typically required for:
 
 -   Multi-site or collaborative research projects
 
-## Description of data to be shared {#sec-dmp-description-of-data}
+## Description of data  {#sec-dmp-description-of-data}
 
 ### Source of data
 
@@ -239,7 +239,7 @@ All analysis code will be shared via GitHub repositories:
 
 -   Python scripts and Jupyter notebooks
 
-## Documentation to be shared {#sec-dmp-documentation}
+## Documentation  {#sec-dmp-documentation}
 
 ### Project management document {#sec-dmp-project-management-doc}
 
