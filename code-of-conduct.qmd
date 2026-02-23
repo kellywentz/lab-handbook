@@ -5,8 +5,8 @@
 We are committed to a lab culture that is collaborative, supportive, inclusive, open, and free from discrimination and harassment.
 
 Our interdisciplinary approach—spanning neuroscience, education, psychology, pediatrics, and engineering—thrives on diverse perspectives and expertise.
+Over the years, our group has grown stronger through respectful, honest input from all team members.
 We encourage team members of all experience levels and backgrounds to respectfully share their honest opinions and ideas on any topic.
-Over the years, our group has grown stronger through such respectful, honest input from all team members.
 
 We believe that the best science emerges when researchers work closely with educators, clinicians, and communities.
 This research-practice partnership model extends to our internal lab culture, where we value both rigorous scientific inquiry and the practical application of our work to support children, families, and educators.
@@ -17,9 +17,9 @@ This responsibility motivates us to maintain the highest standards of scientific
 
 ## Diversity, equity, and inclusion {#sec-dei-policy}
 
-The Brain Development & Education Lab recognizes the importance of and is committed to cultivating a culture of diversity, equity, and inclusion.
-This means being a safe, supportive, and anti-racist environment in which students and staff from diverse backgrounds are equally and inclusively supported in their education, training, and professional development.
 Diversity takes many forms and includes, but is not limited to, differences in race, ethnicity, gender, sexuality, socioeconomic status, religion, disability, neurodiversity, and political affiliation.
+The Brain Development & Education Lab recognizes the importance of and is committed to cultivating a culture of diversity, equity, and inclusion.
+This means being an anti-racist, safe, and supportive environment in which students and staff from diverse backgrounds are equally and inclusively supported in their education, training, and professional development.
 
 Our research on reading development and dyslexia has shown us that there is no single path to learning—children's brains and learning profiles are beautifully diverse.
 This understanding deeply informs how we approach our work with each other in the lab.
@@ -46,4 +46,4 @@ In practice, this means:
 Remember, data that looks like it does not contain identifiers to you might still be classified as data that requires special protection by our IRB.
 Always proceed with caution and ask for help if you have any concerns about how to maintain study participant confidentiality.
 
-When working with schools and families, remember that protecting privacy extends beyond data security—be mindful in how you discuss participants and research findings, even in general terms.
+When working with schools and families, remember that protecting privacy extends beyond data security—be mindful in how you discuss participants and research findings, even in general terms, whether it’s over Zoom, in email, or any other communication.

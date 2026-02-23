@@ -18,13 +18,14 @@ Approximately one week before your start date, you will receive a welcome email 
 
     -   You will need your University Employee ID number (provided in the email)
 
-    -   Your SUNet is required to set up your work computer, so please complete this without delay
+    -   Follow the instructions in your welcome email to set up your sunet id.
+        NOTE: Your SUNet is required to set up your work computer, so please complete this without delay
 
-    -   Test that your SUNet ID works by logging into the Axess portal
+    -   Test that your SUNet ID works by logging into the [Axess portal](https://axess.stanford.edu/)
 
     -   Reply to the Welcome Center email to confirm your SUNet ID is functional
 
-2.  **Download the Stanford Mobile application** to get your virtual ID card
+2.  **Download the [Stanford Mobile application](https://uit.stanford.edu/stanford-mobile)** to get your virtual ID card
 
     -   The app includes mobile Stanford identification (for building access), campus map, phone directory, and more
 
@@ -36,13 +37,17 @@ Approximately one week before your start date, you will receive a welcome email 
 
     -   Photo submission is optional
 
-5.  **Plan your commute**
+5.  [**Plan your commute**](https://transportation.stanford.edu/getting-stanford)
 
     -   Stanford offers free transit passes for Caltrain, VTA, AC Transit, and SamTrans
 
     -   If you need your pass for your first day, place an expedited request using the link in your Welcome Center email
 
     -   For parking permits, complete the Parking Registration Form for temporary access, then purchase through the Online Ordering Portal once you're in the system
+
+6.  **Send your photo to the project/product manager** for the lab websites
+
+    -   Send a head shot photo and a small blurb about yourself and your interests to the project/product manager for the lab websites
 
 **I-9 verification**
 
@@ -54,7 +59,7 @@ You will receive an email from the GSE Administrative Services Manager with inst
 
 **Lab setup confirmation**
 
-The team-lead for your respective team (Carrie Townley-Flores or Adam Richie-Halford) will confirm the following before your first day:
+The team-lead for your respective team (Jason Yeatman, Carrie Townley-Flores, Adam Richie-Halford) will confirm the following before your first day:
 
 -   Start time and location
 
@@ -204,7 +209,7 @@ The new lab member will meet with existing lab members to gain a better understa
 
     -   [ROAR website](https://roar.stanford.edu/)
 
-    -   [ROAD](https://roar.education/signin)
+    -   [ROAR Dashboard](https://roar.education/signin)
 
     -   [Brain Development and Education website](https://edneuro.stanford.edu/)
 
@@ -226,7 +231,7 @@ The new lab member will meet with existing lab members to gain a better understa
 
 -   BigQuery (researchers, developers, graduate students only)
 
--   ROAD super admin
+-   ROAR Dashboard super admin
 
 -   Google Calendars
 
@@ -234,7 +239,7 @@ The new lab member will meet with existing lab members to gain a better understa
 
 -   ROAR history and mission
 
--   [ROAD](https://roar.education/signin)
+-   [ROAR Dashboard](https://roar.education/signin)
 
     -   Super Admin Dashboard overview (e.g., administrations, users, organizations)
 
@@ -279,7 +284,9 @@ The new lab member will meet with existing lab members to gain a better understa
 
     -   Current projects in the lab and who is working on them
 
-    -   [Previous projects and publications](https://roar.stanford.edu/blog/roar-in-the-media/) in the lab and why they are important
+    -   [ROAR projects and publications](https://roar.stanford.edu/blog/roar-in-the-media/) and why they are important
+
+    -   [General lab projects and publications](https://edneuro.stanford.edu/publications/) and why they are important
 
 -   How research works
 

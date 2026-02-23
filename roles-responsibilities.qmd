@@ -505,6 +505,8 @@ Regardless of your specific role, all lab members share these responsibilities:
 
 -   Share knowledge and expertise
 
+-   Keep the shared lab spaces and individual work stations clean
+
 **Communication:**
 
 -   Respond to messages within expected timeframes (see Communication and Coordination chapter)

@@ -82,6 +82,12 @@ Often if lab members need to quickly chat for an off-schedule meeting, they will
 It acts as a quick "phone call" that does not require a separate meeting ID or link.
 However, it does not offer as many helpful meeting features as Zoom.
 
+### Using Calendly to organize meetings 
+
+Partnerships/research coordinators, the PI, and many researchers use Calendly to reserve time for internal and external meetings.
+Calendly allows users to see each others' availability and book based off of that.
+Feel free to [sign up for a Calendly](https://calendly.com/signup) using your Stanford email.
+
 ## Monday.com {#sec-monday-platform}
 
 Monday.com is used by the ROAR Partnerships team as their primary partnership coordination and management system.
@@ -101,7 +107,7 @@ Monday.com is used in the following ways:
 
 ## GitHub {#sec-github}
 
-GitHub is used by ROAR researchers and developers as their primary research collaboration and issues management system.
+GitHub is used by lab researchers and developers as their primary research collaboration and issues management system.
 GitHub is used in the following ways:
 
 -   Collaboration on research projects.
@@ -122,7 +128,7 @@ GitHub is used in the following ways:
 
 ## Google Drive {#sec-google-drive}
 
-Google Drive is used as the sole form of data storage and shared documents for researchers, staff, and students.
+Google Drive is used as the primary form of data storage (some lab members also use Sherlock and Oak storage systems) and shared documents for researchers, staff, and students.
 We store the following on Stanford's secure Google Drives:
 
 -   Meeting notes (internal and external)
@@ -141,3 +147,10 @@ We store the following on Stanford's secure Google Drives:
 
 Data access is provided in line with the principle of least privilege.
 If you need access to a specific folder or document, please contact Carrie Townley-Flores or Jason Yeatman.
+
+## Shared Devices 
+
+The lab owns a variety of shared devices that are used across teams.
+Primarily, the lab owns a number of chromebooks that are used for testing in-lab participants, brought to schools for ROAR testing, or used as extra secure devices for research assistants.
+Please check and update the [Lab Chromebook Tracker](https://docs.google.com/spreadsheets/d/1Z4QYp9C3kj7JMox2LuxbU21Z_yLjvlyPUle4ss_3aE4/edit?gid=793699485#gid=793699485) prior to using the chrombooks.
+If you have any questions, please reach out to a partnerships/research coordinator.
