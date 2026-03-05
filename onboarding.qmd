@@ -393,19 +393,77 @@ The new lab member will meet with existing **partnerships** **coordinators** and
 The following topics, *in addition to the general onboarding topics*, will be discussed with new lab members throughout the first few weeks of onboarding.
 The new lab member will meet with existing **developers** and team lead, Adam Richie-Halford, to gain a better understanding of the following topics.
 
-Please see the [ROAR Developer Documentation page](https://yeatmanlab.github.io/roar-docs/developer/) for specific topics such as:
+### Systems and access
 
--   GitHub workflows and repositories
+-   Firebase (current production system)
 
--   Development environment setup
+    -   Developer project
 
--   Code review processes
+    -   Staging project
 
--   ROAR Dashboard architecture
+    -   Product project
 
--   Testing protocols
+-   Postgres (new backend migration)
 
--   Deployment procedures
+-   Firestore console
+
+-   Cloud Run / GCP services
+
+-   Environment secrets
+
+-   Environmental variable keys
+
+### GitHub
+
+-   Add to ROAR-maintainers and roar-core-devs
+
+-   Repositories
+
+    -   ROAR-dashboard monorepo
+
+    -   Assessment applications
+
+    -   Backend services
+
+-   Branch protection rules
+
+-   Pull Request review process
+
+-   Local dev setup
+
+### Monitoring and support
+
+-   Sentry
+
+    -   Project-level
+
+    -   Alert channels explained
+
+-   QA/Issues support channels
+
+-   Staging test test accounts
+
+### Local development setup
+
+-   Node version installed
+
+-   Environment variables configured
+
+-   Local Postgres running
+
+-   Run app locally
+
+-   Run dashboard locally
+
+-   Run tests (units + integration)
+
+-   Linting and formatting setup
+
+-   VSCode/Windsurf recommended extensions
+
+### Current Documentation
+
+Please see the [ROAR Developer Documentation page](https://yeatmanlab.github.io/roar-docs/developer/) for further documentation.
 
 ## ROAR researcher onboarding topics {#sec-researcher-onboarding-topics}
 
