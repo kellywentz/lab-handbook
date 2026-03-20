@@ -395,7 +395,7 @@ For datasets designed to be linked:
 **Required Information for Each Variable:**
 
 | **Element** | **Description** | **Example** |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Variable Name** | Exact name as it appears in dataset | **`user_grade_at_run`** |
 | **Variable Label** | Brief descriptive label | "Student's grade level at time of ROAR assessment" |
 | **Description** | Detailed explanation of what the variable represents | "Grade level reported by school at time of assessment administration." |
@@ -927,7 +927,7 @@ BigQuery (Stanford Google Cloud):
 
 Access procedure:
 
--   Request access through Adam Richie-Halford
+-   Request access from Director of Technology and Innovation
 
 -   Added to IRB protocol before access granted
 
@@ -1273,7 +1273,7 @@ DMP will be reviewed and updated when:
 
 ### Responsibility for DMP maintenance
 
-**Primary responsibility:** PI (Jason Yeatman) and Data Manager (Kelly Wentzlof)
+**Primary responsibility:** PI (Jason Yeatman) and Data Manager
 
 **Process:**
 
@@ -1281,7 +1281,7 @@ DMP will be reviewed and updated when:
 
 2.  PI reviews and approves
 
-3.  Relevant team leads consulted (Carrie, Adam) if changes affect their areas
+3.  Relevant team leads consulted if changes affect their areas
 
 4.  Updated DMP distributed to team
 
