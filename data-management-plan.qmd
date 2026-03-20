@@ -626,7 +626,7 @@ State and local privacy laws:
 
 -   Many states have student data privacy laws stricter than FERPA
 
--   Some states prohibit disclosure of any student-level data, even deidentified
+-   State privacy laws vary and are reviewed for each partnership to ensure full compliance
 
 -   District policies may impose additional restrictions beyond federal/state law
 
@@ -640,41 +640,29 @@ Implications:
 
 **Data Use Agreements (DUAs):**
 
-Most ROAR partnerships operate under DUAs that specify:
+Data sharing approach balances open science principles with legal and ethical obligations.
 
--   Purpose limitation (data used only for agreed research purposes)
+Data Use Agreements with educational partners:
 
--   Redisclosure restrictions (often prohibiting any external sharing)
+-   Specify approved research purposes and security requirements
 
--   Security requirements
+-   Protect student and school privacy as required by FERPA
 
--   Data destruction timelines
+-   May limit redisclosure to protect partner confidentiality
 
--   Required approvals for publications
+-   Are negotiated to permit maximum appropriate sharing
 
-Implications:
+When direct data sharing is not feasible, we support reproducibility through:
 
--   Many ROAR datasets cannot be publicly shared due to DUA terms
+-   Sharing aggregated or deidentified data when permitted
 
--   When permitted, only aggregated or heavily de-identified data can be shared
+-   Providing synthetic datasets that maintain statistical properties
 
--   Each DUA must be reviewed individually to determine sharing permissions
+-   Making all analysis code publicly available
 
--   Partnerships team tracks sharing permissions in Monday.com
+-   Offering controlled access to qualified researchers
 
-Solutions when DUA prohibits sharing:
-
--   Negotiate sharing provisions during DUA development when possible
-
--   Share synthetic data that maintains statistical properties
-
--   Share aggregated school/district-level summaries
-
--   Share metadata and documentation (even if data cannot be shared)
-
--   Share analysis code with simulated example data
-
--   Provide controlled access to qualified researchers with new DUA
+-   Comprehensive documentation of methods and measures"
 
 **Ethical and IRB considerations:**
 
@@ -742,17 +730,9 @@ All ROAR research involving identifiable student, teacher, or family data underg
 
 ### Informed consent and assent
 
-ROAR uses an opt-out paired with child assent approach:
+-   Consent procedures follow IRB-approved protocols appropriate to minimal-risk educational research
 
--   Passive consent (opt-out): Parents notified of research; participation assumed unless parent declines
-
-    -   When students take ROAR on the online dashboard
-
-    -   Used for minimal-risk educational assessment research
-
-    -   Requires IRB approval of passive consent procedure
-
-    -   Provides QR code and Qualtrics link for easy opt-out
+<!-- -->
 
 -   Child assent: For students aged 7 and older, we obtain assent on the ROAR dashboard prior to the student taking ROAR assessments in addition to parental permission.
     Assent is documented in research records.
