@@ -184,7 +184,7 @@ All shareable data files are accompanied by:
 
 ### Number of files and expected rows
 
-**Current ROAR data scale (as of 2026):**
+**Current ROAR data scale (as of February 2026):**
 
 ROAR has been administered to over 130,000 students across 37+ states.
 The database contains:
@@ -987,7 +987,7 @@ Before granting data access:
 
 3.  Receive role-specific training on data handling
 
-4.  Request access from data manager or team lead
+4.  Request access from Data Manager or team lead
 
 5.  Access granted with minimum necessary permissions
 
@@ -1225,7 +1225,7 @@ This Data Management Plan is a living document that will be updated as:
 
 -   Conducted each year at project anniversary or academic year start
 
--   PI and data manager review DMP for accuracy and completeness
+-   PI and Data Manager review DMP for accuracy and completeness
 
 -   Update to reflect current practices and any changes
 
@@ -1243,7 +1243,7 @@ DMP will be reviewed and updated when:
 
 -   IRB protocol is significantly amended
 
--   Major personnel changes (PI, data manager departure)
+-   Major personnel changes (PI, Data Manager departure)
 
 -   Security incident reveals need for updated procedures
 
@@ -1257,7 +1257,7 @@ DMP will be reviewed and updated when:
 
 **Process:**
 
-1.  Data manager proposes updates based on operational needs
+1.  Data Manager proposes updates based on operational needs
 
 2.  PI reviews and approves
 
@@ -1267,7 +1267,7 @@ DMP will be reviewed and updated when:
 
 5.  Notifications sent to external stakeholders as needed
 
-### Integration with project management
+### xIntegration with project management
 
 DMP maintenance integrated with:
 
@@ -1287,7 +1287,7 @@ DMP maintenance integrated with:
 
 **Ongoing Monitoring:**
 
-The PI, data manager, and/or team leads will monitor DMP implementation through:
+The PI, Data Manager, and/or team leads will monitor DMP implementation through:
 
 -   Quarterly access reviews: Verify all data access is appropriate and necessary
 
