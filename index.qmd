@@ -9,7 +9,7 @@ A cornerstone of our work is the Rapid Online Assessment of Reading (ROAR)—an 
 Each ROAR measure is delivered through a web browser, is fully automated, and does not require a test administrator, yet rapidly provides precise indices of reading ability with greater precision than many standardized, individually-administered assessments.
 This research-practice partnership model bridges research and practice, enabling large-scale data collection that helps us develop personalized intervention programs tailored to each child's unique pattern of brain maturation while advancing our understanding of how reading instruction shapes brain development and plasticity in children, including those with dyslexia.
 
-## About this lab manual {#sec-about-lab-manual}
+## About this lab handbook {#sec-about-lab-manual}
 
-This lab manual covers our communication strategy, code of conduct, and best practices for reproducibility of computational workflows.
+This lab handbook covers our communication strategy, code of conduct, and best practices for reproducibility of computational workflows.
 It is a living document that is updated regularly.
