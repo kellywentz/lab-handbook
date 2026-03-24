@@ -987,7 +987,7 @@ Before granting data access:
 
 3.  Receive role-specific training on data handling
 
-4.  Request access from Data Manager or team lead
+4.  Request access from Data Manager/Scientist or team lead
 
 5.  Access granted with minimum necessary permissions
 
@@ -1017,7 +1017,7 @@ Before granting data access:
 
 -   No shared accounts or passwords
 
-### Special security consideration for AI tools
+### Special security consideration for AI tools {#sec-dmp-data-security-ai}
 
 **AI Risk Assessment:**
 
@@ -1093,7 +1093,7 @@ Acceptable AI use (with de-identified data):
 
 -   Document all AI use in research protocols
 
-### Incident response and breach reporting
+### Incident response and breach reporting {#sec-dmp-data-security-incident-response}
 
 **What constitutes a security incident:**
 
@@ -1225,7 +1225,7 @@ This Data Management Plan is a living document that will be updated as:
 
 -   Conducted each year at project anniversary or academic year start
 
--   PI and Data Manager review DMP for accuracy and completeness
+-   PI (Jason Yeatman) and Data Manager/Scientist review DMP for accuracy and completeness
 
 -   Update to reflect current practices and any changes
 
@@ -1243,7 +1243,7 @@ DMP will be reviewed and updated when:
 
 -   IRB protocol is significantly amended
 
--   Major personnel changes (PI, Data Manager departure)
+-   Major personnel changes (PI, Data Manager/Scientist departure)
 
 -   Security incident reveals need for updated procedures
 
@@ -1253,13 +1253,13 @@ DMP will be reviewed and updated when:
 
 ### Responsibility for DMP maintenance
 
-**Primary responsibility:** PI (Jason Yeatman) and Data Manager
+**Primary responsibility:** PI (Jason Yeatman) and Data Manager/Scientist
 
 **Process:**
 
-1.  Data Manager proposes updates based on operational needs
+1.  Data Manager/Scientist proposes updates based on operational needs
 
-2.  PI reviews and approves
+2.  PI (Jason Yeatman) reviews and approves
 
 3.  Relevant team leads consulted if changes affect their areas
 
@@ -1287,7 +1287,7 @@ DMP maintenance integrated with:
 
 **Ongoing Monitoring:**
 
-The PI, Data Manager, and/or team leads will monitor DMP implementation through:
+The PI, Data Manager/Scientist, and/or team leads will monitor DMP implementation through:
 
 -   Quarterly access reviews: Verify all data access is appropriate and necessary
 
