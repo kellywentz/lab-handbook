@@ -143,7 +143,7 @@ Adam overseas the software developers, engineers, and quality assurance testers.
 
 ## Research Data Scientist {#sec-data-scientist}
 
-Kelly Wentzlof is the current research data scientist for the Brain Development and Education Lab.
+Kelly Wentzlof is the current Research Data Scientist and Manager for the Brain Development and Education Lab.
 
 ### Responsibilities include:
 
@@ -189,9 +189,9 @@ Kelly Wentzlof is the current research data scientist for the Brain Development 
 
 -   Review analysis code and provide feedback
 
-## Project/Product Manager {#sec-project-product-manager}
+## Partner Experience Manager {#sec-project-product-manager}
 
-Maya Brunton is the current project/product manager for the Brain Development and Education Lab.
+Maya Brunton is the current Partner Experience Manager for the Brain Development and Education Lab.
 
 ### Responsibilities include:
 
@@ -229,9 +229,9 @@ Maya Brunton is the current project/product manager for the Brain Development an
 
 -   Manage partnership-related resources, materials, and presentations
 
-## Partnerships and Research Coordinators {#sec-partnerships-coordinators}
+## Partnerships Team {#sec-partnerships-coordinators}
 
-Current coordinators include: Sarahi Muñoz, May Fahrenthold, Aditi Sen
+Current coordinators include: Sarahi Muñoz (Lead Partnerships Associate), May Fahrenthold (Teacher Support Specialist), Aditi Sen (Research Coordinator)
 
 ### Responsibilities include:
 
@@ -285,9 +285,9 @@ Current coordinators include: Sarahi Muñoz, May Fahrenthold, Aditi Sen
 
 -   Support other partnerships team members
 
-## Software Developers/Engineers {#sec-developers}
+## Platform/Product Engineering Team {#sec-developers}
 
-Current developers include: Elijah Kelly, Emily Arteaga Garcia, Lucas Song, Kyle Montville, Amy Yeung
+Current developers include: Elijah Kelly (Software Engineer), Emily Arteaga Garcia (Software Engineer), Lucas Song (Software Engineer), Kyle Montville (Cloud Engineer), Amy Yeung (Software Engineer), Ethan Roy (Research Software Engineer), Tanya Matskewich (Research Software Engineer)
 
 ### Responsibilities include:
 
@@ -339,7 +339,7 @@ Current developers include: Elijah Kelly, Emily Arteaga Garcia, Lucas Song, Kyle
 
 ## Postdoctoral Scholars {#sec-postdocs}
 
-Current postdoctoral scholars include: Maha Ramamurthy, Maya Yablonski, Tongtong Zou, Youngsun Moon, Ethan Roy
+Current postdoctoral scholars include: Maha Ramamurthy, Maya Yablonski, Tongtong Zou, Youngsun Moon
 
 ### Responsibilities include:
 
