@@ -29,7 +29,7 @@ The lab has zero tolerance for research misconduct, including:
 
 -   Misrepresentation of contributions or authorship
 
-If you observe or suspect research misconduct, report it immediately to Jason Yeatman.
+If you observe or suspect research misconduct, report it immediately to the Principal Investigator (Jason Yeatman).
 
 ## Data security and confidentiality {#sec-data-security}
 
@@ -92,7 +92,17 @@ Protecting this data is both an ethical obligation and a legal requirement.
 
 -   Lock your computer when stepping away
 
--   If you plan to work outside of the United States, please consult with your team lead and Jason Yeatman to discuss [data security and procedures](https://global.stanford.edu/plan-your-global-activity/hr-and-employment/stanford-personnel-working-abroad)
+-   If you plan to work outside of the United States, please consult with your team lead and PI to discuss [data security and procedures](https://global.stanford.edu/plan-your-global-activity/hr-and-employment/stanford-personnel-working-abroad)
+
+**Using AI tools with research data:**
+
+-   Complete Stanford's AI Assessment before using AI tools with any research data
+
+-   Never upload identifiable student data to AI chat interfaces
+
+-   Assume AI tools are NOT approved for identifiable data unless explicitly verified
+
+-   See @sec-dmp-data-security-ai for detailed AI tool guidelines
 
 ## External data and Data Use Agreements (DUAs) {#sec-dua}
 
@@ -108,7 +118,15 @@ Protecting this data is both an ethical obligation and a legal requirement.
 
 -   Delete or return data according to DUA terms
 
--   Report any data breaches immediately
+-   Report any data breaches immediately to:
+
+    -   Principal Investigator
+
+    -   Stanford IT Security (security\@stanford.edu)
+
+    -   IRB (within 5 business days)
+
+    -   See @sec-dmp-data-security-incident-response for full incident response procedures
 
 **DUA tracking:**
 
@@ -178,7 +196,7 @@ Google Drive is the primary storage location for:
 
 -   Data access is provided in line with the principle of least privilege
 
--   If you need access to specific folders or datasets, contact Carrie Townley-Flores or Jason Yeatman
+-   If you need access to specific folders or datasets, contact the Director of Research and Partnerships or the PI
 
 ## File naming conventions {#sec-file-naming}
 
@@ -346,7 +364,7 @@ In this lab, GitHub is used for:
 
 -   Include a README with project description and script-level descriptions
 
--   Make code public upon publication (or earlier if appropriate) after consulting with Jason Yeatman
+-   Make code public upon publication (or earlier if appropriate) after consulting with the PI
 
 **For developers:**
 
@@ -368,7 +386,7 @@ In this lab, GitHub is used for:
 
 -   Make code publicly available (GitHub)
 
--   Discuss data sharing plans with Jason Yeatman
+-   Discuss data sharing plans with the PI
 
 **When leaving the lab:**
 
@@ -420,43 +438,43 @@ Commonly used software in the lab:
 
 **Data and analysis questions:**
 
--   Kelly Wentzlof (R, statistics, ROAR data)
+-   Data Manager/Scientist (Kelly Wentzlof): R, statistics, ROAR data
 
--   Jason Yeatman
+-   PI (Jason Yeatman)
 
--   Carrie Townley-Flores (R, statistics, organizational data)
+-   Director of Reseach and Partnerships (Carrie Townley-Flores): R, statistics, organizational data
 
--   Adam Richie-Halford (VS Code, ROAR development, technical infrastructure)
+-   Director of Technology and Innovation (Adam Richie-Halford): VS Code, ROAR development, technical infrastructure
 
 -   Lab meetings (for broader input)
 
 **Data management questions:**
 
--   Kelly Wentzlof (ROAR data organization)
+-   Data Manager/Scientist (Kelly Wentzlof): ROAR data organization
 
--   Carrie Townley-Flores (partnerships data, DUAs)
+-   Director of Reseach and Partnerships (Carrie Townley-Flores): partnerships data, DUAs
 
--   Adam Richie-Halford (ROAR BigQuery, development)
+-   Director of Technology and Innovation (Adam Richie-Halford): ROAR BigQuery, development
 
--   Kyle Montville (ROAR BigQuery)
+-   Cloud Engineer (Kyle Montville): ROAR BigQuery
 
 **IRB and ethics questions:**
 
--   Carrie Townley-Flores (partnerships team leads)
+-   Director of Reseach and Partnerships (Carrie Townley-Flores): partnerships team leads
 
--   Jason Yeatman
+-   PI (Jason Yeatman)
 
--   Sarahi Muñoz and May Fahrenthold (IRB coordinators)
+-   Lead Research Associate (Sarahi Muñoz) and Teacher Support Specialist (May Fahrenthold): IRB coordinators
 
 -   Stanford IRB office
 
 **Computing resources:**
 
--   Kelly Wentzlof (data science)
+-   Data Manager/Scientist (Kelly Wentzlof): data science
 
--   Adam Richie-Halford (development)
+-   Director of Technology and Innovation (Adam Richie-Halford): development
 
--   Jason Yeatman (major resource needs, cluster access)
+-   PI (Jason Yeatman): major resource needs, cluster access
 
 -   Stanford IT
 
